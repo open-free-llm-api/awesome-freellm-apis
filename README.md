@@ -94,6 +94,8 @@ print(response.choices[0].message.content)
 These providers offer a **permanently free tier** — no credit card required for most.
 
 <!-- BEGIN_PERMANENT_FREE -->
+| Provider | Free Models | Credit Card? | Max Context | Modalities | Get API Key |
+|---|---|---|---|---|---|
 | NVIDIA NIM | 17 | Phone verification | 1M | image, text | [→](https://build.nvidia.com/settings/api-keys) |
 | GitHub Models | 10 | No | 1M | text | [→](https://github.com/marketplace/models) |
 | Groq | 9 | No | 262K | text | [→](https://console.groq.com/keys) |
@@ -116,9 +118,9 @@ These providers offer a **permanently free tier** — no credit card required fo
 
 Providers that periodically renew free credits.
 
+<!-- BEGIN_RENEWABLE -->
 | Provider | Free Models | Credit Model | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
-<!-- BEGIN_RENEWABLE -->
 | OpenRouter | 29 | Free tier + $10 topup → 1K RPD | 1M | audio, code, embeddings, image, reasoning, text | [→](https://openrouter.ai/workspaces/default/keys) |
 <!-- END_RENEWABLE -->
 
@@ -139,19 +141,19 @@ Providers that periodically renew free credits.
 
 Data from freellm.net, updated daily via API monitoring.
 
+<!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-<!-- BEGIN_TOP_MODELS -->
-| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 262K | 582B tokens |
-| Owl Alpha | OpenRouter | 1M | 429B tokens |
-| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 211B tokens |
-| inclusionAI: Ring-2.6-1T (free) | OpenRouter | 262K | 147B tokens |
-| OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 142B tokens |
-| Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 74B tokens |
-| MiniMax: MiniMax M2.5 (free) | OpenRouter | 196K | 57B tokens |
-| NVIDIA: Nemotron 3 Nano 30B A3B (free) | OpenRouter | 256K | 40B tokens |
-| Poolside: Laguna XS.2 (free) | OpenRouter | 131K | 32B tokens |
-| OpenAI: gpt-oss-20b (free) | OpenRouter | 131K | 31B tokens |
+| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 262K | 602B tokens |
+| Owl Alpha | OpenRouter | 1M | 392B tokens |
+| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 216B tokens |
+| OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 149B tokens |
+| inclusionAI: Ring-2.6-1T (free) | OpenRouter | 262K | 100B tokens |
+| Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 79B tokens |
+| MiniMax: MiniMax M2.5 (free) | OpenRouter | 196K | 59B tokens |
+| NVIDIA: Nemotron 3 Nano 30B A3B (free) | OpenRouter | 256K | 43B tokens |
+| OpenAI: gpt-oss-20b (free) | OpenRouter | 131K | 33B tokens |
+| Poolside: Laguna XS.2 (free) | OpenRouter | 131K | 33B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
