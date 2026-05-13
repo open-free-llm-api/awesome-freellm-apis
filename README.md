@@ -14,7 +14,7 @@
 </p>
 
 <!-- AUTO_UPDATE_BADGE -->
-<p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net">freellm.net</a></strong> — Last updated: 2026-05-12</p>
+<p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net">freellm.net</a></strong> — Last updated: 2026-05-13</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -144,16 +144,16 @@ Data from freellm.net, updated daily via API monitoring.
 <!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 262K | 599B tokens |
-| Owl Alpha | OpenRouter | 1M | 475B tokens |
-| inclusionAI: Ring-2.6-1T (free) | OpenRouter | 262K | 230B tokens |
-| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 219B tokens |
-| OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 142B tokens |
-| Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 74B tokens |
-| MiniMax: MiniMax M2.5 (free) | OpenRouter | 196K | 58B tokens |
+| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 262K | 617B tokens |
+| Owl Alpha | OpenRouter | 1M | 530B tokens |
+| inclusionAI: Ring-2.6-1T (free) | OpenRouter | 262K | 331B tokens |
+| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 226B tokens |
+| OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 144B tokens |
+| Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 77B tokens |
+| MiniMax: MiniMax M2.5 (free) | OpenRouter | 196K | 60B tokens |
 | NVIDIA: Nemotron 3 Nano 30B A3B (free) | OpenRouter | 256K | 40B tokens |
-| Poolside: Laguna XS.2 (free) | OpenRouter | 131K | 33B tokens |
-| OpenAI: gpt-oss-20b (free) | OpenRouter | 131K | 31B tokens |
+| Poolside: Laguna XS.2 (free) | OpenRouter | 131K | 34B tokens |
+| OpenAI: gpt-oss-20b (free) | OpenRouter | 131K | 32B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -207,6 +207,6 @@ MIT © [open-free-llm-api](https://github.com/open-free-llm-api)
 
 <p align="center">
   <sub>Last updated: <!-- AUTO_LAST_UPDATED -->
-2026-05-12
+2026-05-13
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
