@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>128+ free LLM APIs from 17 providers</strong> — find, compare & configure free models in seconds.</p>
+  <p align="center"><strong>129+ free LLM APIs from 17 providers</strong> — find, compare & configure free models in seconds.</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -14,7 +14,7 @@
 </p>
 
 <!-- AUTO_UPDATE_BADGE -->
-<p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net">freellm.net</a></strong> — Last updated: 2026-05-13</p>
+<p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net">freellm.net</a></strong> — Last updated: 2026-05-14</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -121,7 +121,7 @@ Providers that periodically renew free credits.
 <!-- BEGIN_RENEWABLE -->
 | Provider | Free Models | Credit Model | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
-| OpenRouter | 30 | Free tier + $10 topup → 1K RPD | 1M | audio, code, embeddings, image, reasoning, text | [→](https://openrouter.ai/workspaces/default/keys) |
+| OpenRouter | 31 | Free tier + $10 topup → 1K RPD | 1M | audio, code, embeddings, image, reasoning, text | [→](https://openrouter.ai/workspaces/default/keys) |
 <!-- END_RENEWABLE -->
 
 ### 🖥️ Local / Self-Hosted (Unlimited, Private, Free Forever)
@@ -144,16 +144,16 @@ Data from freellm.net, updated daily via API monitoring.
 <!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 262K | 617B tokens |
-| Owl Alpha | OpenRouter | 1M | 530B tokens |
-| inclusionAI: Ring-2.6-1T (free) | OpenRouter | 262K | 331B tokens |
-| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 226B tokens |
-| OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 144B tokens |
-| Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 77B tokens |
-| MiniMax: MiniMax M2.5 (free) | OpenRouter | 196K | 60B tokens |
+| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 262K | 631B tokens |
+| Owl Alpha | OpenRouter | 1M | 590B tokens |
+| inclusionAI: Ring-2.6-1T (free) | OpenRouter | 262K | 436B tokens |
+| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 233B tokens |
+| OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 143B tokens |
+| Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 78B tokens |
+| MiniMax: MiniMax M2.5 (free) | OpenRouter | 196K | 59B tokens |
 | NVIDIA: Nemotron 3 Nano 30B A3B (free) | OpenRouter | 256K | 40B tokens |
-| Poolside: Laguna XS.2 (free) | OpenRouter | 131K | 34B tokens |
-| OpenAI: gpt-oss-20b (free) | OpenRouter | 131K | 32B tokens |
+| Poolside: Laguna XS.2 (free) | OpenRouter | 131K | 35B tokens |
+| OpenAI: gpt-oss-20b (free) | OpenRouter | 131K | 31B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -207,6 +207,6 @@ MIT © [open-free-llm-api](https://github.com/open-free-llm-api)
 
 <p align="center">
   <sub>Last updated: <!-- AUTO_LAST_UPDATED -->
-2026-05-13
+2026-05-14
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
