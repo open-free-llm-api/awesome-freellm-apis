@@ -14,7 +14,7 @@
 </p>
 
 <!-- AUTO_UPDATE_BADGE -->
-<p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net">freellm.net</a></strong> — Last updated: 2026-05-17</p>
+<p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net">freellm.net</a></strong> — Last updated: 2026-05-18</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -144,16 +144,16 @@ Data from freellm.net, updated daily via API monitoring.
 <!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-| moonshotai/kimi-k2.6 | NVIDIA NIM | 262K | 1166B tokens |
-| Owl Alpha | OpenRouter | 1M | 822B tokens |
-| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 1M | 642B tokens |
-| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 235B tokens |
-| qwen/qwen3.5-397b-a17b | NVIDIA NIM | 262K | 197B tokens |
+| moonshotai/kimi-k2.6 | NVIDIA NIM | 262K | 1087B tokens |
+| Owl Alpha | OpenRouter | 1M | 933B tokens |
+| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 1M | 641B tokens |
+| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 240B tokens |
+| qwen/qwen3.5-397b-a17b | NVIDIA NIM | 262K | 187B tokens |
 | OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 140B tokens |
-| z-ai/glm-5.1 | NVIDIA NIM | 202K | 133B tokens |
+| z-ai/glm-5.1 | NVIDIA NIM | 202K | 132B tokens |
 | Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 83B tokens |
-| MiniMax: MiniMax M2.5 (free) | OpenRouter | 204K | 50B tokens |
-| DeepSeek: DeepSeek V4 Flash (free) | OpenRouter | 1M | 40B tokens |
+| MiniMax: MiniMax M2.5 (free) | OpenRouter | 204K | 48B tokens |
+| DeepSeek: DeepSeek V4 Flash (free) | OpenRouter | 1M | 47B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -207,6 +207,6 @@ MIT © [open-free-llm-api](https://github.com/open-free-llm-api)
 
 <p align="center">
   <sub>Last updated: <!-- AUTO_LAST_UPDATED -->
-2026-05-17
+2026-05-18
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
