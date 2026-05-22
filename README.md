@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>128+ free LLM APIs from 17 providers</strong> — find, compare & configure free models in seconds.</p>
+  <p align="center"><strong>127+ free LLM APIs from 17 providers</strong> — find, compare & configure free models in seconds.</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -14,7 +14,7 @@
 </p>
 
 <!-- AUTO_UPDATE_BADGE -->
-<p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net">freellm.net</a></strong> — Last updated: 2026-05-21</p>
+<p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net">freellm.net</a></strong> — Last updated: 2026-05-22</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -121,7 +121,7 @@ Providers that periodically renew free credits.
 <!-- BEGIN_RENEWABLE -->
 | Provider | Free Models | Credit Model | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
-| OpenRouter | 30 | Free tier + $10 topup → 1K RPD | 1M | audio, code, embeddings, image, reasoning, text | [→](https://openrouter.ai/workspaces/default/keys) |
+| OpenRouter | 29 | Free tier + $10 topup → 1K RPD | 1M | audio, code, embeddings, image, reasoning, text | [→](https://openrouter.ai/workspaces/default/keys) |
 <!-- END_RENEWABLE -->
 
 ### 🖥️ Local / Self-Hosted (Unlimited, Private, Free Forever)
@@ -144,16 +144,16 @@ Data from freellm.net, updated daily via API monitoring.
 <!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-| Owl Alpha | OpenRouter | 1M | 1248B tokens |
-| moonshotai/kimi-k2.6 | NVIDIA NIM | 262K | 815B tokens |
+| Owl Alpha | OpenRouter | 1M | 1196B tokens |
+| moonshotai/kimi-k2.6 | NVIDIA NIM | 262K | 758B tokens |
 | NVIDIA: Nemotron 3 Super (free) | OpenRouter | 1M | 617B tokens |
-| Z.ai: GLM 5.1 | OpenRouter | 202K | 405B tokens |
-| z-ai/glm-5.1 | NVIDIA NIM | 202K | 405B tokens |
-| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 252B tokens |
-| OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 148B tokens |
-| qwen/qwen3.5-397b-a17b | NVIDIA NIM | 262K | 124B tokens |
-| Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 86B tokens |
-| DeepSeek: DeepSeek V4 Flash (free) | OpenRouter | 1M | 85B tokens |
+| z-ai/glm-5.1 | NVIDIA NIM | 202K | 403B tokens |
+| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 259B tokens |
+| OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 153B tokens |
+| qwen/qwen3.5-397b-a17b | NVIDIA NIM | 262K | 110B tokens |
+| Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 88B tokens |
+| DeepSeek: DeepSeek V4 Flash (free) | OpenRouter | 1M | 80B tokens |
+| Arcee AI: Trinity Large Thinking (free) | OpenRouter | 262K | 54B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -207,6 +207,6 @@ MIT © [open-free-llm-api](https://github.com/open-free-llm-api)
 
 <p align="center">
   <sub>Last updated: <!-- AUTO_LAST_UPDATED -->
-2026-05-21
+2026-05-22
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
