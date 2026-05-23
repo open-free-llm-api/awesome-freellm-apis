@@ -151,8 +151,9 @@ Data from freellm.net, updated daily via API monitoring.
 <!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-| Owl Alpha | OpenRouter | 1M | 1134B tokens |
-| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 1M | 611B tokens |
+| Owl Alpha | OpenRouter | 1M | 1137B tokens |
+| moonshotai/kimi-k2.6 | NVIDIA NIM | 262K | 718B tokens |
+| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 1M | 612B tokens |
 | Poolside: Laguna M.1 (free) | OpenRouter | 131K | 262B tokens |
 | OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 154B tokens |
 | z-ai/glm-5.1 | NVIDIA NIM | 202K | 120B tokens |
@@ -160,7 +161,6 @@ Data from freellm.net, updated daily via API monitoring.
 | Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 89B tokens |
 | DeepSeek: DeepSeek V4 Flash (free) | OpenRouter | 1M | 72B tokens |
 | Arcee AI: Trinity Large Thinking (free) | OpenRouter | 262K | 57B tokens |
-| Poolside: Laguna XS.2 (free) | OpenRouter | 131K | 45B tokens |
 <!-- END_TOP_MODELS -->
 
 ---

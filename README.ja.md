@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>20プロバイダー、146+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
+  <p align="center"><strong>24プロバイダー、146+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -93,24 +93,28 @@ print(response.choices[0].message.content)
 | Provider | Free Models | Credit Card? | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
 | NVIDIA NIM | 16 | Phone verification | 1M | image, text | [→](https://build.nvidia.com/settings/api-keys) |
-| Groq | 14 | No | 262K | text | [→](https://console.groq.com/keys) |
-| GitHub Models | 13 | No | 1M | text | [→](https://github.com/marketplace/models) |
-| Cloudflare Workers AI | 10 | No | 10M | image, text | [→](https://dash.cloudflare.com/profile/api-tokens) |
-| Mistral AI | 8 | No | 256K | code, image, text | [→](https://console.mistral.ai/api-keys) |
-| OVHcloud AI Endpoints | 7 | Registration | 262K | code, image, text | [→](https://endpoints.ai.cloud.ovh.net/) |
-| SiliconFlow | 6 | Registration | 131K | text | [→](https://cloud.siliconflow.cn/account/ak) |
+| GitHub Models | 10 | No | 1M | text | [→](https://github.com/marketplace/models) |
+| Cloudflare Workers AI | 8 | No | 10M | image, text | [→](https://dash.cloudflare.com/profile/api-tokens) |
+| Groq | 8 | No | 262K | text | [→](https://console.groq.com/keys) |
+| Mistral AI | 6 | No | 256K | code, image, text | [→](https://console.mistral.ai/api-keys) |
+| Cerebras | 6 | No | 131K | text | [→](https://cloud.cerebras.ai/) |
+| Ollama Cloud | 6 | Registration | 262K | code, text | [→](https://ollama.com/settings/keys) |
+| Alibaba Cloud Model Studio | 5 | Registration | 1M | code, image, text | [→](https://bailian.console.alibabacloud.com/?apiKey=1) |
 | Cohere | 5 | No | 256K | text | [→](https://dashboard.cohere.com/api-keys) |
-| Cerebras | 5 | No | 131K | text | [→](https://cloud.cerebras.ai/) |
 | Hugging Face | 5 | No | 131K | text | [→](https://huggingface.co/settings/tokens) |
+| Kilo Code | 5 | No | 262K | code, text | [→](https://kilo.ai) |
 | LLM7.io | 5 | No | 131K | code, text | [→](https://token.llm7.io) |
-| Ollama Cloud | 5 | Registration | 128K | text | [→](https://ollama.com/settings/keys) |
-| Kilo Code | 4 | No | 262K | code, text | [→](https://kilo.ai) |
+| Google Gemini | 4 | No | 2M | text | [→](https://aistudio.google.com/app/apikey) |
+| OVHcloud AI Endpoints | 4 | Registration | 128K | image, text | [→](https://endpoints.ai.cloud.ovh.net/) |
+| Aion Labs | 3 | Registration | 131K | text | [→](https://www.aionlabs.ai) |
+| xAI | 3 | Registration | 2M | text | [→](https://console.x.ai) |
 | Z AI (Zhipu AI) | 3 | No | 200K | text | [→](https://open.bigmodel.cn/usercenter/apikeys) |
 | ModelScope | 3 | Registration | 131K | text | [→](https://modelscope.cn/my/myaccesstoken) |
-| Google Gemini | 2 | No | 1M | text | [→](https://aistudio.google.com/app/apikey) |
-| Chutes.ai | 2 | Registration | 131K | text | [→](https://chutes.ai/) |
-| Glhf.chat | 2 | Registration | 131K | text | [→](https://glhf.chat/) |
-| Grok (xAI) | 2 | Registration | 131K | text | [→](https://console.x.ai/) |
+| Nscale | 3 | Registration | 256K | code, text | [→](https://console.nscale.com/) |
+| SiliconFlow | 3 | Registration | 131K | text | [→](https://cloud.siliconflow.cn/account/ak) |
+| AI21 Labs | 2 | Registration | 256K | text | [→](https://studio.ai21.com/account/api-key) |
+| DeepSeek | 2 | Registration | 128K | text | [→](https://platform.deepseek.com/api_keys) |
+| Nebius | 2 | Registration | 128K | text | [→](https://studio.nebius.com/settings/api-keys) |
 <!-- END_PERMANENT_FREE -->
 
 <!-- BEGIN_RENEWABLE -->
@@ -124,16 +128,16 @@ print(response.choices[0].message.content)
 <!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-| Owl Alpha | OpenRouter | 1M | 1196B tokens |
-| moonshotai/kimi-k2.6 | NVIDIA NIM | 262K | 758B tokens |
-| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 1M | 617B tokens |
-| z-ai/glm-5.1 | NVIDIA NIM | 202K | 403B tokens |
-| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 259B tokens |
-| OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 153B tokens |
-| qwen/qwen3.5-397b-a17b | NVIDIA NIM | 262K | 110B tokens |
-| Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 88B tokens |
-| DeepSeek: DeepSeek V4 Flash (free) | OpenRouter | 1M | 80B tokens |
-| Arcee AI: Trinity Large Thinking (free) | OpenRouter | 262K | 54B tokens |
+| Owl Alpha | OpenRouter | 1M | 1137B tokens |
+| moonshotai/kimi-k2.6 | NVIDIA NIM | 262K | 718B tokens |
+| NVIDIA: Nemotron 3 Super (free) | OpenRouter | 1M | 612B tokens |
+| Poolside: Laguna M.1 (free) | OpenRouter | 131K | 262B tokens |
+| OpenAI: gpt-oss-120b (free) | OpenRouter | 131K | 154B tokens |
+| z-ai/glm-5.1 | NVIDIA NIM | 202K | 120B tokens |
+| qwen/qwen3.5-397b-a17b | NVIDIA NIM | 262K | 98B tokens |
+| Z.ai: GLM 4.5 Air (free) | OpenRouter | 131K | 89B tokens |
+| DeepSeek: DeepSeek V4 Flash (free) | OpenRouter | 1M | 72B tokens |
+| Arcee AI: Trinity Large Thinking (free) | OpenRouter | 262K | 57B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
