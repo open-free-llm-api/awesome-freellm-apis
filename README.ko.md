@@ -38,16 +38,34 @@
 
 ---
 
-## 빠른 시작 — 30초 안에 무료 API 사용
+## 빠른 시작 — 30초 만에 무료 API 사용하기
 
-아래 모든 제공업체는 **OpenAI 호환 엔드포인트**를 제공합니다(Gemini는 간단한 래퍼 필요). 즉, `baseURL` + `apiKey`를 허용하는 모든 도구가 작동합니다.
+아래 모든 제공업체는 **OpenAI 호환 엔드포인트**를 제공합니다. `baseURL` + `apiKey`를 지원하는 모든 도구에서 작동합니다.
 
-### Claude Code (cc)
+### Python (OpenAI SDK)
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api.groq.com/openai/v1",  # 무료, 신용카드 불필요
+    api_key="GROQ_API_KEY",                     # 발급: console.groq.com/keys
+)
+
+response = client.chat.completions.create(
+    model="llama-3.3-70b-versatile",            # 모델 목록은 아래 Best Models 표 참조
+    messages=[{"role": "user", "content": "안녕하세요!"}],
+)
+print(response.choices[0].message.content)
+# Groq 무료 한도: 30 RPM, 14,400 RPD — 개인 사용에 충분
+```
+
+### Codex CLI
 
 ```bash
-export ANTHROPIC_BASE_URL="https://api.groq.com/openai/v1"  # Groq — 무료, 신용카드 불필요
-export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
-# Claude Code가 무료 백엔드를 통해 라우팅됨
+export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
+export OPENAI_API_KEY="your-groq-key"          # 발급: console.groq.com/keys
+codex --model "llama-3.3-70b-versatile"
 ```
 
 ### Cursor
@@ -56,34 +74,21 @@ export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
 Settings → Models → Add Model
   Model name: llama-3.3-70b-versatile
   Base URL: https://api.groq.com/openai/v1
-  API key: your-free-api-key
+  API key: your-groq-key                       # 발급: console.groq.com/keys
 ```
 
-### Codex CLI
+### Claude Code
 
 ```bash
-export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
-export OPENAI_API_KEY="your-api-key-here"
+# Claude Code 는 Anthropic 호환 API 필요 — OpenRouter 사용
+export ANTHROPIC_BASE_URL="https://openrouter.ai/api"
+export ANTHROPIC_AUTH_TOKEN="sk-or-v1-your-key"  # openrouter.ai/keys
+export ANTHROPIC_API_KEY=""                       # 빈 값 필수
+# 참고: OpenRouter Anthropic 모델은 $10 충전 필요 (1회)
 ```
 
-### OpenAI SDK (Python)
+> **모든 제공업체의 Base URL 및 API 키 링크**는 아래 [Quick Reference](#quick-reference--base-urls--api-keys) 참조. Aider, Cline, OpenCode, OpenHuman 등 도구 설정은 **[freellm.net/config/](https://freellm.net/config/)** 에서.
 
-```python
-from openai import OpenAI
-
-client = OpenAI(
-    base_url="https://api.openai.com/v1",  # 아래 아무 제공업체로 변경 가능
-    api_key="YOUR_FREE_API_KEY",
-)
-
-response = client.chat.completions.create(
-    model="llama-3.3-70b-versatile",
-    messages=[{"role": "user", "content": "안녕하세요!"}],
-)
-print(response.choices[0].message.content)
-```
-
-> Aider, Cline, OpenCode, Continue, Open WebUI, Gemini CLI 설정은 [freellm.net/config/](https://freellm.net/config/)에서 복사하세요.
 
 ---
 

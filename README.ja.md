@@ -40,14 +40,32 @@
 
 ## クイックスタート — 30秒で無料APIを使う
 
-以下の全プロバイダーが**OpenAI互換エンドポイント**を提供しています（Geminiは簡単なラッパーで対応）。つまり、`baseURL` + `apiKey` を受け付けるツールならすべて動作します。
+以下の全プロバイダーが **OpenAI互換エンドポイント** を提供しています。`baseURL` + `apiKey` を受け付けるツールならすべて動作します。
 
-### Claude Code (cc)
+### Python (OpenAI SDK)
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api.groq.com/openai/v1",  # 無料、クレカ不要
+    api_key="GROQ_API_KEY",                     # 取得: console.groq.com/keys
+)
+
+response = client.chat.completions.create(
+    model="llama-3.3-70b-versatile",            # モデル一覧は下記 Best Models 表
+    messages=[{"role": "user", "content": "こんにちは！"}],
+)
+print(response.choices[0].message.content)
+# Groq 無料枠: 30 RPM, 14,400 RPD — 個人利用に十分
+```
+
+### Codex CLI
 
 ```bash
-export ANTHROPIC_BASE_URL="https://api.groq.com/openai/v1"  # Groq — 無料、クレカ不要
-export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
-# Claude Codeが無料バックエンド経由で動作
+export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
+export OPENAI_API_KEY="your-groq-key"          # 取得: console.groq.com/keys
+codex --model "llama-3.3-70b-versatile"
 ```
 
 ### Cursor
@@ -56,34 +74,21 @@ export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
 Settings → Models → Add Model
   Model name: llama-3.3-70b-versatile
   Base URL: https://api.groq.com/openai/v1
-  API key: your-free-api-key
+  API key: your-groq-key                       # 取得: console.groq.com/keys
 ```
 
-### Codex CLI
+### Claude Code
 
 ```bash
-export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
-export OPENAI_API_KEY="your-api-key-here"
+# Claude Code は Anthropic 互換 API が必要 — OpenRouter を使用
+export ANTHROPIC_BASE_URL="https://openrouter.ai/api"
+export ANTHROPIC_AUTH_TOKEN="sk-or-v1-your-key"  # openrouter.ai/keys
+export ANTHROPIC_API_KEY=""                       # 空にする必要あり
+# 注意: OpenRouter の Anthropic モデルは $10 のチャージが必要（一回のみ）
 ```
 
-### OpenAI SDK (Python)
+> **全プロバイダーの Base URL と APIキーリンク** は下記 [Quick Reference](#quick-reference--base-urls--api-keys) 参照。Aider、Cline、OpenCode、OpenHuman 等の設定は **[freellm.net/config/](https://freellm.net/config/)** へ。
 
-```python
-from openai import OpenAI
-
-client = OpenAI(
-    base_url="https://api.groq.com/openai/v1",  # 全プロバイダーは下記 Quick Reference 参照
-    api_key="YOUR_FREE_API_KEY",
-)
-
-response = client.chat.completions.create(
-    model="llama-3.3-70b-versatile",
-    messages=[{"role": "user", "content": "こんにちは！"}],
-)
-print(response.choices[0].message.content)
-```
-
-> Aider、Cline、OpenCode、Continue、Open WebUI、Gemini CLI の設定は [freellm.net/config/](https://freellm.net/config/) からコピーできます。
 
 ---
 

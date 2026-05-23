@@ -38,16 +38,34 @@
 
 ---
 
-## 快速开始 — 30 秒接入任意免费 API
+## 快速上手 — 30 秒接入免费 API
 
-以下所有提供商都暴露了 **OpenAI 兼容接口**（Gemini 需要简单包装）。这意味着任何接受 `baseURL` + `apiKey` 的工具都能直接用。
+以下所有提供商都暴露了 **OpenAI 兼容接口**。任何接受 `baseURL` + `apiKey` 的工具都能直接用。
 
-### Claude Code (cc)
+### Python (OpenAI SDK)
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api.groq.com/openai/v1",  # 免费，无需信用卡
+    api_key="GROQ_API_KEY",                     # 获取: console.groq.com/keys
+)
+
+response = client.chat.completions.create(
+    model="llama-3.3-70b-versatile",            # 模型列表见下方 Best Models 表
+    messages=[{"role": "user", "content": "你好！"}],
+)
+print(response.choices[0].message.content)
+# Groq 免费额度: 30 RPM, 14,400 RPD — 个人使用绰绰有余
+```
+
+### Codex CLI
 
 ```bash
-export ANTHROPIC_BASE_URL="https://api.groq.com/openai/v1"  # Groq — 免费，无需信用卡
-export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
-# Claude Code 现在通过免费后端路由
+export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
+export OPENAI_API_KEY="your-groq-key"          # 获取: console.groq.com/keys
+codex --model "llama-3.3-70b-versatile"
 ```
 
 ### Cursor
@@ -56,34 +74,21 @@ export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
 Settings → Models → Add Model
   Model name: llama-3.3-70b-versatile
   Base URL: https://api.groq.com/openai/v1
-  API key: your-free-api-key
+  API key: your-groq-key                       # 获取: console.groq.com/keys
 ```
 
-### Codex CLI
+### Claude Code
 
 ```bash
-export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
-export OPENAI_API_KEY="your-api-key-here"
+# Claude Code 需要 Anthropic 兼容接口 — 使用 OpenRouter
+export ANTHROPIC_BASE_URL="https://openrouter.ai/api"
+export ANTHROPIC_AUTH_TOKEN="sk-or-v1-your-key"  # openrouter.ai/keys
+export ANTHROPIC_API_KEY=""                       # 必须为空
+# 注意: OpenRouter 的 Anthropic 模型需充值 $10（一次性）
 ```
 
-### OpenAI SDK (Python)
+> **所有提供商的 Base URL 和 API Key 链接** 见下方 [Quick Reference](#quick-reference--base-urls--api-keys)。Aider、Cline、OpenCode、OpenHuman 等工具的即用配置见 **[freellm.net/config/](https://freellm.net/config/)**。
 
-```python
-from openai import OpenAI
-
-client = OpenAI(
-    base_url="https://api.groq.com/openai/v1",  # 提供商列表见下方 Quick Reference
-    api_key="YOUR_FREE_API_KEY",
-)
-
-response = client.chat.completions.create(
-    model="llama-3.3-70b-versatile",
-    messages=[{"role": "user", "content": "你好！"}],
-)
-print(response.choices[0].message.content)
-```
-
-> 访问 [freellm.net/config/](https://freellm.net/config/) 获取 Aider、Cline、OpenCode、Continue、Open WebUI 和 Gemini CLI 的即用配置。
 
 ---
 

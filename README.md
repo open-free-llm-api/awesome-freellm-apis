@@ -40,14 +40,32 @@ This repo is a **structured, machine-readable directory** of every free LLM API 
 
 ## Quick Start — Use Any Free API in 30 Seconds
 
-All providers below expose an **OpenAI-compatible endpoint** (or, for Gemini, a trivial wrapper). That means any tool that accepts `baseURL` + `apiKey` works.
+All providers below expose an **OpenAI-compatible endpoint**. Any tool that accepts `baseURL` + `apiKey` just works.
 
-### Claude Code (cc)
+### Python (OpenAI SDK)
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api.groq.com/openai/v1",  # free, no credit card
+    api_key="GROQ_API_KEY",                     # get at console.groq.com/keys
+)
+
+response = client.chat.completions.create(
+    model="llama-3.3-70b-versatile",            # see Best Models table below
+    messages=[{"role": "user", "content": "Hello!"}],
+)
+print(response.choices[0].message.content)
+# Groq free tier: 30 RPM, 14,400 RPD — generous for personal use
+```
+
+### Codex CLI
 
 ```bash
-export ANTHROPIC_BASE_URL="https://api.groq.com/openai/v1"  # Groq — free, no credit card
-export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
-# Claude Code now routes through the free backend
+export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
+export OPENAI_API_KEY="your-groq-key"          # get at console.groq.com/keys
+codex --model "llama-3.3-70b-versatile"
 ```
 
 ### Cursor
@@ -56,34 +74,21 @@ export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
 Settings → Models → Add Model
   Model name: llama-3.3-70b-versatile
   Base URL: https://api.groq.com/openai/v1
-  API key: your-free-api-key
+  API key: your-groq-key                       # get at console.groq.com/keys
 ```
 
-### Codex CLI
+### Claude Code
 
 ```bash
-export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
-export OPENAI_API_KEY="your-api-key-here"
+# Claude Code needs an Anthropic-compatible API — use OpenRouter
+export ANTHROPIC_BASE_URL="https://openrouter.ai/api"
+export ANTHROPIC_AUTH_TOKEN="sk-or-v1-your-key"  # openrouter.ai/keys
+export ANTHROPIC_API_KEY=""                       # must be empty
+# Note: OpenRouter Anthropic models need $10 top-up (one-time)
 ```
 
-### OpenAI SDK (Python)
+> **All providers, base URLs, and API key links** are in the [Quick Reference](#quick-reference--base-urls--api-keys) below. For ready-to-copy configs for Aider, Cline, OpenCode, OpenHuman & more, visit **[freellm.net/config/](https://freellm.net/config/)**.
 
-```python
-from openai import OpenAI
-
-client = OpenAI(
-    base_url="https://api.groq.com/openai/v1",  # see Quick Reference below for all providers
-    api_key="YOUR_FREE_API_KEY",
-)
-
-response = client.chat.completions.create(
-    model="llama-3.3-70b-versatile",
-    messages=[{"role": "user", "content": "Hello!"}],
-)
-print(response.choices[0].message.content)
-```
-
-> See [freellm.net/config/](https://freellm.net/config/) for ready-to-copy configs for Aider, Cline, OpenCode, Continue, Open WebUI, and Gemini CLI.
 
 ---
 
