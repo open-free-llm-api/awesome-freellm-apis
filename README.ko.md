@@ -164,34 +164,36 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 <!-- BEGIN_BEST_MODELS -->
 | Provider | Best Free Model | Model ID | Max Context | Rate Limit |
 |---|---|---|---|---|
-| AI21 Labs | Jamba Large 1.7 | `jamba-large-1-7` | 256K | 200 RPM, 10 RPS |
-|  | Jamba Mini 2 | `jamba-mini-2` | 256K | 200 RPM, 10 RPS |
-| Aion Labs | aion-2.0 | `aion-2-0` | 131K | Daily token allowance |
-|  | aion-1.0 | `aion-1-0` | 131K | Daily token allowance |
-|  | aion-1.0-mini | `aion-1-0-mini` | 131K | Daily token allowance |
-| Alibaba Cloud Model Studio | Qwen3-Max | `qwen3-max` | 128K | Tiered by region |
-|  | Qwen3-Plus | `qwen3-plus` | 1M | Tiered by region |
-|  | Qwen3-VL-Plus | `qwen3-vl-plus` | 128K | Tiered by region |
-| Cerebras | llama-3.3-70b | `llama-3-3-70b` | 128K | 30 RPM, 14,400 RPD, 1M .. |
-|  | gpt-oss-120b | `gpt-oss-120b` | 128K | 30 RPM, 14,400 RPD, 1M .. |
-|  | qwen-3-235b-a22b-instruct-2507 | `qwen-3-235b-a22b-instruct-2507` | 131K | 30 RPM, 14,400 RPD, 1M .. |
-| Cloudflare Workers AI | @cf/meta/llama-3.3-70b-instruct-fp8-fast | `cf-meta-llama-3-3-70b-instruct-fp8-fast` | 131K | 10K neurons/day (shared) |
-|  | @cf/meta/llama-3.1-8b-instruct-fp8-fast | `cf-meta-llama-3-1-8b-instruct-fp8-fast` | 131K | 10K neurons/day (shared) |
-|  | @cf/meta/llama-3.2-11b-vision-instruct | `cf-meta-llama-3-2-11b-vision-instruct` | 131K | 10K neurons/day (shared) |
-| Cohere | Command A (111B) | `command-a-111b` | 256K | 20 RPM |
-|  | Command R+ | `command-r` | 128K | 20 RPM |
-|  | Command R7B | `command-r7b` | 128K | 20 RPM |
-| DeepSeek | deepseek-chat (V3.2) | `deepseek-chat-v3-2` | 128K | Dynamic |
-|  | deepseek-reasoner (R1) | `deepseek-reasoner-r1` | 128K | Dynamic |
+| OpenRouter | Owl Alpha | `openrouter/owl-alpha` | 1M | See provider |
+|  | NVIDIA: Nemotron 3 Super (free) | `nvidia/nemotron-3-super-120b-a12b:free` | 1M | See provider |
+|  | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 131K | See provider |
+| NVIDIA NIM | moonshotai/kimi-k2.6 | `moonshotai/kimi-k2.6` | 262K | Up to 40 RPM |
+|  | z-ai/glm-5.1 | `z-ai/glm-5.1` | 202K | Up to 40 RPM |
+|  | qwen/qwen3.5-397b-a17b | `qwen/qwen3.5-397b-a17b` | 262K | Up to 40 RPM |
 | GitHub Models | gpt-5 | `gpt-5` | 200K | 10 RPM, 50 RPD |
 |  | gpt-4.1 | `gpt-4-1` | 1M | 10 RPM, 50 RPD |
 |  | gpt-4.1-mini | `gpt-4-1-mini` | 1M | 15 RPM, 150 RPD |
-| Google Gemini | Gemini 2.5 Pro | `gemini-2-5-pro` | 2M | 5 RPM, 100 RPD |
-|  | Gemini 2.5 Flash | `gemini-2-5-flash` | 1M | 10 RPM, 250 RPD |
-|  | Gemini 2.5 Flash-Lite | `gemini-2-5-flash-lite` | 1M | 15 RPM, 1,000 RPD |
+| Cloudflare Workers AI | @cf/meta/llama-3.3-70b-instruct-fp8-fast | `cf-meta-llama-3-3-70b-instruct-fp8-fast` | 131K | 10K neurons/day (shared) |
+|  | @cf/meta/llama-3.1-8b-instruct-fp8-fast | `cf-meta-llama-3-1-8b-instruct-fp8-fast` | 131K | 10K neurons/day (shared) |
+|  | @cf/meta/llama-3.2-11b-vision-instruct | `cf-meta-llama-3-2-11b-vision-instruct` | 131K | 10K neurons/day (shared) |
 | Groq | llama-3.3-70b-versatile | `llama-3-3-70b-versatile` | 131K | 30 RPM, 14,400 RPD |
 |  | llama-3.1-8b-instant | `llama-3-1-8b-instant` | 131K | 30 RPM, 14,400 RPD |
 |  | llama-4-maverick-17b-128e-instruct | `llama-4-maverick-17b-128e-instruct` | 131K | 15 RPM, 500 RPD |
+| Mistral AI | Mistral Small 4 | `mistral-small-4` | 256K | ~1 RPS, 500K TPM |
+|  | Mistral Medium 3 | `mistral-medium-3` | 128K | ~1 RPS, 500K TPM |
+|  | Mistral Large 3 | `mistral-large-3` | 256K | ~1 RPS, 500K TPM |
+| Cerebras | llama-3.3-70b | `llama-3-3-70b` | 128K | 30 RPM, 14,400 RPD, 1M .. |
+|  | gpt-oss-120b | `gpt-oss-120b` | 128K | 30 RPM, 14,400 RPD, 1M .. |
+|  | qwen-3-235b-a22b-instruct-2507 | `qwen-3-235b-a22b-instruct-2507` | 131K | 30 RPM, 14,400 RPD, 1M .. |
+| Ollama Cloud | gpt-oss:120b-cloud | `gpt-oss-120b-cloud` | 128K | Session/weekly limits (.. |
+|  | deepseek-v3.1:671b-cloud | `deepseek-v3-1-671b-cloud` | 128K | Session/weekly limits (.. |
+|  | qwen3-coder:480b-cloud | `qwen3-coder-480b-cloud` | 128K | Session/weekly limits (.. |
+| Alibaba Cloud Model Studio | Qwen3-Max | `qwen3-max` | 128K | Tiered by region |
+|  | Qwen3-Plus | `qwen3-plus` | 1M | Tiered by region |
+|  | Qwen3-VL-Plus | `qwen3-vl-plus` | 128K | Tiered by region |
+| Cohere | Command A (111B) | `command-a-111b` | 256K | 20 RPM |
+|  | Command R+ | `command-r` | 128K | 20 RPM |
+|  | Command R7B | `command-r7b` | 128K | 20 RPM |
 | Hugging Face | Meta-Llama-3.1-8B-Instruct | `meta-llama-3-1-8b-instruct` | 128K | Credit-metered |
 |  | Mistral-7B-Instruct-v0.3 | `mistral-7b-instruct-v0-3` | 32K | Credit-metered |
 |  | Mixtral-8x7B-Instruct-v0.1 | `mixtral-8x7b-instruct-v0-1` | 32K | Credit-metered |
@@ -201,38 +203,36 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 | LLM7.io | deepseek-r1-0528 | `deepseek-r1-0528` | 131K | 30 RPM (120 with token) |
 |  | deepseek-v3-0324 | `deepseek-v3-0324` | 131K | 30 RPM (120 with token) |
 |  | gpt-4o-mini | `gpt-4o-mini` | 131K | 30 RPM (120 with token) |
-| Mistral AI | Mistral Small 4 | `mistral-small-4` | 256K | ~1 RPS, 500K TPM |
-|  | Mistral Medium 3 | `mistral-medium-3` | 128K | ~1 RPS, 500K TPM |
-|  | Mistral Large 3 | `mistral-large-3` | 256K | ~1 RPS, 500K TPM |
-| ModelScope | Qwen/Qwen3.5-35B-A3B | `qwen-qwen3-5-35b-a3b` | 131K | 2,000 RPD total; <=500 .. |
-|  | Qwen/Qwen3.5-27B | `qwen-qwen3-5-27b` | 131K | 2,000 RPD total; <=500 .. |
-|  | Qwen/Qwen-Image | `qwen-qwen-image` | 131K | 2,000 RPD total; model/.. |
-| Nebius | Meta-Llama-3.3-70B-Instruct | `meta-llama-3-3-70b-instruct` | 128K | Tier-based |
-|  | Qwen3-235B-A22B | `qwen3-235b-a22b` | 128K | Tier-based |
-| Nscale | Llama-3.3-70B-Instruct | `llama-3-3-70b-instruct` | 128K | Fair-use |
-|  | Qwen3-Coder-30B-A3B-Instruct | `qwen3-coder-30b-a3b-instruct` | 256K | Fair-use |
-|  | DeepSeek-R1-Distill-Llama-70B | `deepseek-r1-distill-llama-70b` | 128K | Fair-use |
-| NVIDIA NIM | moonshotai/kimi-k2.6 | `moonshotai/kimi-k2.6` | 262K | Up to 40 RPM |
-|  | z-ai/glm-5.1 | `z-ai/glm-5.1` | 202K | Up to 40 RPM |
-|  | qwen/qwen3.5-397b-a17b | `qwen/qwen3.5-397b-a17b` | 262K | Up to 40 RPM |
-| Ollama Cloud | gpt-oss:120b-cloud | `gpt-oss-120b-cloud` | 128K | Session/weekly limits (.. |
-|  | deepseek-v3.1:671b-cloud | `deepseek-v3-1-671b-cloud` | 128K | Session/weekly limits (.. |
-|  | qwen3-coder:480b-cloud | `qwen3-coder-480b-cloud` | 128K | Session/weekly limits (.. |
-| OpenRouter | Owl Alpha | `openrouter/owl-alpha` | 1M | See provider |
-|  | NVIDIA: Nemotron 3 Super (free) | `nvidia/nemotron-3-super-120b-a12b:free` | 1M | See provider |
-|  | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 131K | See provider |
+| Google Gemini | Gemini 2.5 Pro | `gemini-2-5-pro` | 2M | 5 RPM, 100 RPD |
+|  | Gemini 2.5 Flash | `gemini-2-5-flash` | 1M | 10 RPM, 250 RPD |
+|  | Gemini 2.5 Flash-Lite | `gemini-2-5-flash-lite` | 1M | 15 RPM, 1,000 RPD |
 | OVHcloud AI Endpoints | Qwen2.5-VL-72B-Instruct | `qwen2-5-vl-72b-instruct` | 128K | 2 RPM (anonymous) |
 |  | Mistral-Nemo-Instruct-2407 | `mistral-nemo-instruct-2407` | 128K | 2 RPM (anonymous) |
 |  | Qwen3Guard-Gen-8B | `qwen3guard-gen-8b` | 32K | 2 RPM (anonymous) |
-| SiliconFlow | deepseek-ai/DeepSeek-R1-Distill-Qwen-7B | `deepseek-ai-deepseek-r1-distill-qwen-7b` | 131K | 30 RPM, 60K TPM |
-|  | deepseek-ai/DeepSeek-OCR | `deepseek-ai-deepseek-ocr` | 131K | 30 RPM, 60K TPM |
-|  | Abbreviation | `abbreviation` | 131K | See provider |
+| Aion Labs | aion-2.0 | `aion-2-0` | 131K | Daily token allowance |
+|  | aion-1.0 | `aion-1-0` | 131K | Daily token allowance |
+|  | aion-1.0-mini | `aion-1-0-mini` | 131K | Daily token allowance |
 | xAI | grok-4.3 | `grok-4-3` | 1M | Credit-based |
 |  | grok-4.1-fast | `grok-4-1-fast` | 2M | Credit-based |
 |  | grok-3-mini | `grok-3-mini` | 131K | Credit-based |
 | Z AI (Zhipu AI) | GLM-4.7-Flash | `glm-4-7-flash` | 200K | 1 concurrent request |
 |  | GLM-4.5-Flash | `glm-4-5-flash` | 128K | 1 concurrent request |
 |  | GLM-4.6V-Flash | `glm-4-6v-flash` | 128K | 1 concurrent request |
+| ModelScope | Qwen/Qwen3.5-35B-A3B | `qwen-qwen3-5-35b-a3b` | 131K | 2,000 RPD total; <=500 .. |
+|  | Qwen/Qwen3.5-27B | `qwen-qwen3-5-27b` | 131K | 2,000 RPD total; <=500 .. |
+|  | Qwen/Qwen-Image | `qwen-qwen-image` | 131K | 2,000 RPD total; model/.. |
+| Nscale | Llama-3.3-70B-Instruct | `llama-3-3-70b-instruct` | 128K | Fair-use |
+|  | Qwen3-Coder-30B-A3B-Instruct | `qwen3-coder-30b-a3b-instruct` | 256K | Fair-use |
+|  | DeepSeek-R1-Distill-Llama-70B | `deepseek-r1-distill-llama-70b` | 128K | Fair-use |
+| SiliconFlow | deepseek-ai/DeepSeek-R1-Distill-Qwen-7B | `deepseek-ai-deepseek-r1-distill-qwen-7b` | 131K | 30 RPM, 60K TPM |
+|  | deepseek-ai/DeepSeek-OCR | `deepseek-ai-deepseek-ocr` | 131K | 30 RPM, 60K TPM |
+|  | Abbreviation | `abbreviation` | 131K | See provider |
+| AI21 Labs | Jamba Large 1.7 | `jamba-large-1-7` | 256K | 200 RPM, 10 RPS |
+|  | Jamba Mini 2 | `jamba-mini-2` | 256K | 200 RPM, 10 RPS |
+| DeepSeek | deepseek-chat (V3.2) | `deepseek-chat-v3-2` | 128K | Dynamic |
+|  | deepseek-reasoner (R1) | `deepseek-reasoner-r1` | 128K | Dynamic |
+| Nebius | Meta-Llama-3.3-70B-Instruct | `meta-llama-3-3-70b-instruct` | 128K | Tier-based |
+|  | Qwen3-235B-A22B | `qwen3-235b-a22b` | 128K | Tier-based |
 <!-- END_BEST_MODELS -->
 
 
