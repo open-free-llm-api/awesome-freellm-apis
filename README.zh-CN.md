@@ -45,7 +45,7 @@
 ### Claude Code (cc)
 
 ```bash
-export ANTHROPIC_BASE_URL="https://api.openai.com/v1"  # 或 Groq, OpenRouter, NVIDIA NIM
+export ANTHROPIC_BASE_URL="https://api.groq.com/openai/v1"  # Groq — 免费，无需信用卡
 export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
 # Claude Code 现在通过免费后端路由
 ```
@@ -54,15 +54,15 @@ export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
 
 ```
 Settings → Models → Add Model
-  Model name: gpt-oss-120b
-  Base URL: https://api.openai.com/v1
+  Model name: llama-3.3-70b-versatile
+  Base URL: https://api.groq.com/openai/v1
   API key: your-free-api-key
 ```
 
 ### Codex CLI
 
 ```bash
-export OPENAI_BASE_URL="https://api.openai.com/v1"
+export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
 export OPENAI_API_KEY="your-api-key-here"
 ```
 
@@ -72,12 +72,12 @@ export OPENAI_API_KEY="your-api-key-here"
 from openai import OpenAI
 
 client = OpenAI(
-    base_url="https://api.openai.com/v1",  # 换成以下任意提供商
+    base_url="https://api.groq.com/openai/v1",  # 提供商列表见下方 Quick Reference
     api_key="YOUR_FREE_API_KEY",
 )
 
 response = client.chat.completions.create(
-    model="gpt-oss-120b",
+    model="llama-3.3-70b-versatile",
     messages=[{"role": "user", "content": "你好！"}],
 )
 print(response.choices[0].message.content)

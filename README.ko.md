@@ -45,7 +45,7 @@
 ### Claude Code (cc)
 
 ```bash
-export ANTHROPIC_BASE_URL="https://api.openai.com/v1"  # 또는 Groq, OpenRouter, NVIDIA NIM
+export ANTHROPIC_BASE_URL="https://api.groq.com/openai/v1"  # Groq — 무료, 신용카드 불필요
 export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
 # Claude Code가 무료 백엔드를 통해 라우팅됨
 ```
@@ -54,15 +54,15 @@ export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
 
 ```
 Settings → Models → Add Model
-  Model name: gpt-oss-120b
-  Base URL: https://api.openai.com/v1
+  Model name: llama-3.3-70b-versatile
+  Base URL: https://api.groq.com/openai/v1
   API key: your-free-api-key
 ```
 
 ### Codex CLI
 
 ```bash
-export OPENAI_BASE_URL="https://api.openai.com/v1"
+export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
 export OPENAI_API_KEY="your-api-key-here"
 ```
 
@@ -77,7 +77,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="gpt-oss-120b",
+    model="llama-3.3-70b-versatile",
     messages=[{"role": "user", "content": "안녕하세요!"}],
 )
 print(response.choices[0].message.content)

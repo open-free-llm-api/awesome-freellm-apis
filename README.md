@@ -45,7 +45,7 @@ All providers below expose an **OpenAI-compatible endpoint** (or, for Gemini, a 
 ### Claude Code (cc)
 
 ```bash
-export ANTHROPIC_BASE_URL="https://api.openai.com/v1"  # or Groq, OpenRouter, NVIDIA NIM
+export ANTHROPIC_BASE_URL="https://api.groq.com/openai/v1"  # Groq — free, no credit card
 export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
 # Claude Code now routes through the free backend
 ```
@@ -54,15 +54,15 @@ export ANTHROPIC_AUTH_TOKEN="your-api-key-here"
 
 ```
 Settings → Models → Add Model
-  Model name: gpt-oss-120b
-  Base URL: https://api.openai.com/v1
+  Model name: llama-3.3-70b-versatile
+  Base URL: https://api.groq.com/openai/v1
   API key: your-free-api-key
 ```
 
 ### Codex CLI
 
 ```bash
-export OPENAI_BASE_URL="https://api.openai.com/v1"
+export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
 export OPENAI_API_KEY="your-api-key-here"
 ```
 
@@ -72,12 +72,12 @@ export OPENAI_API_KEY="your-api-key-here"
 from openai import OpenAI
 
 client = OpenAI(
-    base_url="https://api.openai.com/v1",  # swap to any provider below
+    base_url="https://api.groq.com/openai/v1",  # see Quick Reference below for all providers
     api_key="YOUR_FREE_API_KEY",
 )
 
 response = client.chat.completions.create(
-    model="gpt-oss-120b",
+    model="llama-3.3-70b-versatile",
     messages=[{"role": "user", "content": "Hello!"}],
 )
 print(response.choices[0].message.content)
