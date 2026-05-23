@@ -157,77 +157,77 @@ print(response.choices[0].message.content)
 ## 各提供商最佳免费模型
 
 <!-- BEGIN_BEST_MODELS -->
-| Provider | Best Free Model | Max Context | Best For |
-|---|---|---|---|
-| AI21 Labs | Jamba Large 1.7 | 256K | chat |
-|  | Jamba Mini 2 | 256K | chat |
-| Aion Labs | aion-2.0 | 131K | chat |
-|  | aion-1.0 | 131K | chat |
-|  | aion-1.0-mini | 131K | chat |
-| Alibaba Cloud Model Studio | Qwen3-Max | 128K | chat |
-|  | Qwen3-Plus | 1M | chat |
-|  | Qwen3-VL-Plus | 128K | chat |
-| Cerebras | llama-3.3-70b | 128K | chat |
-|  | gpt-oss-120b | 128K | chat, coding |
-|  | qwen-3-235b-a22b-instruct-2507 | 131K | chat |
-| Cloudflare Workers AI | @cf/meta/llama-3.3-70b-instruct-fp8-fast | 131K | chat |
-|  | @cf/meta/llama-3.1-8b-instruct-fp8-fast | 131K | chat |
-|  | @cf/meta/llama-3.2-11b-vision-instruct | 131K | chat, vision |
-| Cohere | Command A (111B) | 256K | chat |
-|  | Command R+ | 128K | chat |
-|  | Command R7B | 128K | chat |
-| DeepSeek | deepseek-chat (V3.2) | 128K | chat |
-|  | deepseek-reasoner (R1) | 128K | chat, reasoning |
-| GitHub Models | gpt-5 | 200K | chat |
-|  | gpt-4.1 | 1M | chat |
-|  | gpt-4.1-mini | 1M | chat |
-| Google Gemini | Gemini 2.5 Pro | 2M | chat |
-|  | Gemini 2.5 Flash | 1M | chat |
-|  | Gemini 2.5 Flash-Lite | 1M | chat |
-| Groq | llama-3.3-70b-versatile | 131K | chat |
-|  | llama-3.1-8b-instant | 131K | chat |
-|  | llama-4-maverick-17b-128e-instruct | 131K | chat |
-| Hugging Face | Meta-Llama-3.1-8B-Instruct | 128K | chat |
-|  | Mistral-7B-Instruct-v0.3 | 32K | chat |
-|  | Mixtral-8x7B-Instruct-v0.1 | 32K | chat |
-| Kilo Code | x-ai/grok-code-fast-1:free | 256K | chat, coding |
-|  | minimax/minimax-m2.5:free | 196K | chat |
-|  | bytedance-seed/dola-seed-2.0-pro:free | 131K | chat |
-| LLM7.io | deepseek-r1-0528 | 131K | chat, reasoning |
-|  | deepseek-v3-0324 | 131K | chat |
-|  | gpt-4o-mini | 131K | chat |
-| Mistral AI | Mistral Small 4 | 256K | chat |
-|  | Mistral Medium 3 | 128K | chat |
-|  | Mistral Large 3 | 256K | chat |
-| ModelScope | Qwen/Qwen3.5-35B-A3B | 131K | chat |
-|  | Qwen/Qwen3.5-27B | 131K | chat |
-|  | Qwen/Qwen-Image | 131K | chat |
-| Nebius | Meta-Llama-3.3-70B-Instruct | 128K | chat |
-|  | Qwen3-235B-A22B | 128K | chat |
-| Nscale | Llama-3.3-70B-Instruct | 128K | chat |
-|  | Qwen3-Coder-30B-A3B-Instruct | 256K | chat, coding |
-|  | DeepSeek-R1-Distill-Llama-70B | 128K | chat, reasoning |
-| NVIDIA NIM | moonshotai/kimi-k2.6 | 262K | chat |
-|  | z-ai/glm-5.1 | 202K | chat |
-|  | qwen/qwen3.5-397b-a17b | 262K | chat |
-| Ollama Cloud | gpt-oss:120b-cloud | 128K | chat, coding |
-|  | deepseek-v3.1:671b-cloud | 128K | chat |
-|  | qwen3-coder:480b-cloud | 128K | chat, coding |
-| OpenRouter | Owl Alpha | 1M | chat |
-|  | NVIDIA: Nemotron 3 Super (free) | 1M | chat, reasoning |
-|  | Poolside: Laguna M.1 (free) | 131K | chat |
-| OVHcloud AI Endpoints | Qwen2.5-VL-72B-Instruct | 128K | chat |
-|  | Mistral-Nemo-Instruct-2407 | 128K | chat |
-|  | Qwen3Guard-Gen-8B | 32K | chat |
-| SiliconFlow | deepseek-ai/DeepSeek-R1-Distill-Qwen-7B | 131K | chat, reasoning |
-|  | deepseek-ai/DeepSeek-OCR | 131K | chat |
-|  | Abbreviation | 131K | chat |
-| xAI | grok-4.3 | 1M | chat |
-|  | grok-4.1-fast | 2M | chat |
-|  | grok-3-mini | 131K | chat |
-| Z AI (Zhipu AI) | GLM-4.7-Flash | 200K | chat |
-|  | GLM-4.5-Flash | 128K | chat |
-|  | GLM-4.6V-Flash | 128K | chat |
+| Provider | Model Name | Model ID | Context | Best For |
+|---|---|---|---|---|
+| AI21 Labs | Jamba Large 1.7 | `jamba-large-1-7` | 256K | chat |
+|  | Jamba Mini 2 | `jamba-mini-2` | 256K | chat |
+| Aion Labs | aion-2.0 | `aion-2-0` | 131K | chat |
+|  | aion-1.0 | `aion-1-0` | 131K | chat |
+|  | aion-1.0-mini | `aion-1-0-mini` | 131K | chat |
+| Alibaba Cloud Model Studio | Qwen3-Max | `qwen3-max` | 128K | chat |
+|  | Qwen3-Plus | `qwen3-plus` | 1M | chat |
+|  | Qwen3-VL-Plus | `qwen3-vl-plus` | 128K | chat |
+| Cerebras | llama-3.3-70b | `llama-3-3-70b` | 128K | chat |
+|  | gpt-oss-120b | `gpt-oss-120b` | 128K | chat, coding |
+|  | qwen-3-235b-a22b-instruct-2507 | `qwen-3-235b-a22b-instruct-2507` | 131K | chat |
+| Cloudflare Workers AI | @cf/meta/llama-3.3-70b-instruct-fp8-fast | `cf-meta-llama-3-3-70b-instruct-fp8-fast` | 131K | chat |
+|  | @cf/meta/llama-3.1-8b-instruct-fp8-fast | `cf-meta-llama-3-1-8b-instruct-fp8-fast` | 131K | chat |
+|  | @cf/meta/llama-3.2-11b-vision-instruct | `cf-meta-llama-3-2-11b-vision-instruct` | 131K | chat, vision |
+| Cohere | Command A (111B) | `command-a-111b` | 256K | chat |
+|  | Command R+ | `command-r` | 128K | chat |
+|  | Command R7B | `command-r7b` | 128K | chat |
+| DeepSeek | deepseek-chat (V3.2) | `deepseek-chat-v3-2` | 128K | chat |
+|  | deepseek-reasoner (R1) | `deepseek-reasoner-r1` | 128K | chat, reasoning |
+| GitHub Models | gpt-5 | `gpt-5` | 200K | chat |
+|  | gpt-4.1 | `gpt-4-1` | 1M | chat |
+|  | gpt-4.1-mini | `gpt-4-1-mini` | 1M | chat |
+| Google Gemini | Gemini 2.5 Pro | `gemini-2-5-pro` | 2M | chat |
+|  | Gemini 2.5 Flash | `gemini-2-5-flash` | 1M | chat |
+|  | Gemini 2.5 Flash-Lite | `gemini-2-5-flash-lite` | 1M | chat |
+| Groq | llama-3.3-70b-versatile | `llama-3-3-70b-versatile` | 131K | chat |
+|  | llama-3.1-8b-instant | `llama-3-1-8b-instant` | 131K | chat |
+|  | llama-4-maverick-17b-128e-instruct | `llama-4-maverick-17b-128e-instruct` | 131K | chat |
+| Hugging Face | Meta-Llama-3.1-8B-Instruct | `meta-llama-3-1-8b-instruct` | 128K | chat |
+|  | Mistral-7B-Instruct-v0.3 | `mistral-7b-instruct-v0-3` | 32K | chat |
+|  | Mixtral-8x7B-Instruct-v0.1 | `mixtral-8x7b-instruct-v0-1` | 32K | chat |
+| Kilo Code | x-ai/grok-code-fast-1:free | `x-ai-grok-code-fast-1-free` | 256K | chat, coding |
+|  | minimax/minimax-m2.5:free | `minimax-minimax-m2-5-free` | 196K | chat |
+|  | bytedance-seed/dola-seed-2.0-pro:free | `bytedance-seed-dola-seed-2-0-pro-free` | 131K | chat |
+| LLM7.io | deepseek-r1-0528 | `deepseek-r1-0528` | 131K | chat, reasoning |
+|  | deepseek-v3-0324 | `deepseek-v3-0324` | 131K | chat |
+|  | gpt-4o-mini | `gpt-4o-mini` | 131K | chat |
+| Mistral AI | Mistral Small 4 | `mistral-small-4` | 256K | chat |
+|  | Mistral Medium 3 | `mistral-medium-3` | 128K | chat |
+|  | Mistral Large 3 | `mistral-large-3` | 256K | chat |
+| ModelScope | Qwen/Qwen3.5-35B-A3B | `qwen-qwen3-5-35b-a3b` | 131K | chat |
+|  | Qwen/Qwen3.5-27B | `qwen-qwen3-5-27b` | 131K | chat |
+|  | Qwen/Qwen-Image | `qwen-qwen-image` | 131K | chat |
+| Nebius | Meta-Llama-3.3-70B-Instruct | `meta-llama-3-3-70b-instruct` | 128K | chat |
+|  | Qwen3-235B-A22B | `qwen3-235b-a22b` | 128K | chat |
+| Nscale | Llama-3.3-70B-Instruct | `llama-3-3-70b-instruct` | 128K | chat |
+|  | Qwen3-Coder-30B-A3B-Instruct | `qwen3-coder-30b-a3b-instruct` | 256K | chat, coding |
+|  | DeepSeek-R1-Distill-Llama-70B | `deepseek-r1-distill-llama-70b` | 128K | chat, reasoning |
+| NVIDIA NIM | moonshotai/kimi-k2.6 | `moonshotai/kimi-k2.6` | 262K | chat |
+|  | z-ai/glm-5.1 | `z-ai/glm-5.1` | 202K | chat |
+|  | qwen/qwen3.5-397b-a17b | `qwen/qwen3.5-397b-a17b` | 262K | chat |
+| Ollama Cloud | gpt-oss:120b-cloud | `gpt-oss-120b-cloud` | 128K | chat, coding |
+|  | deepseek-v3.1:671b-cloud | `deepseek-v3-1-671b-cloud` | 128K | chat |
+|  | qwen3-coder:480b-cloud | `qwen3-coder-480b-cloud` | 128K | chat, coding |
+| OpenRouter | Owl Alpha | `openrouter/owl-alpha` | 1M | chat |
+|  | NVIDIA: Nemotron 3 Super (free) | `nvidia/nemotron-3-super-120b-a12b:free` | 1M | chat, reasoning |
+|  | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 131K | chat |
+| OVHcloud AI Endpoints | Qwen2.5-VL-72B-Instruct | `qwen2-5-vl-72b-instruct` | 128K | chat |
+|  | Mistral-Nemo-Instruct-2407 | `mistral-nemo-instruct-2407` | 128K | chat |
+|  | Qwen3Guard-Gen-8B | `qwen3guard-gen-8b` | 32K | chat |
+| SiliconFlow | deepseek-ai/DeepSeek-R1-Distill-Qwen-7B | `deepseek-ai-deepseek-r1-distill-qwen-7b` | 131K | chat, reasoning |
+|  | deepseek-ai/DeepSeek-OCR | `deepseek-ai-deepseek-ocr` | 131K | chat |
+|  | Abbreviation | `abbreviation` | 131K | chat |
+| xAI | grok-4.3 | `grok-4-3` | 1M | chat |
+|  | grok-4.1-fast | `grok-4-1-fast` | 2M | chat |
+|  | grok-3-mini | `grok-3-mini` | 131K | chat |
+| Z AI (Zhipu AI) | GLM-4.7-Flash | `glm-4-7-flash` | 200K | chat |
+|  | GLM-4.5-Flash | `glm-4-5-flash` | 128K | chat |
+|  | GLM-4.6V-Flash | `glm-4-6v-flash` | 128K | chat |
 <!-- END_BEST_MODELS -->
 
 
