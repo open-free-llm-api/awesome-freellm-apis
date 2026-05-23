@@ -38,9 +38,21 @@
 
 ---
 
+## 3단계로 시작하기
+
+1. **제공업체 선택** — 아래 [Provider Directory](#provider-directory)를 보세요. **Groq**부터 시작하는 것을 추천（신용카드 불필요, 30 RPM 무료).
+2. **API 키 발급** — 아래 [Quick Reference](#quick-reference--base-urls--api-keys)의 [Get Key →] 링크를 클릭해서 가입（대부분 이메일만 필요), 키를 복사. 1분도 안 걸립니다.
+3. **코드에 붙여넣기** — base URL + model ID를 복사해서 아래 [빠른 시작](#빠른-시작--30초-만에-무료-api-사용하기) 예제에 붙여넣으세요.
+
+도구 설정이 필요하세요? [Claude Code](https://freellm.net/config/#claude-code) · [Cursor](https://freellm.net/config/#cursor) · [Codex](https://freellm.net/config/#codex) · [OpenHuman](https://freellm.net/config/#openhuman) · [OpenCode](https://freellm.net/config/#opencode) · [OpenClaw](https://freellm.net/config/#openclaw) — [freellm.net/config/](https://freellm.net/config/)에서 원클릭 설정.
+
+
+
 ## 빠른 시작 — 30초 만에 무료 API 사용하기
 
-아래 모든 제공업체는 **OpenAI 호환 엔드포인트**를 제공합니다. `baseURL` + `apiKey`를 지원하는 모든 도구에서 작동합니다.
+**API를 처음 써보세요?** 가장 간단한 방법: [console.groq.com/keys](https://console.groq.com/keys)에 접속, 이메일만으로 가입（신용카드 불필요), 무료 키를 복사해서 아래 예제에 붙여넣으세요. 1분도 안 걸려 실행할 수 있습니다.
+
+아래 모든 제공업체는 **OpenAI 호환 엔드포인트**를 제공합니다. `baseURL` + `apiKey`를 지원하는 모든 도구에서 작동합니다 — base URL과 키만 바꾸면 됩니다.
 
 ### Python (OpenAI SDK)
 
@@ -87,7 +99,21 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 # 참고: OpenRouter Anthropic 모델은 $10 충전 필요 (1회)
 ```
 
-> **모든 제공업체의 Base URL 및 API 키 링크**는 아래 [Quick Reference](#quick-reference--base-urls--api-keys) 참조. Aider, Cline, OpenCode, OpenHuman 등 도구 설정은 **[freellm.net/config/](https://freellm.net/config/)** 에서.
+### 다른 도구 사용하기
+
+대부분의 AI 개발 도구는 커스텀 API 엔드포인트를 지원합니다. 무료 키를 받은 후:
+
+- **Claude Code** — `ANTHROPIC_BASE_URL` + `ANTHROPIC_AUTH_TOKEN` 설정.[단계별 가이드 →](https://freellm.net/config/#claude-code)
+- **Cursor** — Settings → Models → Add Model.[단계별 가이드 →](https://freellm.net/config/#cursor)
+- **Codex CLI** — `OPENAI_BASE_URL` + `OPENAI_API_KEY` 설정.[단계별 가이드 →](https://freellm.net/config/#codex)
+- **OpenHuman** — `config.toml` 편집.[단계별 가이드 →](https://freellm.net/config/#openhuman)
+- **Aider** — `.aider.conf.yml` 편집.[단계별 가이드 →](https://freellm.net/config/#aider)
+- **Cline**（VS Code）— API provider 설정.[단계별 가이드 →](https://freellm.net/config/#cline)
+- **Open WebUI** — Settings → Connections.[단계별 가이드 →](https://freellm.net/config/#open-webui)
+
+더 많은 즉시 사용 가능한 설정은 **[freellm.net/config/](https://freellm.net/config/)** 에서.
+
+> **모든 제공업체의 Base URL 및 API 키 링크**는 아래 [Quick Reference](#quick-reference--base-urls--api-keys) 참조.
 
 
 ---

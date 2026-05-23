@@ -38,9 +38,21 @@
 
 ---
 
+## 三步上手
+
+1. **選一個提供商** — 看下方 [Provider Directory](#provider-directory)。推薦從 **Groq** 開始（免信用卡，30 RPM 免費）。
+2. **獲取 API Key** — 點下方 [Quick Reference](#quick-reference--base-urls--api-keys) 裡任意一個 [Get Key →] 連結，註冊（大多只需信箱），複製 key。不到 1 分鐘。
+3. **填入程式碼** — 複製 base URL + model ID，貼到下邊的 [Quick Start](#quick-start--use-any-free-api-in-30-seconds) 範例。
+
+配置具體工具？[Claude Code](https://freellm.net/config/#claude-code) · [Cursor](https://freellm.net/config/#cursor) · [Codex](https://freellm.net/config/#codex) · [OpenHuman](https://freellm.net/config/#openhuman) · [OpenCode](https://freellm.net/config/#opencode) · [OpenClaw](https://freellm.net/config/#openclaw) — 一鍵配置在 [freellm.net/config/](https://freellm.net/config/)。
+
+
+
 ## 快速上手 — 30 秒接入免費 API
 
-以下所有提供商都暴露了 **OpenAI 相容介面**。任何接受 `baseURL` + `apiKey` 的工具都能直接用。
+**沒用過 API？** 最簡單的方式：打開 [console.groq.com/keys](https://console.groq.com/keys)，用信箱註冊（無需信用卡），複製免費 key，貼到下面任意範例。不到一分鐘就能跑起來。
+
+以下所有提供商都暴露了 **OpenAI 相容介面**。任何接受 `baseURL` + `apiKey` 的工具都能直接用 — 替換 base URL 和 key 即可。
 
 ### Python (OpenAI SDK)
 
@@ -87,7 +99,21 @@ export ANTHROPIC_API_KEY=""                       # 必須為空
 # 注意: OpenRouter 的 Anthropic 模型需儲值 $10（一次性）
 ```
 
-> **所有提供商的 Base URL 和 API Key 連結** 見下方 [Quick Reference](#quick-reference--base-urls--api-keys)。Aider、Cline、OpenCode、OpenHuman 等工具的即用配置見 **[freellm.net/config/](https://freellm.net/config/)**。
+### 其他工具？
+
+大多數 AI 開發工具都接受自訂 API 端點 — 拿到免費 key 後：
+
+- **Claude Code** — 設 `ANTHROPIC_BASE_URL` + `ANTHROPIC_AUTH_TOKEN`。[詳細配置 →](https://freellm.net/config/#claude-code)
+- **Cursor** — Settings → Models → Add Model。[詳細配置 →](https://freellm.net/config/#cursor)
+- **Codex CLI** — 設 `OPENAI_BASE_URL` + `OPENAI_API_KEY`。[詳細配置 →](https://freellm.net/config/#codex)
+- **OpenHuman** — 編輯 `config.toml`。[詳細配置 →](https://freellm.net/config/#openhuman)
+- **Aider** — 編輯 `.aider.conf.yml`。[詳細配置 →](https://freellm.net/config/#aider)
+- **Cline**（VS Code）— API provider 設定。[詳細配置 →](https://freellm.net/config/#cline)
+- **Open WebUI** — Settings → Connections。[詳細配置 →](https://freellm.net/config/#open-webui)
+
+更多即用配置在 **[freellm.net/config/](https://freellm.net/config/)**。
+
+> **所有提供商的 Base URL 和 API Key 連結** 見下方 [Quick Reference](#quick-reference--base-urls--api-keys)。
 
 
 ---

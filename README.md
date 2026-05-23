@@ -38,9 +38,21 @@ This repo is a **structured, machine-readable directory** of every free LLM API 
 
 ---
 
+## How to Use — 3 Steps
+
+1. **Pick a provider** — see [Provider Directory](#provider-directory) below. Start with **Groq** (no credit card, 30 RPM free).
+2. **Get your API key** — click any [Get Key →](#quick-reference--base-urls--api-keys) link below, sign up (most need just an email), and copy your key. Takes < 1 minute.
+3. **Plug it in** — copy the base URL + model ID, paste into the [Quick Start](#quick-start--use-any-free-api-in-30-seconds) examples below.
+
+Configuring a specific tool? [Claude Code](https://freellm.net/config/#claude-code) · [Cursor](https://freellm.net/config/#cursor) · [Codex](https://freellm.net/config/#codex) · [OpenHuman](https://freellm.net/config/#openhuman) · [OpenCode](https://freellm.net/config/#opencode) · [OpenClaw](https://freellm.net/config/#openclaw) — one-click configs at [freellm.net/config/](https://freellm.net/config/).
+
+
+
 ## Quick Start — Use Any Free API in 30 Seconds
 
-All providers below expose an **OpenAI-compatible endpoint**. Any tool that accepts `baseURL` + `apiKey` just works.
+**Never used an API before?** Here's the simplest path: go to [console.groq.com/keys](https://console.groq.com/keys), sign up with just an email (no credit card), copy your free key, and paste it into any example below. You'll be running in under a minute.
+
+All providers below expose an **OpenAI-compatible endpoint**. Any tool that accepts `baseURL` + `apiKey` works — just swap the base URL and key.
 
 ### Python (OpenAI SDK)
 
@@ -87,7 +99,21 @@ export ANTHROPIC_API_KEY=""                       # must be empty
 # Note: OpenRouter Anthropic models need $10 top-up (one-time)
 ```
 
-> **All providers, base URLs, and API key links** are in the [Quick Reference](#quick-reference--base-urls--api-keys) below. For ready-to-copy configs for Aider, Cline, OpenCode, OpenHuman & more, visit **[freellm.net/config/](https://freellm.net/config/)**.
+### Using Other Tools?
+
+Most AI dev tools accept custom API endpoints — just point them at any provider above. Grab your free key, then:
+
+- **Claude Code** — set `ANTHROPIC_BASE_URL` + `ANTHROPIC_AUTH_TOKEN`. [Step-by-step →](https://freellm.net/config/#claude-code)
+- **Cursor** — Settings → Models → Add Model. [Step-by-step →](https://freellm.net/config/#cursor)
+- **Codex CLI** — set `OPENAI_BASE_URL` + `OPENAI_API_KEY`. [Step-by-step →](https://freellm.net/config/#codex)
+- **OpenHuman** — edit `config.toml`. [Step-by-step →](https://freellm.net/config/#openhuman)
+- **Aider** — edit `.aider.conf.yml`. [Step-by-step →](https://freellm.net/config/#aider)
+- **Cline** (VS Code) — API provider settings. [Step-by-step →](https://freellm.net/config/#cline)
+- **Open WebUI** — Settings → Connections. [Step-by-step →](https://freellm.net/config/#open-webui)
+
+More ready-to-copy configs at **[freellm.net/config/](https://freellm.net/config/)**.
+
+> **All providers, base URLs, and API key links** are in the [Quick Reference](#quick-reference--base-urls--api-keys) below.
 
 
 ---
