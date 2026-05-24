@@ -14,7 +14,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 資料每日從 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> 自動更新</strong> — 最後更新: 2026-05-23</p>
+  <p align="center"><strong>🔄 資料每日從 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> 自動更新</strong> — 最後更新: 2026-05-24</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -193,9 +193,9 @@ export ANTHROPIC_API_KEY=""                       # 必須為空
 | OpenRouter | <a href="https://freellm.net/models/openrouter/openrouter-owl-alpha/" target="_blank" rel="noopener">Owl Alpha</a> | `openrouter/owl-alpha` | 1M | See provider |
 |  | <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-super-120b-a12b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Super (free)</a> | `nvidia/nemotron-3-super-120b-a12b:free` | 1M | See provider |
 |  | <a href="https://freellm.net/models/openrouter/poolside-laguna-m.1/" target="_blank" rel="noopener">Poolside: Laguna M.1 (free)</a> | `poolside/laguna-m.1:free` | 131K | See provider |
-| NVIDIA NIM | <a href="https://freellm.net/models/nvidia-nim/moonshotai-kimi-k2-6/" target="_blank" rel="noopener">moonshotai/kimi-k2.6</a> | `moonshotai/kimi-k2.6` | 262K | Up to 40 RPM |
-|  | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-1/" target="_blank" rel="noopener">z-ai/glm-5.1</a> | `z-ai/glm-5.1` | 202K | Up to 40 RPM |
+| NVIDIA NIM | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-1/" target="_blank" rel="noopener">z-ai/glm-5.1</a> | `z-ai/glm-5.1` | 202K | Up to 40 RPM |
 |  | <a href="https://freellm.net/models/nvidia-nim/qwen-qwen3-5-397b-a17b/" target="_blank" rel="noopener">qwen/qwen3.5-397b-a17b</a> | `qwen/qwen3.5-397b-a17b` | 262K | Up to 40 RPM |
+|  | <a href="https://freellm.net/models/nvidia-nim/qwen-qwen3-5-122b-a10b/" target="_blank" rel="noopener">qwen/qwen3.5-122b-a10b</a> | `qwen/qwen3.5-122b-a10b` | 262K | Up to 40 RPM |
 | GitHub Models | <a href="https://freellm.net/models/github-models/gpt-5/" target="_blank" rel="noopener">gpt-5</a> | `gpt-5` | 200K | 10 RPM, 50 RPD |
 |  | <a href="https://freellm.net/models/github-models/gpt-4-1/" target="_blank" rel="noopener">gpt-4.1</a> | `gpt-4-1` | 1M | 10 RPM, 50 RPD |
 |  | <a href="https://freellm.net/models/github-models/gpt-4-1-mini/" target="_blank" rel="noopener">gpt-4.1-mini</a> | `gpt-4-1-mini` | 1M | 15 RPM, 150 RPD |
@@ -268,16 +268,16 @@ export ANTHROPIC_API_KEY=""                       # 必須為空
 <!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-| <a href="https://freellm.net/models/openrouter/openrouter-owl-alpha/" target="_blank" rel="noopener">Owl Alpha</a> | OpenRouter | 1M | 1137B tokens |
-| <a href="https://freellm.net/models/nvidia-nim/moonshotai-kimi-k2-6/" target="_blank" rel="noopener">moonshotai/kimi-k2.6</a> | NVIDIA NIM | 262K | 718B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-super-120b-a12b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Super (free)</a> | OpenRouter | 1M | 612B tokens |
-| <a href="https://freellm.net/models/openrouter/poolside-laguna-m.1/" target="_blank" rel="noopener">Poolside: Laguna M.1 (free)</a> | OpenRouter | 131K | 262B tokens |
-| <a href="https://freellm.net/models/openrouter/openai-gpt-oss-120b/" target="_blank" rel="noopener">OpenAI: gpt-oss-120b (free)</a> | OpenRouter | 131K | 154B tokens |
-| <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-1/" target="_blank" rel="noopener">z-ai/glm-5.1</a> | NVIDIA NIM | 202K | 120B tokens |
-| <a href="https://freellm.net/models/nvidia-nim/qwen-qwen3-5-397b-a17b/" target="_blank" rel="noopener">qwen/qwen3.5-397b-a17b</a> | NVIDIA NIM | 262K | 98B tokens |
-| <a href="https://freellm.net/models/openrouter/z-ai-glm-4.5-air/" target="_blank" rel="noopener">Z.ai: GLM 4.5 Air (free)</a> | OpenRouter | 131K | 89B tokens |
-| <a href="https://freellm.net/models/openrouter/deepseek-deepseek-v4-flash/" target="_blank" rel="noopener">DeepSeek: DeepSeek V4 Flash (free)</a> | OpenRouter | 1M | 72B tokens |
-| <a href="https://freellm.net/models/openrouter/arcee-ai-trinity-large-thinking/" target="_blank" rel="noopener">Arcee AI: Trinity Large Thinking (free)</a> | OpenRouter | 262K | 57B tokens |
+| <a href="https://freellm.net/models/openrouter/openrouter-owl-alpha/" target="_blank" rel="noopener">Owl Alpha</a> | OpenRouter | 1M | 1191B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-super-120b-a12b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Super (free)</a> | OpenRouter | 1M | 629B tokens |
+| <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-1/" target="_blank" rel="noopener">z-ai/glm-5.1</a> | NVIDIA NIM | 202K | 354B tokens |
+| <a href="https://freellm.net/models/openrouter/poolside-laguna-m.1/" target="_blank" rel="noopener">Poolside: Laguna M.1 (free)</a> | OpenRouter | 131K | 268B tokens |
+| <a href="https://freellm.net/models/openrouter/openai-gpt-oss-120b/" target="_blank" rel="noopener">OpenAI: gpt-oss-120b (free)</a> | OpenRouter | 131K | 160B tokens |
+| <a href="https://freellm.net/models/nvidia-nim/qwen-qwen3-5-397b-a17b/" target="_blank" rel="noopener">qwen/qwen3.5-397b-a17b</a> | NVIDIA NIM | 262K | 94B tokens |
+| <a href="https://freellm.net/models/openrouter/z-ai-glm-4.5-air/" target="_blank" rel="noopener">Z.ai: GLM 4.5 Air (free)</a> | OpenRouter | 131K | 94B tokens |
+| <a href="https://freellm.net/models/openrouter/arcee-ai-trinity-large-thinking/" target="_blank" rel="noopener">Arcee AI: Trinity Large Thinking (free)</a> | OpenRouter | 262K | 62B tokens |
+| <a href="https://freellm.net/models/openrouter/deepseek-deepseek-v4-flash/" target="_blank" rel="noopener">DeepSeek: DeepSeek V4 Flash (free)</a> | OpenRouter | 1M | 59B tokens |
+| <a href="https://freellm.net/models/openrouter/poolside-laguna-xs.2/" target="_blank" rel="noopener">Poolside: Laguna XS.2 (free)</a> | OpenRouter | 131K | 49B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -315,6 +315,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>資料每日自動更新 · 最後更新: <!-- AUTO_LAST_UPDATED -->
-2026-05-23
+2026-05-24
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
