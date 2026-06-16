@@ -127,6 +127,7 @@ These providers offer a **permanently free tier** — no credit card required fo
 <!-- BEGIN_PERMANENT_FREE -->
 | Provider | Free Models | Credit Card? | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
+| Api.Airforce | 46 | No | 1M | text, image, audio, video | <a href="https://api.airforce" target="_blank" rel="noopener">→</a> |
 | NVIDIA NIM | 19 | Phone verification | 1M | image, text | <a href="https://build.nvidia.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
 | GitHub Models | 10 | No | 1M | text | <a href="https://github.com/marketplace/models" target="_blank" rel="noopener">→</a> |
 | Cloudflare Workers AI | 8 | No | 10M | image, text | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">→</a> |
