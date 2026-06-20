@@ -14,7 +14,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a>에서 매일 자동 업데이트</strong> — 마지막 업데이트: 2026-06-19</p>
+  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a>에서 매일 자동 업데이트</strong> — 마지막 업데이트: 2026-06-20</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -198,12 +198,12 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 <!-- BEGIN_BEST_MODELS -->
 | Provider | Best Free Model | Model ID | Max Context | Rate Limit |
 |---|---|---|---|---|
-| NVIDIA NIM | <a href="https://freellm.net/models/nvidia-nim/01-ai-yi-large/" target="_blank" rel="noopener">01-ai/yi-large</a> | `01-ai/yi-large` | 131K | Up to 40 RPM |
-|  | <a href="https://freellm.net/models/nvidia-nim/adept-fuyu-8b/" target="_blank" rel="noopener">adept/fuyu-8b</a> | `adept/fuyu-8b` | 131K | Up to 40 RPM |
-|  | <a href="https://freellm.net/models/nvidia-nim/ai21labs-jamba-1-5-large-instruct/" target="_blank" rel="noopener">ai21labs/jamba-1.5-large-instruct</a> | `ai21labs/jamba-1.5-large-instruct` | 131K | Up to 40 RPM |
-| OpenRouter | <a href="https://freellm.net/models/openrouter/cohere-north-mini-code/" target="_blank" rel="noopener">Cohere: North Mini Code (free)</a> | `cohere/north-mini-code:free` | 256K | See provider |
+| NVIDIA NIM | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-1/" target="_blank" rel="noopener">z-ai/glm-5.1</a> | `z-ai/glm-5.1` | 202K | Up to 40 RPM |
+|  | <a href="https://freellm.net/models/nvidia-nim/moonshotai-kimi-k2-6/" target="_blank" rel="noopener">moonshotai/kimi-k2.6</a> | `moonshotai/kimi-k2.6` | 262K | Up to 40 RPM |
+|  | <a href="https://freellm.net/models/nvidia-nim/qwen-qwen3-5-397b-a17b/" target="_blank" rel="noopener">qwen/qwen3.5-397b-a17b</a> | `qwen/qwen3.5-397b-a17b` | 256K | Up to 40 RPM |
+| OpenRouter | <a href="https://freellm.net/models/openrouter/openrouter-owl-alpha/" target="_blank" rel="noopener">Owl Alpha</a> | `openrouter/owl-alpha` | 1M | See provider |
+|  | <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | `nvidia/nemotron-3-ultra-550b-a55b:free` | 1M | See provider |
 |  | <a href="https://freellm.net/models/openrouter/nex-agi-nex-n2-pro/" target="_blank" rel="noopener">Nex AGI: Nex-N2-Pro (free)</a> | `nex-agi/nex-n2-pro:free` | 262K | See provider |
-|  | <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-content-safety/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Content Safety (free)</a> | `nvidia/nemotron-3.5-content-safety:free` | 128K | See provider |
 | Groq | <a href="https://freellm.net/models/groq/llama-3-3-70b-versatile/" target="_blank" rel="noopener">llama-3.3-70b-versatile</a> | `llama-3-3-70b-versatile` | 131K | 30 RPM, 1,000 RPD |
 |  | <a href="https://freellm.net/models/groq/llama-3-1-8b-instant/" target="_blank" rel="noopener">llama-3.1-8b-instant</a> | `llama-3-1-8b-instant` | 131K | 30 RPM, 1,000 RPD |
 |  | <a href="https://freellm.net/models/groq/llama-4-scout-17b-16e-instruct/" target="_blank" rel="noopener">llama-4-scout-17b-16e-instruct</a> | `llama-4-scout-17b-16e-instruct` | 131K | 30 RPM, 1,000 RPD |
@@ -283,16 +283,16 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 <!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-| <a href="https://freellm.net/models/openrouter/cohere-north-mini-code/" target="_blank" rel="noopener">Cohere: North Mini Code (free)</a> | OpenRouter | 256K | 0 tokens |
-| <a href="https://freellm.net/models/openrouter/nex-agi-nex-n2-pro/" target="_blank" rel="noopener">Nex AGI: Nex-N2-Pro (free)</a> | OpenRouter | 262K | 0 tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-content-safety/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Content Safety (free)</a> | OpenRouter | 128K | 0 tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 0 tokens |
-| <a href="https://freellm.net/models/openrouter/openrouter-owl-alpha/" target="_blank" rel="noopener">Owl Alpha</a> | OpenRouter | 1M | 0 tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Nano Omni (free)</a> | OpenRouter | 256K | 0 tokens |
-| <a href="https://freellm.net/models/openrouter/poolside-laguna-xs.2/" target="_blank" rel="noopener">Poolside: Laguna XS.2 (free)</a> | OpenRouter | 262K | 0 tokens |
-| <a href="https://freellm.net/models/openrouter/poolside-laguna-m.1/" target="_blank" rel="noopener">Poolside: Laguna M.1 (free)</a> | OpenRouter | 262K | 0 tokens |
-| <a href="https://freellm.net/models/openrouter/google-gemma-4-26b-a4b-it/" target="_blank" rel="noopener">Google: Gemma 4 26B A4B  (free)</a> | OpenRouter | 262K | 0 tokens |
-| <a href="https://freellm.net/models/openrouter/google-gemma-4-31b-it/" target="_blank" rel="noopener">Google: Gemma 4 31B (free)</a> | OpenRouter | 262K | 0 tokens |
+| <a href="https://freellm.net/models/openrouter/openrouter-owl-alpha/" target="_blank" rel="noopener">Owl Alpha</a> | OpenRouter | 1M | 2389B tokens |
+| <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-1/" target="_blank" rel="noopener">z-ai/glm-5.1</a> | NVIDIA NIM | 202K | 1012B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 711B tokens |
+| <a href="https://freellm.net/models/openrouter/nex-agi-nex-n2-pro/" target="_blank" rel="noopener">Nex AGI: Nex-N2-Pro (free)</a> | OpenRouter | 262K | 696B tokens |
+| <a href="https://freellm.net/models/nvidia-nim/moonshotai-kimi-k2-6/" target="_blank" rel="noopener">moonshotai/kimi-k2.6</a> | NVIDIA NIM | 262K | 597B tokens |
+| <a href="https://freellm.net/models/openrouter/poolside-laguna-m.1/" target="_blank" rel="noopener">Poolside: Laguna M.1 (free)</a> | OpenRouter | 262K | 582B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-super-120b-a12b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Super (free)</a> | OpenRouter | 1M | 360B tokens |
+| <a href="https://freellm.net/models/openrouter/openai-gpt-oss-120b/" target="_blank" rel="noopener">OpenAI: gpt-oss-120b (free)</a> | OpenRouter | 131K | 204B tokens |
+| <a href="https://freellm.net/models/openrouter/poolside-laguna-xs.2/" target="_blank" rel="noopener">Poolside: Laguna XS.2 (free)</a> | OpenRouter | 262K | 94B tokens |
+| <a href="https://freellm.net/models/openrouter/openai-gpt-oss-20b/" target="_blank" rel="noopener">OpenAI: gpt-oss-20b (free)</a> | OpenRouter | 131K | 59B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -330,6 +330,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>매일 자동 업데이트 · 마지막 업데이트: <!-- AUTO_LAST_UPDATED -->
-2026-06-19
+2026-06-20
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
