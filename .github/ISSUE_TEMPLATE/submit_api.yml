@@ -1,0 +1,65 @@
+name: Submit a Free LLM API
+description: Recommend a new free LLM API to be added to the list.
+title: "[API]: "
+labels: ["enhancement", "api-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new Free LLM API! 
+        Before submitting, please make sure the API offers a **genuine free tier** and is not purely a promotional post.
+  
+  - type: input
+    id: api_name
+    attributes:
+      label: API Name
+      description: The name of the API provider (e.g., Groq, OpenRouter).
+      placeholder: e.g., Groq
+    validations:
+      required: true
+      
+  - type: input
+    id: website
+    attributes:
+      label: Official Website / Documentation URL
+      description: Where can users learn more and get an API key?
+      placeholder: https://...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: free_quota
+    attributes:
+      label: Free Quota Details
+      description: Please describe the free limits (e.g., requests per minute, tokens per day).
+      placeholder: e.g., 30 requests per minute, 100k tokens per day
+    validations:
+      required: true
+
+  - type: textarea
+    id: models_supported
+    attributes:
+      label: Supported Models
+      description: Which notable models are available on the free tier?
+      placeholder: e.g., Llama 3 (8B, 70B), Mixtral 8x7B
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra_notes
+    attributes:
+      label: Additional Notes (Optional)
+      description: Any other information we should know? (e.g., requires credit card for verification, region restrictions)
+      
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: Submission Requirements
+      description: Please verify the following before submitting.
+      options:
+        - label: I confirm that this API has a genuine free tier that does not require immediate payment.
+          required: true
+        - label: I confirm this is not a purely promotional ad for a paid-only service.
+          required: true
+        - label: I have searched existing issues to ensure this API hasn't been submitted already.
+          required: true

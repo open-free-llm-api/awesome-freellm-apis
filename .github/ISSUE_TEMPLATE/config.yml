@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Have a general question?
+    url: https://github.com/open-free-llm-api/awesome-freellm-apis/discussions
+    about: Please ask questions in our GitHub Discussions rather than opening an issue.
