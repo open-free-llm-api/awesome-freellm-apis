@@ -13,6 +13,10 @@
   <a href="https://freellm.net/free-llm-api-keys/" target="_blank" rel="noopener">API 金鑰</a>
 </p>
 
+<p align="center">
+  <img alt="Provider Logos" src="assets/provider-logos-marquee.svg" width="100%" />
+</p>
+
   <!-- AUTO_UPDATE_BADGE -->
   <p align="center"><strong>🔄 資料每日從 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> 自動更新</strong> — 最後更新: 2026-06-29</p>
 <!-- END_AUTO_UPDATE_BADGE -->

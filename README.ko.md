@@ -13,6 +13,10 @@
   <a href="https://freellm.net/free-llm-api-keys/" target="_blank" rel="noopener">API 키</a>
 </p>
 
+<p align="center">
+  <img alt="Provider Logos" src="assets/provider-logos-marquee.svg" width="100%" />
+</p>
+
   <!-- AUTO_UPDATE_BADGE -->
   <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a>에서 매일 자동 업데이트</strong> — 마지막 업데이트: 2026-06-29</p>
 <!-- END_AUTO_UPDATE_BADGE -->
