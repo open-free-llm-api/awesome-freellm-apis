@@ -18,7 +18,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a>에서 매일 자동 업데이트</strong> — 마지막 업데이트: 2026-08-06</p>
+  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a>에서 매일 자동 업데이트</strong> — 마지막 업데이트: 2026-08-07</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -344,6 +344,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>매일 자동 업데이트 · 마지막 업데이트: <!-- AUTO_LAST_UPDATED -->
-2026-08-06
+2026-08-07
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
