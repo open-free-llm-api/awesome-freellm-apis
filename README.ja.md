@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>31プロバイダー、444+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
+  <p align="center"><strong>31プロバイダー、446+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> から毎日自動更新</strong> — 最終更新: 2026-08-21</p>
+  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> から毎日自動更新</strong> — 最終更新: 2026-08-22</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -149,20 +149,20 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | SambaNova | 4 | Registration | 128K | image, reasoning, text | <a href="https://cloud.sambanova.ai/apis" target="_blank" rel="noopener">→</a> |
 | SiliconFlow | 3 | Registration | 131K | text | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener">→</a> |
 | xAI | 3 | Registration | 2M | text | <a href="https://console.x.ai" target="_blank" rel="noopener">→</a> |
+| Cline | 3 | Registration | 0 | text | <a href="" target="_blank" rel="noopener">→</a> |
 | Chutes.ai | 2 | Registration | 131K | reasoning, text | <a href="https://chutes.ai/" target="_blank" rel="noopener">→</a> |
 | Glhf.chat | 2 | Registration | 131K | text | <a href="https://glhf.chat/" target="_blank" rel="noopener">→</a> |
 | Grok (xAI) | 2 | Registration | 131K | text | <a href="https://console.x.ai/" target="_blank" rel="noopener">→</a> |
 | AI21 Labs | 2 | Registration | 256K | text | <a href="https://studio.ai21.com/account/api-key" target="_blank" rel="noopener">→</a> |
 | DeepSeek | 2 | Registration | 128K | text | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">→</a> |
 | Nscale | 2 | Registration | 128K | text | <a href="https://console.nscale.com/" target="_blank" rel="noopener">→</a> |
-| Cline | 2 | Registration | 0 | text | <a href="" target="_blank" rel="noopener">→</a> |
 | Nebius | 1 | Registration | 128K | text | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
 <!-- END_PERMANENT_FREE -->
 
 <!-- BEGIN_RENEWABLE -->
 | Provider | Free Models | Credit Model | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
-| OpenRouter | 27 | Free tier + $10 topup → 1K RPD | 1M | audio, code, embeddings, image, reasoning, rerank, speech, text, video | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
+| OpenRouter | 28 | Free tier + $10 topup → 1K RPD | 1M | audio, code, embeddings, image, reasoning, rerank, speech, text, video | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
 <!-- END_RENEWABLE -->
 
 ## クイックリファレンス — Base URL と APIキー
@@ -193,13 +193,13 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | SambaNova | `https://api.sambanova.ai/v1` | <a href="https://cloud.sambanova.ai/apis" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | SiliconFlow | `https://api.siliconflow.cn/v1` | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | xAI | `https://api.x.ai/v1` | <a href="https://console.x.ai" target="_blank" rel="noopener">Get Key →</a> | Registration |
+| Cline | `` | <a href="" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Chutes.ai | `https://api.chutes.ai/v1` | <a href="https://chutes.ai/" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Glhf.chat | `https://glhf.chat/api/openai/v1` | <a href="https://glhf.chat/" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Grok (xAI) | `https://api.x.ai/v1` | <a href="https://console.x.ai/" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | AI21 Labs | `https://api.ai21.com/studio/v1` | <a href="https://studio.ai21.com/account/api-key" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | DeepSeek | `https://api.deepseek.com/v1` | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Nscale | `https://inference.api.nscale.com/v1` | <a href="https://console.nscale.com/" target="_blank" rel="noopener">Get Key →</a> | Registration |
-| Cline | `` | <a href="" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Nebius | `https://api.studio.nebius.com/v1` | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">Get Key →</a> | Registration |
 <!-- END_QUICK_REF -->
 
@@ -277,6 +277,9 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | xAI | <a href="https://freellm.net/models/xai/grok-4-3/" target="_blank" rel="noopener">grok-4.3</a> | `grok-4-3` | 1M | Credit-based |
 |  | <a href="https://freellm.net/models/xai/grok-4-1-fast/" target="_blank" rel="noopener">grok-4.1-fast</a> | `grok-4-1-fast` | 2M | Credit-based |
 |  | <a href="https://freellm.net/models/xai/grok-3-mini/" target="_blank" rel="noopener">grok-3-mini</a> | `grok-3-mini` | 131K | Credit-based |
+| Cline | <a href="https://freellm.net/models/cline/deepseek-deepseek-v4-flash/" target="_blank" rel="noopener">deepseek-v4-flash</a> | `deepseek/deepseek-v4-flash` | 0 | See provider |
+|  | <a href="https://freellm.net/models/cline/poolside-laguna-s-2-1/" target="_blank" rel="noopener">laguna-s-2.1:free</a> | `poolside/laguna-s-2.1:free` | 0 | See provider |
+|  | <a href="https://freellm.net/models/cline/stealth-ox-alpha/" target="_blank" rel="noopener">ox-alpha</a> | `stealth/ox-alpha` | 0 | See provider |
 | Chutes.ai | <a href="https://freellm.net/models/chutes-ai/deepseek-ai-deepseek-r1/" target="_blank" rel="noopener">DeepSeek-R1</a> | `deepseek-ai/DeepSeek-R1` | 131K | Community-powered, no h.. |
 |  | <a href="https://freellm.net/models/chutes-ai/meta-llama-meta-llama-3-1-70b-instruct/" target="_blank" rel="noopener">Llama 3.1 70B</a> | `meta-llama/Meta-Llama-3.1-70B-Instruct` | 131K | Community-powered, no h.. |
 | Glhf.chat | <a href="https://freellm.net/models/glhf-chat/meta-llama-meta-llama-3-1-70b-instruct-2/" target="_blank" rel="noopener">Llama 3.1 70B</a> | `meta-llama/Meta-Llama-3.1-70B-Instruct` | 131K | Unlimited for free models |
@@ -289,8 +292,6 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 |  | <a href="https://freellm.net/models/deepseek/deepseek-reasoner-r1/" target="_blank" rel="noopener">deepseek-reasoner (R1)</a> | `deepseek-reasoner-r1` | 128K | Dynamic |
 | Nscale | <a href="https://freellm.net/models/nscale/llama-3-3-70b-instruct/" target="_blank" rel="noopener">Llama-3.3-70B-Instruct</a> | `llama-3-3-70b-instruct` | 128K | Fair-use |
 |  | <a href="https://freellm.net/models/nscale/deepseek-r1-distill-llama-70b/" target="_blank" rel="noopener">DeepSeek-R1-Distill-Llama-70B</a> | `deepseek-r1-distill-llama-70b` | 128K | Fair-use |
-| Cline | <a href="https://freellm.net/models/cline/deepseek-deepseek-v4-flash/" target="_blank" rel="noopener">deepseek-v4-flash</a> | `deepseek/deepseek-v4-flash` | 0 | See provider |
-|  | <a href="https://freellm.net/models/cline/poolside-laguna-s-2-1/" target="_blank" rel="noopener">laguna-s-2.1:free</a> | `poolside/laguna-s-2.1:free` | 0 | See provider |
 | Nebius | <a href="https://freellm.net/models/nebius/qwen3-235b-a22b/" target="_blank" rel="noopener">Qwen3-235B-A22B</a> | `qwen3-235b-a22b` | 128K | Tier-based |
 <!-- END_BEST_MODELS -->
 
@@ -348,6 +349,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>毎日自動更新 · 最終更新: <!-- AUTO_LAST_UPDATED -->
-2026-08-21
+2026-08-22
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
