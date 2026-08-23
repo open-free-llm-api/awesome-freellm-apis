@@ -29,6 +29,7 @@
 
 ## Contents
 
+- [Provider Directory](#provider-directory)
 
 ## Why This Exists
 
