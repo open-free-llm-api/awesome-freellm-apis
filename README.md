@@ -29,6 +29,9 @@
 
 ## Contents
 
+- [Providers](#provider-directory)
+- [Quick Start](#quick-start--use-any-free-api-in-30-seconds)
+
 ## Why This Exists
 
 Finding a free LLM API shouldn't mean hunting through a dozen GitHub READMEs, signing up for five different platforms, or guessing which models still have a free tier.
