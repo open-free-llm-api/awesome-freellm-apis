@@ -27,7 +27,7 @@
 
 ---
 
-**Jump to:** [Providers](#provider-directory) · [Quick Start](#quick-start--use-any-free-api-in-30-seconds)
+## Contents
 
 ## Why This Exists
 
