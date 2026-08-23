@@ -27,18 +27,6 @@
 
 ---
 
-## Contents
-
-- [Why This Exists](#why-this-exists)
-- [How to Use](#how-to-use--3-steps)
-- [Quick Start](#quick-start--use-any-free-api-in-30-seconds)
-- [Provider Directory](#provider-directory)
-- [Quick Reference](#quick-reference--base-urls--api-keys)
-- [Best Free Models](#top-free-models-by-weekly-usage)
-- [Local / Self-Hosted](#-local--self-hosted-unlimited-private-free-forever)
-- [Repository Structure](#repository-structure)
-- [Contributing](#contributing)
-
 ## Why This Exists
 
 Finding a free LLM API shouldn't mean hunting through a dozen GitHub READMEs, signing up for five different platforms, or guessing which models still have a free tier.
