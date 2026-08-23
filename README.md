@@ -28,7 +28,7 @@
 ---
 
 ## Contents
-
+- [Why This Exists](#why-this-exists)
 - [Provider Directory](#provider-directory)
 
 ## Why This Exists
