@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>31プロバイダー、450+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
+  <p align="center"><strong>31プロバイダー、449+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> から毎日自動更新</strong> — 最終更新: 2026-08-24</p>
+  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> から毎日自動更新</strong> — 最終更新: 2026-08-25</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -162,7 +162,7 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 <!-- BEGIN_RENEWABLE -->
 | Provider | Free Models | Credit Model | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
-| OpenRouter | 28 | Free tier + $10 topup → 1K RPD | 1M | audio, code, embeddings, image, reasoning, rerank, speech, text, video | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
+| OpenRouter | 27 | Free tier + $10 topup → 1K RPD | 1M | audio, code, embeddings, image, reasoning, rerank, speech, text, video | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
 <!-- END_RENEWABLE -->
 
 ## クイックリファレンス — Base URL と APIキー
@@ -311,7 +311,7 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-1/" target="_blank" rel="noopener">z-ai/glm-5.1</a> | NVIDIA NIM | 202K | 158B tokens |
 | <a href="https://freellm.net/models/openrouter/poolside-laguna-s-2-1/" target="_blank" rel="noopener">Poolside: Laguna S 2.1 (free)</a> | OpenRouter | 262K | 83B tokens |
 | <a href="https://freellm.net/models/openrouter/poolside-laguna-xs-2-1/" target="_blank" rel="noopener">Poolside: Laguna XS 2.1 (free)</a> | OpenRouter | 262K | 81B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-nano-30b-a3b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Nano 30B A3B (free)</a> | OpenRouter | 256K | 45B tokens |
+| <a href="https://freellm.net/models/nvidia-nim/qwen-qwen3-5-397b-a17b/" target="_blank" rel="noopener">qwen/qwen3.5-397b-a17b</a> | NVIDIA NIM | 262K | 35B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -349,6 +349,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>毎日自動更新 · 最終更新: <!-- AUTO_LAST_UPDATED -->
-2026-08-24
+2026-08-25
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
