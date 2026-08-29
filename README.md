@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>450+ free LLM APIs from 31 providers</strong> — find, compare & configure free models in seconds.</p>
+  <p align="center"><strong>451+ free LLM APIs from 31 providers</strong> — find, compare & configure free models in seconds.</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
 <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a></strong> — Last updated: 2026-08-28</p>
+  <p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a></strong> — Last updated: 2026-08-29</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -151,9 +151,9 @@ These providers offer a **permanently free tier** — no credit card required fo
 | Alibaba Cloud Model Studio | 5 | Registration | 1M | code, image, text | <a href="https://bailian.console.alibabacloud.com/?apiKey=1" target="_blank" rel="noopener">→</a> |
 | Z AI (Zhipu AI) | 4 | No | 200K | image, reasoning, text, video | <a href="https://open.bigmodel.cn/usercenter/apikeys" target="_blank" rel="noopener">→</a> |
 | SambaNova | 4 | Registration | 128K | image, reasoning, text | <a href="https://cloud.sambanova.ai/apis" target="_blank" rel="noopener">→</a> |
+| Cline | 4 | Registration | 0 | text | <a href="" target="_blank" rel="noopener">→</a> |
 | SiliconFlow | 3 | Registration | 131K | text | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener">→</a> |
 | xAI | 3 | Registration | 2M | text | <a href="https://console.x.ai" target="_blank" rel="noopener">→</a> |
-| Cline | 3 | Registration | 0 | text | <a href="" target="_blank" rel="noopener">→</a> |
 | Chutes.ai | 2 | Registration | 131K | reasoning, text | <a href="https://chutes.ai/" target="_blank" rel="noopener">→</a> |
 | Glhf.chat | 2 | Registration | 131K | text | <a href="https://glhf.chat/" target="_blank" rel="noopener">→</a> |
 | Grok (xAI) | 2 | Registration | 131K | text | <a href="https://console.x.ai/" target="_blank" rel="noopener">→</a> |
@@ -199,9 +199,9 @@ Providers that periodically renew free credits.
 | Alibaba Cloud Model Studio | `https://dashscope-intl.aliyuncs.com/compatible-mode/v1` | <a href="https://bailian.console.alibabacloud.com/?apiKey=1" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Z AI (Zhipu AI) | `https://open.bigmodel.cn/api/paas/v4` | <a href="https://open.bigmodel.cn/usercenter/apikeys" target="_blank" rel="noopener">Get Key →</a> | No |
 | SambaNova | `https://api.sambanova.ai/v1` | <a href="https://cloud.sambanova.ai/apis" target="_blank" rel="noopener">Get Key →</a> | Registration |
+| Cline | `` | <a href="" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | SiliconFlow | `https://api.siliconflow.cn/v1` | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | xAI | `https://api.x.ai/v1` | <a href="https://console.x.ai" target="_blank" rel="noopener">Get Key →</a> | Registration |
-| Cline | `` | <a href="" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Chutes.ai | `https://api.chutes.ai/v1` | <a href="https://chutes.ai/" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Glhf.chat | `https://glhf.chat/api/openai/v1` | <a href="https://glhf.chat/" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Grok (xAI) | `https://api.x.ai/v1` | <a href="https://console.x.ai/" target="_blank" rel="noopener">Get Key →</a> | Registration |
@@ -279,15 +279,15 @@ Providers that periodically renew free credits.
 | SambaNova | <a href="https://freellm.net/models/sambanova/deepseek-v3-1/" target="_blank" rel="noopener">DeepSeek-V3.1</a> | `deepseek-v3-1` | 128K | 20 RPM, 20 RPD, 200K TPD |
 |  | <a href="https://freellm.net/models/sambanova/deepseek-v3-2-preview/" target="_blank" rel="noopener">DeepSeek-V3.2 (Preview)</a> | `deepseek-v3-2-preview` | 128K | 20 RPM, 20 RPD, 200K TPD |
 |  | <a href="https://freellm.net/models/sambanova/minimax-m2-7/" target="_blank" rel="noopener">MiniMax-M2.7</a> | `minimax-m2-7` | 128K | 20 RPM, 20 RPD, 200K TPD |
+| Cline | <a href="https://freellm.net/models/cline/deepseek-deepseek-v4-flash/" target="_blank" rel="noopener">deepseek-v4-flash</a> | `deepseek/deepseek-v4-flash` | 0 | See provider |
+|  | <a href="https://freellm.net/models/cline/poolside-laguna-s-2-1/" target="_blank" rel="noopener">laguna-s-2.1:free</a> | `poolside/laguna-s-2.1:free` | 0 | See provider |
+|  | <a href="https://freellm.net/models/cline/z-ai-glm-5-3-flash/" target="_blank" rel="noopener">glm-5.3-flash</a> | `z-ai/glm-5.3-flash` | 0 | See provider |
 | SiliconFlow | <a href="https://freellm.net/models/siliconflow/deepseek-ai-deepseek-r1-distill-qwen-7b/" target="_blank" rel="noopener">deepseek-ai/DeepSeek-R1-Distill-Qwen-7B</a> | `deepseek-ai-deepseek-r1-distill-qwen-7b` | 131K | 30 RPM, 60K TPM |
 |  | <a href="https://freellm.net/models/siliconflow/abbreviation/" target="_blank" rel="noopener">Abbreviation</a> | `abbreviation` | 131K | See provider |
 |  | <a href="https://freellm.net/models/siliconflow/deepseek-ai-deepseek-ocr/" target="_blank" rel="noopener">deepseek-ai/DeepSeek-OCR</a> | `deepseek-ai-deepseek-ocr` | 131K | 30 RPM, 60K TPM |
 | xAI | <a href="https://freellm.net/models/xai/grok-4-3/" target="_blank" rel="noopener">grok-4.3</a> | `grok-4-3` | 1M | Credit-based |
 |  | <a href="https://freellm.net/models/xai/grok-4-1-fast/" target="_blank" rel="noopener">grok-4.1-fast</a> | `grok-4-1-fast` | 2M | Credit-based |
 |  | <a href="https://freellm.net/models/xai/grok-3-mini/" target="_blank" rel="noopener">grok-3-mini</a> | `grok-3-mini` | 131K | Credit-based |
-| Cline | <a href="https://freellm.net/models/cline/deepseek-deepseek-v4-flash/" target="_blank" rel="noopener">deepseek-v4-flash</a> | `deepseek/deepseek-v4-flash` | 0 | See provider |
-|  | <a href="https://freellm.net/models/cline/poolside-laguna-s-2-1/" target="_blank" rel="noopener">laguna-s-2.1:free</a> | `poolside/laguna-s-2.1:free` | 0 | See provider |
-|  | <a href="https://freellm.net/models/cline/z-ai-glm-5-3-flash/" target="_blank" rel="noopener">glm-5.3-flash</a> | `z-ai/glm-5.3-flash` | 0 | See provider |
 | Chutes.ai | <a href="https://freellm.net/models/chutes-ai/deepseek-ai-deepseek-r1/" target="_blank" rel="noopener">DeepSeek-R1</a> | `deepseek-ai/DeepSeek-R1` | 131K | Community-powered, no h.. |
 |  | <a href="https://freellm.net/models/chutes-ai/meta-llama-meta-llama-3-1-70b-instruct/" target="_blank" rel="noopener">Llama 3.1 70B</a> | `meta-llama/Meta-Llama-3.1-70B-Instruct` | 131K | Community-powered, no h.. |
 | Glhf.chat | <a href="https://freellm.net/models/glhf-chat/meta-llama-meta-llama-3-1-70b-instruct-2/" target="_blank" rel="noopener">Llama 3.1 70B</a> | `meta-llama/Meta-Llama-3.1-70B-Instruct` | 131K | Unlimited for free models |
@@ -388,6 +388,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>Last updated: <!-- AUTO_LAST_UPDATED -->
-2026-08-28
+2026-08-29
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
