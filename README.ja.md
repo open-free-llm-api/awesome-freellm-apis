@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>31プロバイダー、451+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
+  <p align="center"><strong>31プロバイダー、452+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> から毎日自動更新</strong> — 最終更新: 2026-08-30</p>
+  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> から毎日自動更新</strong> — 最終更新: 2026-08-31</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -135,11 +135,11 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | LLM7.io | 16 | No | 1M | audio, code, image, pdf, reasoning, text, video, vision | <a href="https://token.llm7.io" target="_blank" rel="noopener">→</a> |
 | OVHcloud AI Endpoints | 14 | Registration | 262K | audio, code, image, reasoning, text, video | <a href="https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/" target="_blank" rel="noopener">→</a> |
 | Ollama Cloud | 13 | Registration | 1M | code, image, reasoning, text, video, vision | <a href="https://ollama.com/settings/keys" target="_blank" rel="noopener">→</a> |
+| OpenCode Zen | 13 | Registration | 1M | audio, reasoning, vision | <a href="https://opencode.ai/auth" target="_blank" rel="noopener">→</a> |
 | Groq | 12 | No | 262K | image, reasoning, text | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">→</a> |
 | Mistral AI | 12 | No | 256K | code, image, text | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">→</a> |
 | Cohere | 12 | No | 436K | image, text | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">→</a> |
 | Kilo Code | 12 | No | 1M | audio, code, image, reasoning, text, video | <a href="https://kilo.ai" target="_blank" rel="noopener">→</a> |
-| OpenCode Zen | 12 | Registration | 1M | audio, reasoning, vision | <a href="https://opencode.ai/auth" target="_blank" rel="noopener">→</a> |
 | Aion Labs | 7 | Registration | 131K | text | <a href="https://www.aionlabs.ai" target="_blank" rel="noopener">→</a> |
 | Hugging Face | 7 | No | 131K | code, text | <a href="https://huggingface.co/settings/tokens" target="_blank" rel="noopener">→</a> |
 | Cerebras | 6 | No | 131K | reasoning, text | <a href="https://cloud.cerebras.ai/" target="_blank" rel="noopener">→</a> |
@@ -179,11 +179,11 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | LLM7.io | `https://api.llm7.io/v1` | <a href="https://token.llm7.io" target="_blank" rel="noopener">Get Key →</a> | No |
 | OVHcloud AI Endpoints | `https://oai.endpoints.kepler.ai.cloud.ovh.net/v1` | <a href="https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Ollama Cloud | `https://api.ollama.com` | <a href="https://ollama.com/settings/keys" target="_blank" rel="noopener">Get Key →</a> | Registration |
+| OpenCode Zen | `https://opencode.ai/zen/v1` | <a href="https://opencode.ai/auth" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Groq | `https://api.groq.com/openai/v1` | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | Mistral AI | `https://api.mistral.ai/v1` | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | Cohere | `https://api.cohere.com/v2` | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | Kilo Code | `https://api.kilo.ai/api/gateway` | <a href="https://kilo.ai" target="_blank" rel="noopener">Get Key →</a> | No |
-| OpenCode Zen | `https://opencode.ai/zen/v1` | <a href="https://opencode.ai/auth" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Aion Labs | `https://api.aionlabs.ai/v1` | <a href="https://www.aionlabs.ai" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Hugging Face | `https://router.huggingface.co/v1` | <a href="https://huggingface.co/settings/tokens" target="_blank" rel="noopener">Get Key →</a> | No |
 | Cerebras | `https://api.cerebras.ai/v1` | <a href="https://cloud.cerebras.ai/" target="_blank" rel="noopener">Get Key →</a> | No |
@@ -235,6 +235,9 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | Ollama Cloud | <a href="https://freellm.net/models/ollama-cloud/minimax-m3/" target="_blank" rel="noopener">minimax-m3</a> | `minimax-m3` | 1M | Session/weekly limits (.. |
 |  | <a href="https://freellm.net/models/ollama-cloud/gpt-oss-20b/" target="_blank" rel="noopener">gpt-oss:20b</a> | `gpt-oss:20b` | 131K | Session/weekly limits (.. |
 |  | <a href="https://freellm.net/models/ollama-cloud/nemotron-3-ultra/" target="_blank" rel="noopener">nemotron-3-ultra</a> | `nemotron-3-ultra` | 262K | Session/weekly limits (.. |
+| OpenCode Zen | <a href="https://freellm.net/models/opencode/big-pickle/" target="_blank" rel="noopener">big-pickle</a> | `big-pickle` | 0 |  |
+|  | <a href="https://freellm.net/models/opencode/deepseek-v4-flash-free/" target="_blank" rel="noopener">DeepSeek V4 Flash</a> | `deepseek-v4-flash-free` | 1M |  |
+|  | <a href="https://freellm.net/models/opencode/mimo-v2-5-free/" target="_blank" rel="noopener">MiMo-V2.5</a> | `mimo-v2.5-free` | 1M |  |
 | Groq | <a href="https://freellm.net/models/groq/moonshotai-kimi-k2-instruct/" target="_blank" rel="noopener">Moonshot Kimi K2</a> | `moonshotai/kimi-k2-instruct` | 131K | See provider |
 |  | <a href="https://freellm.net/models/groq/moonshotai-kimi-k2-instruct-0905/" target="_blank" rel="noopener">Moonshot Kimi K2 0905</a> | `moonshotai/kimi-k2-instruct-0905` | 131K | See provider |
 |  | <a href="https://freellm.net/models/groq/groq-compound/" target="_blank" rel="noopener">groq/compound</a> | `groq/compound` | 131K | 30 RPM, 250 RPD |
@@ -247,9 +250,6 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | Kilo Code | <a href="https://freellm.net/models/kilo-code/nvidia-nemotron-3-ultra-550b-a55b-free/" target="_blank" rel="noopener">nvidia/nemotron-3-ultra-550b-a55b:free</a> | `nvidia/nemotron-3-ultra-550b-a55b:free` | 1M | ~200 req/hr |
 |  | <a href="https://freellm.net/models/kilo-code/stepfun-step-3-7-flash-free/" target="_blank" rel="noopener">stepfun/step-3.7-flash:free</a> | `stepfun/step-3.7-flash:free` | 262K | ~200 req/hr |
 |  | <a href="https://freellm.net/models/kilo-code/nvidia-nemotron-3-super-120b-a12b-free/" target="_blank" rel="noopener">nvidia/nemotron-3-super-120b-a12b:free</a> | `nvidia/nemotron-3-super-120b-a12b:free` | 262K | ~200 req/hr |
-| OpenCode Zen | <a href="https://freellm.net/models/opencode/big-pickle/" target="_blank" rel="noopener">big-pickle</a> | `big-pickle` | 0 |  |
-|  | <a href="https://freellm.net/models/opencode/deepseek-v4-flash-free/" target="_blank" rel="noopener">DeepSeek V4 Flash</a> | `deepseek-v4-flash-free` | 1M |  |
-|  | <a href="https://freellm.net/models/opencode/mimo-v2-5-free/" target="_blank" rel="noopener">MiMo-V2.5</a> | `mimo-v2.5-free` | 1M |  |
 | Aion Labs | <a href="https://freellm.net/models/aion-labs/aion-2-5/" target="_blank" rel="noopener">Aion 2.5</a> | `aion-2-5` | 128K | 15 RPM, 20K TPD |
 |  | <a href="https://freellm.net/models/aion-labs/aion-2-0/" target="_blank" rel="noopener">Aion 2.0</a> | `aion-2-0` | 128K | 15 RPM, 20K TPD |
 |  | <a href="https://freellm.net/models/aion-labs/aion-rp-1-0-8b/" target="_blank" rel="noopener">Aion-RP 1.0 (8B)</a> | `aion-rp-1-0-8b` | 32K | 15 RPM, 20K TPD |
@@ -349,6 +349,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>毎日自動更新 · 最終更新: <!-- AUTO_LAST_UPDATED -->
-2026-08-30
+2026-08-31
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
