@@ -161,6 +161,7 @@ These providers offer a **permanently free tier** — no credit card required fo
 | DeepSeek | 2 | Registration | 128K | text | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">→</a> |
 | Nscale | 2 | Registration | 128K | text | <a href="https://console.nscale.com/" target="_blank" rel="noopener">→</a> |
 | Nebius | 1 | Registration | 128K | text | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
+| TeamoRouter | 2 | Registration | 1M | reasoning, text | <a href="https://teamorouter.cn" target="_blank" rel="noopener">→</a> |
 <!-- END_PERMANENT_FREE -->
 
 ### 💰 Renewable Credits
@@ -209,6 +210,7 @@ Providers that periodically renew free credits.
 | DeepSeek | `https://api.deepseek.com/v1` | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Nscale | `https://inference.api.nscale.com/v1` | <a href="https://console.nscale.com/" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Nebius | `https://api.studio.nebius.com/v1` | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">Get Key →</a> | Registration |
+| TeamoRouter | `https://api.teamorouter.cn/v1` | <a href="https://teamorouter.cn" target="_blank" rel="noopener">Get Key →</a> | Registration |
 <!-- END_QUICK_REF -->
 
 ## Best Free Models by Provider
@@ -301,6 +303,8 @@ Providers that periodically renew free credits.
 | Nscale | <a href="https://freellm.net/models/nscale/llama-3-3-70b-instruct/" target="_blank" rel="noopener">Llama-3.3-70B-Instruct</a> | `llama-3-3-70b-instruct` | 128K | Fair-use |
 |  | <a href="https://freellm.net/models/nscale/deepseek-r1-distill-llama-70b/" target="_blank" rel="noopener">DeepSeek-R1-Distill-Llama-70B</a> | `deepseek-r1-distill-llama-70b` | 128K | Fair-use |
 | Nebius | <a href="https://freellm.net/models/nebius/qwen3-235b-a22b/" target="_blank" rel="noopener">Qwen3-235B-A22B</a> | `qwen3-235b-a22b` | 128K | Tier-based |
+| TeamoRouter | <a href="https://teamorouter.cn" target="_blank" rel="noopener">DeepSeek V4 Pro (free)</a> | `deepseek-v4-pro-free` | 1M | 200 req/day |
+|  | <a href="https://teamorouter.cn" target="_blank" rel="noopener">DeepSeek V4 Flash (free)</a> | `deepseek-v4-flash-free` | 1M | 50 req/day |
 <!-- END_BEST_MODELS -->
 
 
