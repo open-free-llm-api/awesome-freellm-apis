@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>31プロバイダー、480+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
+  <p align="center"><strong>31プロバイダー、482+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> から毎日自動更新</strong> — 最終更新: 2026-09-11</p>
+  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> から毎日自動更新</strong> — 最終更新: 2026-09-12</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -127,7 +127,7 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 <!-- BEGIN_PERMANENT_FREE -->
 | Provider | Free Models | Credit Card? | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
-| NVIDIA NIM | 128 | Phone verification | 1M | audio, embedding, image, reasoning, rerank, text, video, vision | <a href="https://build.nvidia.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
+| NVIDIA NIM | 129 | Phone verification | 1M | audio, embedding, image, pdf, reasoning, rerank, text, video, vision | <a href="https://build.nvidia.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
 | ModelScope | 57 | Registration | 1M | audio, image, reasoning, text, video, vision | <a href="https://modelscope.cn/my/myaccesstoken" target="_blank" rel="noopener">→</a> |
 | Cloudflare Workers AI | 40 | No | 262K | code, image, reasoning, text, video | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">→</a> |
 | Google Gemini | 19 | No | 1M | audio, image, pdf, reasoning, text, video, vision | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">→</a> |
@@ -142,7 +142,7 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | Cohere | 12 | No | 256K | image, text | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">→</a> |
 | Aion Labs | 11 | Registration | 131K | text | <a href="https://www.aionlabs.ai/app/api-keys/" target="_blank" rel="noopener">→</a> |
 | Z AI (Zhipu AI) | 8 | No | 200K | image, reasoning, text, video | <a href="https://open.bigmodel.cn/usercenter/apikeys" target="_blank" rel="noopener">→</a> |
-| Hugging Face | 7 | No | 131K | code, text | <a href="https://huggingface.co/settings/tokens" target="_blank" rel="noopener">→</a> |
+| Hugging Face | 8 | No | 131K | code, image, text | <a href="https://huggingface.co/settings/tokens" target="_blank" rel="noopener">→</a> |
 | Cerebras | 6 | No | 131K | reasoning, text | <a href="https://cloud.cerebras.ai/" target="_blank" rel="noopener">→</a> |
 | Cline | 6 | Registration | 0 | text | <a href="" target="_blank" rel="noopener">→</a> |
 | Agnes AI | 5 | Registration | 256K | image, reasoning, text, video, vision | <a href="https://platform.agnes-ai.com/settings/apiKeys" target="_blank" rel="noopener">→</a> |
@@ -219,7 +219,7 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 |  | <a href="https://freellm.net/models/cloudflare-workers-ai/cf-meta-llama-3-3-70b-instruct-fp8-fast/" target="_blank" rel="noopener">@cf/meta/llama-3.3-70b-instruct-fp8-fast</a> | `@cf/meta/llama-3.3-70b-instruct-fp8-fast` | 24K | 10K neurons/day (shared) |
 | OpenRouter | <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | `nvidia/nemotron-3-ultra-550b-a55b:free` | 1M | See provider |
 |  | <a href="https://freellm.net/models/openrouter/poolside-laguna-s-2.1/" target="_blank" rel="noopener">Poolside: Laguna S 2.1 (free)</a> | `poolside/laguna-s-2.1:free` | 262K | See provider |
-|  | <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | `nvidia/nemotron-3.5-lightning:free` | 1M | See provider |
+|  | <a href="https://freellm.net/models/openrouter/inclusionai-ling-3.0-flash-fin/" target="_blank" rel="noopener">inclusionAI: Ling 3.0 Flash Fin (free)</a> | `inclusionai/ling-3.0-flash-fin:free` | 262K | See provider |
 | Google Gemini | <a href="https://freellm.net/models/google-gemini/gemini-3-7-flash/" target="_blank" rel="noopener">Gemini 3.7 Flash</a> | `gemini-3.7-flash` | 1M | — |
 |  | <a href="https://freellm.net/models/google-gemini/gemini-3-6-flash/" target="_blank" rel="noopener">Gemini 3.6 Flash</a> | `gemini-3.6-flash` | 1M | 15 RPM, 1,500 RPD |
 |  | <a href="https://freellm.net/models/google-gemini/gemini-3-5-flash/" target="_blank" rel="noopener">Gemini 3.5 Flash</a> | `gemini-3.5-flash` | 1M | 15 RPM, 1,500 RPD |
@@ -257,7 +257,7 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 |  | <a href="https://freellm.net/models/z-ai-zhipu-ai/glm-4-5-flash-retirement-announced/" target="_blank" rel="noopener">GLM-4.5-Flash (retirement announced)</a> | `glm-4-5-flash-retirement-announced` | 128K | 1 concurrent request |
 |  | <a href="https://freellm.net/models/z-ai-zhipu-ai/glm-4-6v-flash/" target="_blank" rel="noopener">GLM-4.6V-Flash</a> | `glm-4-6v-flash` | 128K | 1 concurrent request |
 | Hugging Face | <a href="https://freellm.net/models/hugging-face/meta-llama-3-1-8b-instruct/" target="_blank" rel="noopener">Meta-Llama-3.1-8B-Instruct</a> | `meta-llama-3-1-8b-instruct` | 128K | Credit-metered |
-|  | <a href="https://freellm.net/models/hugging-face/gemma-3-4b-it/" target="_blank" rel="noopener">gemma-3-4b-it</a> | `gemma-3-4b-it` | 131K | Credit-metered |
+|  | <a href="https://freellm.net/models/hugging-face/gemma-3-4b-it/" target="_blank" rel="noopener">gemma-3-4b-it</a> | `google/gemma-3-4b-it` | 131K | Credit-metered |
 |  | <a href="https://freellm.net/models/hugging-face/qwen2-5-coder-7b-instruct/" target="_blank" rel="noopener">Qwen2.5-Coder-7B-Instruct</a> | `qwen2-5-coder-7b-instruct` | 131K | Credit-metered |
 | Cerebras | <a href="https://freellm.net/models/cerebras/llama3-1-70b/" target="_blank" rel="noopener">Llama 3.1 70B</a> | `llama3.1-70b` | 131K | See provider |
 |  | <a href="https://freellm.net/models/cerebras/zai-glm-4-7-deprecated-aug-2026/" target="_blank" rel="noopener">zai-glm-4.7 (deprecated Aug 2026)</a> | `zai-glm-4-7-deprecated-aug-2026` | 131K | 5 RPM, 30K TPM, 1M TPD |
@@ -302,16 +302,16 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 <!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 3633B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 3571B tokens |
 | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-2/" target="_blank" rel="noopener">z-ai/glm-5.2</a> | NVIDIA NIM | 1M | 2998B tokens |
-| <a href="https://freellm.net/models/openrouter/poolside-laguna-s-2.1/" target="_blank" rel="noopener">Poolside: Laguna S 2.1 (free)</a> | OpenRouter | 262K | 1175B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | OpenRouter | 1M | 958B tokens |
-| <a href="https://freellm.net/models/openrouter/inclusionai-ling-3.0-flash-fin/" target="_blank" rel="noopener">inclusionAI: Ling 3.0 Flash Fin (free)</a> | OpenRouter | 262K | 882B tokens |
+| <a href="https://freellm.net/models/openrouter/poolside-laguna-s-2.1/" target="_blank" rel="noopener">Poolside: Laguna S 2.1 (free)</a> | OpenRouter | 262K | 1143B tokens |
+| <a href="https://freellm.net/models/openrouter/inclusionai-ling-3.0-flash-fin/" target="_blank" rel="noopener">inclusionAI: Ling 3.0 Flash Fin (free)</a> | OpenRouter | 262K | 884B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | OpenRouter | 1M | 873B tokens |
 | <a href="https://freellm.net/models/openrouter/poolside-laguna-m-1/" target="_blank" rel="noopener">Poolside: Laguna M.1 (free)</a> | OpenRouter | 262K | 768B tokens |
-| <a href="https://freellm.net/models/openrouter/dots-studio-dots-3-note-preview/" target="_blank" rel="noopener">Dots Studio: Dots3-Note Preview (free)</a> | OpenRouter | 512K | 398B tokens |
-| <a href="https://freellm.net/models/openrouter/thinkingmachines-inkling-small/" target="_blank" rel="noopener">Thinking Machines: Inkling Small (free)</a> | OpenRouter | 1M | 355B tokens |
-| <a href="https://freellm.net/models/openrouter/thinkingmachines-inkling/" target="_blank" rel="noopener">Thinking Machines: Inkling (free)</a> | OpenRouter | 1M | 355B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-super-120b-a12b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Super (free)</a> | OpenRouter | 262K | 351B tokens |
+| <a href="https://freellm.net/models/openrouter/dots-studio-dots-3-note-preview/" target="_blank" rel="noopener">Dots Studio: Dots3-Note Preview (free)</a> | OpenRouter | 512K | 458B tokens |
+| <a href="https://freellm.net/models/openrouter/thinkingmachines-inkling-small/" target="_blank" rel="noopener">Thinking Machines: Inkling Small (free)</a> | OpenRouter | 1M | 363B tokens |
+| <a href="https://freellm.net/models/openrouter/thinkingmachines-inkling/" target="_blank" rel="noopener">Thinking Machines: Inkling (free)</a> | OpenRouter | 1M | 363B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-super-120b-a12b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Super (free)</a> | OpenRouter | 262K | 354B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -349,6 +349,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>毎日自動更新 · 最終更新: <!-- AUTO_LAST_UPDATED -->
-2026-09-11
+2026-09-12
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
