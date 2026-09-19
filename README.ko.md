@@ -130,6 +130,7 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 | NVIDIA NIM | 131 | Phone verification | 1M | audio, embedding, image, pdf, reasoning, rerank, text, video, vision | <a href="https://build.nvidia.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
 | ModelScope | 61 | Registration | 1M | audio, image, reasoning, text, video, vision | <a href="https://modelscope.cn/my/myaccesstoken" target="_blank" rel="noopener">→</a> |
 | Cloudflare Workers AI | 40 | No | 262K | code, image, reasoning, text, video | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">→</a> |
+| onomeo | 36 | No | 1M | reasoning, text, vision | <a href="https://onomeo.com/dashboard" target="_blank" rel="noopener">→</a> |
 | Google Gemini | 19 | No | 1M | audio, image, pdf, reasoning, text, video, vision | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">→</a> |
 | LLM7.io | 19 | No | 1M | audio, code, image, pdf, reasoning, text, video, vision | <a href="https://token.llm7.io" target="_blank" rel="noopener">→</a> |
 | Ollama Cloud | 17 | Registration | 1M | code, image, reasoning, text, video, vision | <a href="https://ollama.com/settings/keys" target="_blank" rel="noopener">→</a> |

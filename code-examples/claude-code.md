@@ -51,6 +51,20 @@ export ANTHROPIC_AUTH_TOKEN="sk-your_siliconflow_key"
 
 Get your key at [cloud.siliconflow.cn](https://cloud.siliconflow.cn/account/ak). Recommended model: `Qwen/Qwen3-Coder-480B-A35B-Instruct`.
 
+### onomeo (native Anthropic format, one key for 23 providers)
+
+onomeo answers on `/v1/messages` in the Anthropic wire format — streaming events and `count_tokens` included — so Claude Code talks to it without a shim.
+
+```bash
+export ANTHROPIC_BASE_URL="https://onomeo.com"
+export ANTHROPIC_AUTH_TOKEN="sk-onomeo-your_key"
+export ANTHROPIC_MODEL="my/gemini/gemini-3-flash-preview"
+```
+
+Get your key at [onomeo.com/dashboard](https://onomeo.com/dashboard). The Anthropic endpoint serves models from a provider you connect with your own key — 23 are supported (OpenRouter, Gemini, Groq, Mistral, NVIDIA, Cloudflare, DeepSeek, Qwen and more) — addressed as `my/<provider>/<model>`. A free key you already hold becomes usable inside Claude Code. onomeo's own 36 free models (daily check-in credits, no card, no phone) are on the OpenAI-compatible endpoint at `https://onomeo.com/v1`.
+
+Verified 2026-09-19 with the Claude Code CLI against a connected Gemini key.
+
 ## Persistent Config
 
 Add to your shell profile (`~/.zshrc` or `~/.bashrc`):
