@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>31개 제공업체, 509+개의 무료 LLM API</strong> — 무료 모델을 검색, 비교, 설정하세요.</p>
+  <p align="center"><strong>31개 제공업체, 508+개의 무료 LLM API</strong> — 무료 모델을 검색, 비교, 설정하세요.</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a>에서 매일 자동 업데이트</strong> — 마지막 업데이트: 2026-09-20</p>
+  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a>에서 매일 자동 업데이트</strong> — 마지막 업데이트: 2026-09-21</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -162,7 +162,7 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 <!-- BEGIN_RENEWABLE -->
 | Provider | Free Models | Credit Model | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
-| OpenRouter | 35 | Free tier + $10 topup → 1K RPD | 1M | audio, code, embeddings, image, reasoning, rerank, speech, text, video | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
+| OpenRouter | 34 | Free tier + $10 topup → 1K RPD | 1M | audio, code, embeddings, image, reasoning, rerank, speech, text, video | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
 <!-- END_RENEWABLE -->
 
 ## 빠른 참조 — Base URL 및 API 키
@@ -302,16 +302,16 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 <!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 4185B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 4494B tokens |
 | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-2/" target="_blank" rel="noopener">z-ai/glm-5.2</a> | NVIDIA NIM | 1M | 2998B tokens |
-| <a href="https://freellm.net/models/openrouter/poolside-laguna-s-2.1/" target="_blank" rel="noopener">Poolside: Laguna S 2.1 (free)</a> | OpenRouter | 262K | 1179B tokens |
-| <a href="https://freellm.net/models/openrouter/inclusionai-ling-3.0-flash-fin/" target="_blank" rel="noopener">inclusionAI: Ling 3.0 Flash Fin (free)</a> | OpenRouter | 262K | 1085B tokens |
-| <a href="https://freellm.net/models/openrouter/deepseek-deepseek-v4-flash-0731/" target="_blank" rel="noopener">DeepSeek: DeepSeek V4 Flash 0731 (free)</a> | OpenRouter | 1M | 1084B tokens |
+| <a href="https://freellm.net/models/openrouter/poolside-laguna-s-2.1/" target="_blank" rel="noopener">Poolside: Laguna S 2.1 (free)</a> | OpenRouter | 262K | 1191B tokens |
+| <a href="https://freellm.net/models/openrouter/inclusionai-ling-3.0-flash-fin/" target="_blank" rel="noopener">inclusionAI: Ling 3.0 Flash Fin (free)</a> | OpenRouter | 262K | 1121B tokens |
 | <a href="https://freellm.net/models/openrouter/poolside-laguna-m-1/" target="_blank" rel="noopener">Poolside: Laguna M.1 (free)</a> | OpenRouter | 262K | 768B tokens |
-| <a href="https://freellm.net/models/openrouter/dots-studio-dots-3-note-preview/" target="_blank" rel="noopener">Dots Studio: Dots3-Note Preview (free)</a> | OpenRouter | 512K | 686B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | OpenRouter | 1M | 685B tokens |
-| <a href="https://freellm.net/models/openrouter/inclusionai-ling-3.0-flash-vl/" target="_blank" rel="noopener">inclusionAI: Ling 3.0 Flash VL (free)</a> | OpenRouter | 262K | 610B tokens |
-| <a href="https://freellm.net/models/openrouter/nex-agi-nex-n2.5-pro/" target="_blank" rel="noopener">Nex AGI: Nex-N2.5-Pro (free)</a> | OpenRouter | 262K | 511B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | OpenRouter | 1M | 679B tokens |
+| <a href="https://freellm.net/models/openrouter/dots-studio-dots-3-note-preview/" target="_blank" rel="noopener">Dots Studio: Dots3-Note Preview (free)</a> | OpenRouter | 512K | 679B tokens |
+| <a href="https://freellm.net/models/openrouter/inclusionai-ling-3.0-flash-vl/" target="_blank" rel="noopener">inclusionAI: Ling 3.0 Flash VL (free)</a> | OpenRouter | 262K | 622B tokens |
+| <a href="https://freellm.net/models/openrouter/nex-agi-nex-n2.5-pro/" target="_blank" rel="noopener">Nex AGI: Nex-N2.5-Pro (free)</a> | OpenRouter | 262K | 556B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-super-120b-a12b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Super (free)</a> | OpenRouter | 262K | 330B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -349,6 +349,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>매일 자동 업데이트 · 마지막 업데이트: <!-- AUTO_LAST_UPDATED -->
-2026-09-20
+2026-09-21
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
