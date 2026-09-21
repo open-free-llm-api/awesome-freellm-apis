@@ -53,6 +53,7 @@ Configuring a specific tool? <a href="https://freellm.net/config/#claude-code" t
 
 
 ## Quick Start — Use Any Free API in 30 Seconds
+- [MagicKit](https://github.com/kaketiti/magickit) - Free AI API toolbox: image generation (FLUX), writing, video. No auth needed, MIT license.
 
 **Never used an API before?** Here's the simplest path: go to <a href="https://console.groq.com/keys" target="_blank" rel="noopener">console.groq.com/keys</a>, sign up with just an email (no credit card), copy your free key, and paste it into any example below. You'll be running in under a minute.
 
