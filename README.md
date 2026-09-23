@@ -18,7 +18,7 @@
 </p>
 
 <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a></strong> — Last updated: 2026-09-22</p>
+  <p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a></strong> — Last updated: 2026-09-23</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -218,7 +218,7 @@ Providers that periodically renew free credits.
 |---|---|---|---|---|
 | NVIDIA NIM | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-2/" target="_blank" rel="noopener">z-ai/glm-5.2</a> | `z-ai/glm-5.2` | 1M | Up to 40 RPM |
 |  | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-1/" target="_blank" rel="noopener">z-ai/glm-5.1</a> | `z-ai/glm-5.1` | 202K | Up to 40 RPM |
-|  | <a href="https://freellm.net/models/nvidia-nim/poolside-laguna-xs-2-1/" target="_blank" rel="noopener">poolside/laguna-xs-2.1</a> | `poolside/laguna-xs-2.1` | 262K | Up to 40 RPM |
+|  | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-3/" target="_blank" rel="noopener">z-ai/glm-5.3</a> | `z-ai/glm-5.3` | 1M | Up to 40 RPM |
 | ModelScope | <a href="https://freellm.net/models/modelscope/minimax-minimax-m2-5/" target="_blank" rel="noopener">MiniMax-M2.5-highspeed</a> | `MiniMax/MiniMax-M2.5` | 204K | See provider |
 |  | <a href="https://freellm.net/models/modelscope/qwen-qwen3-5-35b-a3b/" target="_blank" rel="noopener">Qwen/Qwen3.5-35B-A3B</a> | `qwen-qwen3-5-35b-a3b` | 256K | 2,000 RPD total; <=500 .. |
 |  | <a href="https://freellm.net/models/modelscope/qwen-qwen3-5-27b/" target="_blank" rel="noopener">Qwen/Qwen3.5-27B</a> | `qwen-qwen3-5-27b` | 256K | 2,000 RPD total; <=500 .. |
@@ -277,8 +277,8 @@ Providers that periodically renew free credits.
 |  | <a href="https://freellm.net/models/alibaba-cloud-model-studio/qwen3-plus/" target="_blank" rel="noopener">Qwen3-Plus</a> | `qwen3-plus` | 1M | Tiered by region |
 |  | <a href="https://freellm.net/models/alibaba-cloud-model-studio/qwen3-vl-plus/" target="_blank" rel="noopener">Qwen3-VL-Plus</a> | `qwen3-vl-plus` | 128K | Tiered by region |
 | Cline | <a href="https://freellm.net/models/cline/poolside-laguna-s-2-1/" target="_blank" rel="noopener">laguna-s-2.1:free</a> | `poolside/laguna-s-2.1:free` | 0 | See provider |
-|  | <a href="https://freellm.net/models/cline/z-ai-glm-5-3-flash/" target="_blank" rel="noopener">glm-5.3-flash</a> | `z-ai/glm-5.3-flash` | 0 | See provider |
 |  | <a href="https://freellm.net/models/cline/cline-free-muse-spark-1-3-contributor/" target="_blank" rel="noopener">Muse Spark 1.3 Contributor</a> | `cline-free/muse-spark-1.3-contributor` | 0 | See provider |
+|  | <a href="https://freellm.net/models/cline/cline-free-solar-pro4/" target="_blank" rel="noopener">Solar Pro 4</a> | `cline-free/solar-pro4` | 0 | See provider |
 | SambaNova | <a href="https://freellm.net/models/sambanova/deepseek-v3-1/" target="_blank" rel="noopener">DeepSeek-V3.1</a> | `deepseek-v3-1` | 128K | 20 RPM, 20 RPD, 200K TPD |
 |  | <a href="https://freellm.net/models/sambanova/deepseek-v3-2-preview/" target="_blank" rel="noopener">DeepSeek-V3.2 (Preview)</a> | `deepseek-v3-2-preview` | 128K | 20 RPM, 20 RPD, 200K TPD |
 |  | <a href="https://freellm.net/models/sambanova/minimax-m2-7/" target="_blank" rel="noopener">MiniMax-M2.7</a> | `minimax-m2-7` | 128K | 20 RPM, 20 RPD, 200K TPD |
@@ -325,16 +325,16 @@ Data from freellm.net, updated daily via API monitoring.
 <!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 4783B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 5091B tokens |
 | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-2/" target="_blank" rel="noopener">z-ai/glm-5.2</a> | NVIDIA NIM | 1M | 2998B tokens |
-| <a href="https://freellm.net/models/openrouter/poolside-laguna-s-2.1/" target="_blank" rel="noopener">Poolside: Laguna S 2.1 (free)</a> | OpenRouter | 262K | 1195B tokens |
-| <a href="https://freellm.net/models/openrouter/inclusionai-ling-3.0-flash-fin/" target="_blank" rel="noopener">inclusionAI: Ling 3.0 Flash Fin (free)</a> | OpenRouter | 262K | 1140B tokens |
+| <a href="https://freellm.net/models/openrouter/poolside-laguna-s-2.1/" target="_blank" rel="noopener">Poolside: Laguna S 2.1 (free)</a> | OpenRouter | 262K | 1193B tokens |
+| <a href="https://freellm.net/models/openrouter/inclusionai-ling-3.0-flash-fin/" target="_blank" rel="noopener">inclusionAI: Ling 3.0 Flash Fin (free)</a> | OpenRouter | 262K | 1156B tokens |
 | <a href="https://freellm.net/models/openrouter/poolside-laguna-m-1/" target="_blank" rel="noopener">Poolside: Laguna M.1 (free)</a> | OpenRouter | 262K | 768B tokens |
-| <a href="https://freellm.net/models/openrouter/dots-studio-dots-3-note-preview/" target="_blank" rel="noopener">Dots Studio: Dots3-Note Preview (free)</a> | OpenRouter | 512K | 676B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | OpenRouter | 1M | 673B tokens |
-| <a href="https://freellm.net/models/openrouter/inclusionai-ling-3.0-flash-vl/" target="_blank" rel="noopener">inclusionAI: Ling 3.0 Flash VL (free)</a> | OpenRouter | 262K | 625B tokens |
-| <a href="https://freellm.net/models/openrouter/nex-agi-nex-n2.5-pro/" target="_blank" rel="noopener">Nex AGI: Nex-N2.5-Pro (free)</a> | OpenRouter | 262K | 589B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-super-120b-a12b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Super (free)</a> | OpenRouter | 262K | 323B tokens |
+| <a href="https://freellm.net/models/openrouter/dots-studio-dots-3-note-preview/" target="_blank" rel="noopener">Dots Studio: Dots3-Note Preview (free)</a> | OpenRouter | 512K | 686B tokens |
+| <a href="https://freellm.net/models/openrouter/inclusionai-ling-3.0-flash-vl/" target="_blank" rel="noopener">inclusionAI: Ling 3.0 Flash VL (free)</a> | OpenRouter | 262K | 624B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | OpenRouter | 1M | 615B tokens |
+| <a href="https://freellm.net/models/openrouter/nex-agi-nex-n2.5-pro/" target="_blank" rel="noopener">Nex AGI: Nex-N2.5-Pro (free)</a> | OpenRouter | 262K | 585B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-super-120b-a12b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Super (free)</a> | OpenRouter | 262K | 329B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -388,6 +388,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>Last updated: <!-- AUTO_LAST_UPDATED -->
-2026-09-22
+2026-09-23
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
