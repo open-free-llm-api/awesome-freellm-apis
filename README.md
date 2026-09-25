@@ -380,6 +380,8 @@ A model belongs in this list if:
 - 🎮 **Playground**: <a href="https://freellm.net/playground/" target="_blank" rel="noopener">freellm.net/playground/</a>
 - 📊 **Compare models**: <a href="https://freellm.net/compare/" target="_blank" rel="noopener">freellm.net/compare/</a>
 
+- 🗂️ **Model directory**: <a href="https://llmroster.dev" target="_blank" rel="noopener">llmroster.dev</a> — daily-updated catalog of free LLM model ids across OpenRouter, Nous Portal and OpenCode Zen, with context limits, modalities, and a changelog of additions and removals.
+
 ## License
 
 MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noopener">open-free-llm-api</a>
