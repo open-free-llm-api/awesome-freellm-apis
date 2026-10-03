@@ -386,3 +386,9 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 2026-10-03
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
+
+---
+
+### 🧭 Flat-rate OpenAI-compatible API
+
+* [APIClaw](https://apiclaw.biz) — Flat-rate OpenAI-compatible API gateway for Claude, GPT, Kimi, Qwen, DeepSeek and GLM, with 50 free trial requests and plans from $19–$129/month. Not affiliated with Anthropic or OpenAI.
