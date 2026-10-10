@@ -114,6 +114,8 @@ Most AI dev tools accept custom API endpoints — just point them at any provide
 - **Aider** — edit `.aider.conf.yml`. <a href="https://freellm.net/config/#aider" target="_blank" rel="noopener">Step-by-step →</a>
 - **Cline** (VS Code) — API provider settings. <a href="https://freellm.net/config/#cline" target="_blank" rel="noopener">Step-by-step →</a>
 - **Open WebUI** — Settings → Connections. <a href="https://freellm.net/config/#open-webui" target="_blank" rel="noopener">Step-by-step →</a>
+- [HostDeFi](https://hostdefi.com) - Agent-ready token-safety scanner with a public A2A agent card, hosted MCP server and x402-paid endpoints for autonomous checks.
+
 
 More ready-to-copy configs at <a href="https://freellm.net/config/" target="_blank" rel="noopener"><strong>freellm.net/config/</strong></a>.
 
