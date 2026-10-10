@@ -155,6 +155,7 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 | AI21 Labs | 2 | Registration | 256K | text | <a href="https://studio.ai21.com/account/api-key" target="_blank" rel="noopener">→</a> |
 | DeepSeek | 2 | Registration | 128K | text | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">→</a> |
 | Nscale | 2 | Registration | 128K | text | <a href="https://console.nscale.com/" target="_blank" rel="noopener">→</a> |
+| MapleAI | 2 | No | 128K | embedding, reasoning, text | <a href="https://sol.mapleai.shop/v1/models" target="_blank" rel="noopener">→</a> |
 | Nebius | 1 | Registration | 128K | text | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
 <!-- END_PERMANENT_FREE -->
 
@@ -287,6 +288,8 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 |  | <a href="https://freellm.net/models/deepseek/deepseek-reasoner-r1/" target="_blank" rel="noopener">deepseek-reasoner (R1)</a> | `deepseek-reasoner-r1` | 128K | Dynamic |
 | Nscale | <a href="https://freellm.net/models/nscale/llama-3-3-70b-instruct/" target="_blank" rel="noopener">Llama-3.3-70B-Instruct</a> | `llama-3-3-70b-instruct` | 128K | Fair-use |
 |  | <a href="https://freellm.net/models/nscale/deepseek-r1-distill-llama-70b/" target="_blank" rel="noopener">DeepSeek-R1-Distill-Llama-70B</a> | `deepseek-r1-distill-llama-70b` | 128K | Fair-use |
+| MapleAI | gpt-oss-20b (OpenAI 호환 채팅) | `nvidia/gpt-oss-20b` | 128K | IP당 10분에 10회 + 하루 100회 |
+|  | NVIDIA Nemotron 3 Embed 1B (2048차원, 무료, 키 불필요) | `nvidia/nemotron-3-embed-1b` | 32K | 무료, 키 불필요 |
 | Nebius | <a href="https://freellm.net/models/nebius/qwen3-235b-a22b/" target="_blank" rel="noopener">Qwen3-235B-A22B</a> | `qwen3-235b-a22b` | 128K | Tier-based |
 <!-- END_BEST_MODELS -->
 
