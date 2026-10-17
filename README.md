@@ -160,6 +160,7 @@ These providers offer a **permanently free tier** — no credit card required fo
 | DeepSeek | 2 | Registration | 128K | text | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">→</a> |
 | Nscale | 2 | Registration | 128K | text | <a href="https://console.nscale.com/" target="_blank" rel="noopener">→</a> |
 | Nebius | 1 | Registration | 128K | text | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
+| [IteraCompute](https://iteracompute.com/free/) | 1 | No | 128K | code, reasoning, text | <a href="https://platform.iteracompute.com/api-keys" target="_blank" rel="noopener">→</a> |
 <!-- END_PERMANENT_FREE -->
 
 ### 💰 Renewable Credits
@@ -207,6 +208,7 @@ Providers that periodically renew free credits.
 | DeepSeek | `https://api.deepseek.com/v1` | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Nscale | `https://inference.api.nscale.com/v1` | <a href="https://console.nscale.com/" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Nebius | `https://api.studio.nebius.com/v1` | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">Get Key →</a> | Registration |
+| IteraCompute | `https://api.iteracompute.com/v1` | <a href="https://platform.iteracompute.com/api-keys" target="_blank" rel="noopener">Get Key →</a> | No |
 <!-- END_QUICK_REF -->
 
 ## Best Free Models by Provider
@@ -296,9 +298,12 @@ Providers that periodically renew free credits.
 | Nscale | <a href="https://freellm.net/models/nscale/llama-3-3-70b-instruct/" target="_blank" rel="noopener">Llama-3.3-70B-Instruct</a> | `llama-3-3-70b-instruct` | 128K | Fair-use |
 |  | <a href="https://freellm.net/models/nscale/deepseek-r1-distill-llama-70b/" target="_blank" rel="noopener">DeepSeek-R1-Distill-Llama-70B</a> | `deepseek-r1-distill-llama-70b` | 128K | Fair-use |
 | Nebius | <a href="https://freellm.net/models/nebius/qwen3-235b-a22b/" target="_blank" rel="noopener">Qwen3-235B-A22B</a> | `qwen3-235b-a22b` | 128K | Tier-based |
+| IteraCompute | Qwen3.8-27B | `qwen/qwen3.8-27b` | 128K | 160,000 TPM; 30M tokens/month per account |
 <!-- END_BEST_MODELS -->
 
 
+
+IteraCompute: [free-tier details](https://iteracompute.com/free/) verified 2026-10-17. No card or top-up required; email verification or Google sign-in is required. Only `qwen/qwen3.8-27b` is free. Input and output, including reasoning, share the 30M monthly account quota, reset at 00:00 UTC on the first of each month; no daily quota, rollover or automatic paid overage. Output is capped at 8,192 tokens; shared free capacity may queue and has no SLA.
 
 ### 🖥️ Local / Self-Hosted (Unlimited, Private, Free Forever)
 
