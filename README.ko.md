@@ -335,8 +335,8 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 - ⚙️ **설정 생성기**: <a href="https://freellm.net/config/" target="_blank" rel="noopener">freellm.net/config/</a>
 - 🎮 **플레이그라운드**: <a href="https://freellm.net/playground/" target="_blank" rel="noopener">freellm.net/playground/</a>
 - 📊 **모델 비교**: <a href="https://freellm.net/compare/" target="_blank" rel="noopener">freellm.net/compare/</a>
-- 📦 **npm 패키지**: <a href="https://github.com/open-free-llm-api/free-llm-models" target="_blank" rel="noopener">free-llm-models</a> — 터미널이나 Node.js에서 모델 조회
-- 🐍 **PyPI 패키지**: <a href="https://github.com/open-free-llm-api/free-llm-models-python" target="_blank" rel="noopener">free-llm-models</a> — 터미널이나 Python에서 모델 조회
+- npm 패키지: [free-llm-models](https://github.com/open-free-llm-api/free-llm-models) — 터미널이나 Node.js에서 모델 조회
+- PyPI 패키지: [free-llm-models](https://github.com/open-free-llm-api/free-llm-models-python) — 터미널이나 Python에서 모델 조회
 
 ## 라이선스
 
