@@ -374,6 +374,8 @@ A model belongs in this list if:
 - ⚙️ **Config generator**: <a href="https://freellm.net/config/" target="_blank" rel="noopener">freellm.net/config/</a>
 - 🎮 **Playground**: <a href="https://freellm.net/playground/" target="_blank" rel="noopener">freellm.net/playground/</a>
 - 📊 **Compare models**: <a href="https://freellm.net/compare/" target="_blank" rel="noopener">freellm.net/compare/</a>
+- 📦 **npm package**: <a href="https://github.com/open-free-llm-api/free-llm-models" target="_blank" rel="noopener">free-llm-models</a> — query models from terminal or Node.js
+- 🐍 **PyPI package**: <a href="https://github.com/open-free-llm-api/free-llm-models-python" target="_blank" rel="noopener">free-llm-models</a> — query models from terminal or Python
 
 ## License
 
