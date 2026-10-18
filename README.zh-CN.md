@@ -335,6 +335,7 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 - ⚙️ **配置生成器**: <a href="https://freellm.net/config/" target="_blank" rel="noopener">freellm.net/config/</a>
 - 🎮 **在线体验**: <a href="https://freellm.net/playground/" target="_blank" rel="noopener">freellm.net/playground/</a>
 - 📊 **模型对比**: <a href="https://freellm.net/compare/" target="_blank" rel="noopener">freellm.net/compare/</a>
+- 🐍 **Python 包**: <a href="https://github.com/open-free-llm-api/free-llm-models-python" target="_blank" rel="noopener">free-llm-models</a>
 
 ## 许可证
 
