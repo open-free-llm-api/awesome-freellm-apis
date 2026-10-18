@@ -375,6 +375,8 @@ A model belongs in this list if:
 - 🎮 **Playground**: <a href="https://freellm.net/playground/" target="_blank" rel="noopener">freellm.net/playground/</a>
 - 📊 **Compare models**: <a href="https://freellm.net/compare/" target="_blank" rel="noopener">freellm.net/compare/</a>
 
+[Python package](https://github.com/open-free-llm-api/free-llm-models-python)
+
 ## License
 
 MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noopener">open-free-llm-api</a>
