@@ -132,6 +132,7 @@ These providers offer a **permanently free tier** — no credit card required fo
 | Provider | Free Models | Credit Card? | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
 | NVIDIA NIM | 137 | Phone verification | 1M | audio, embedding, image, pdf, reasoning, rerank, text, video, vision | <a href="https://build.nvidia.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
+| CrowLLM | 91 | No | 1M | audio, embedding, pdf, reasoning, rerank, text, video, vision | <a href="https://crowllm.com/keys" target="_blank" rel="noopener">→</a> |
 | ModelScope | 61 | Registration | 1M | image, reasoning, text, video, vision | <a href="https://modelscope.cn/my/myaccesstoken" target="_blank" rel="noopener">→</a> |
 | Cloudflare Workers AI | 46 | No | 262K | code, image, reasoning, text, video | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">→</a> |
 | OpenCode Zen | 34 | Registration | 1M | audio, reasoning, vision | <a href="https://opencode.ai/auth" target="_blank" rel="noopener">→</a> |
@@ -178,6 +179,7 @@ Providers that periodically renew free credits.
 | Provider | Base URL | Get API Key | Credit Card? |
 |---|---|---|---|
 | NVIDIA NIM | `https://integrate.api.nvidia.com/v1` | <a href="https://build.nvidia.com/settings/api-keys" target="_blank" rel="noopener">Get Key →</a> | Phone verification |
+| CrowLLM | `https://crowllm.com/v1` | <a href="https://crowllm.com/keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | ModelScope | `https://api-inference.modelscope.cn/v1` | <a href="https://modelscope.cn/my/myaccesstoken" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Cloudflare Workers AI | `https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run` | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">Get Key →</a> | No |
 | OpenRouter | `https://openrouter.ai/api/v1` | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">Get Key →</a> | Registration |
