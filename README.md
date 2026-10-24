@@ -161,6 +161,7 @@ These providers offer a **permanently free tier** — no credit card required fo
 | DeepSeek | 2 | Registration | 128K | text | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">→</a> |
 | Nscale | 2 | Registration | 128K | text | <a href="https://console.nscale.com/" target="_blank" rel="noopener">→</a> |
 | Nebius | 1 | Registration | 128K | text | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
+| NovAI | 5 | No | 202K | image, reasoning, text, video, vision | <a href="https://aiapi-pro.com/register" target="_blank" rel="noopener">→</a> |
 <!-- END_PERMANENT_FREE -->
 
 ### 💰 Renewable Credits
@@ -209,6 +210,7 @@ Providers that periodically renew free credits.
 | DeepSeek | `https://api.deepseek.com/v1` | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Nscale | `https://inference.api.nscale.com/v1` | <a href="https://console.nscale.com/" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Nebius | `https://api.studio.nebius.com/v1` | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">Get Key →</a> | Registration |
+| NovAI | `https://aiapi-pro.com/v1` | <a href="https://aiapi-pro.com/register" target="_blank" rel="noopener">Get Key →</a> | No |
 <!-- END_QUICK_REF -->
 
 ## Best Free Models by Provider
