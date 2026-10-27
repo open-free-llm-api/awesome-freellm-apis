@@ -1,0 +1,29 @@
+settings:
+  concurrency: 5
+  retries: 0
+  timeout: 15
+
+providers:
+  - name: groq
+    model: llama-3.3-70b-versatile
+    base_url: https://api.groq.com/openai/v1
+    api_key_env: GROQ_API_KEY
+    timeout: 15
+
+  - name: cerebras
+    model: llama3.1-8b
+    base_url: https://api.cerebras.ai/v1
+    api_key_env: CEREBRAS_API_KEY
+    timeout: 15
+
+  - name: mistral
+    model: mistral-small-latest
+    base_url: https://api.mistral.ai/v1
+    api_key_env: MISTRAL_API_KEY
+    timeout: 15
+
+  - name: openrouter
+    model: meta-llama/llama-3.2-3b-instruct:free
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    timeout: 15
