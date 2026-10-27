@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>537+ 免费大模型 API，来自 31 个提供商</strong> — 一站式发现、对比、配置免费模型。</p>
+  <p align="center"><strong>540+ 免费大模型 API，来自 31 个提供商</strong> — 一站式发现、对比、配置免费模型。</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 数据每日从 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> 自动更新</strong> — 最后更新: 2026-10-26</p>
+  <p align="center"><strong>🔄 数据每日从 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> 自动更新</strong> — 最后更新: 2026-10-27</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -131,7 +131,7 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 | ModelScope | 61 | Registration | 1M | image, reasoning, text, video, vision | <a href="https://modelscope.cn/my/myaccesstoken" target="_blank" rel="noopener">→</a> |
 | Cloudflare Workers AI | 46 | No | 262K | code, image, reasoning, text, video | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">→</a> |
 | OpenCode Zen | 34 | Registration | 1M | audio, reasoning, vision | <a href="https://opencode.ai/auth" target="_blank" rel="noopener">→</a> |
-| Kilo Code | 27 | No | 1M | audio, code, image, reasoning, text, video | <a href="https://app.kilo.ai/profile" target="_blank" rel="noopener">→</a> |
+| Kilo Code | 29 | No | 1M | audio, code, image, reasoning, text, video | <a href="https://app.kilo.ai/profile" target="_blank" rel="noopener">→</a> |
 | LLM7.io | 24 | No | 1M | audio, code, image, pdf, reasoning, text, video, vision | <a href="https://token.llm7.io" target="_blank" rel="noopener">→</a> |
 | Google Gemini | 19 | No | 1M | audio, image, pdf, reasoning, text, video, vision | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">→</a> |
 | Ollama Cloud | 17 | Registration | 1M | code, image, reasoning, text, video, vision | <a href="https://ollama.com/settings/keys" target="_blank" rel="noopener">→</a> |
@@ -162,7 +162,7 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 <!-- BEGIN_RENEWABLE -->
 | Provider | Free Models | Credit Model | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
-| OpenRouter | 38 | Free tier + $10 topup → 1K RPD | 1M | audio, code, decisions, embeddings, image, reasoning, rerank, speech, text, video | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
+| OpenRouter | 39 | Free tier + $10 topup → 1K RPD | 1M | audio, code, decisions, embeddings, image, reasoning, rerank, speech, text, video | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
 <!-- END_RENEWABLE -->
 
 ## 快速参考 — Base URL 与 API Key
@@ -210,7 +210,7 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 |---|---|---|---|---|
 | NVIDIA NIM | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-2/" target="_blank" rel="noopener">z-ai/glm-5.2</a> | `z-ai/glm-5.2` | 1M | Up to 40 RPM |
 |  | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-1/" target="_blank" rel="noopener">z-ai/glm-5.1</a> | `z-ai/glm-5.1` | 202K | Up to 40 RPM |
-|  | <a href="https://freellm.net/models/nvidia-nim/moonshotai-kimi-k2-6/" target="_blank" rel="noopener">moonshotai/kimi-k2.6</a> | `moonshotai/kimi-k2.6` | 262K | Up to 40 RPM |
+|  | <a href="https://freellm.net/models/nvidia-nim/poolside-laguna-xs-2-1/" target="_blank" rel="noopener">poolside/laguna-xs-2.1</a> | `poolside/laguna-xs-2.1` | 262K | Up to 40 RPM |
 | ModelScope | <a href="https://freellm.net/models/modelscope/minimax-minimax-m2-5/" target="_blank" rel="noopener">MiniMax-M2.5-highspeed</a> | `MiniMax/MiniMax-M2.5` | 204K | See provider |
 |  | <a href="https://freellm.net/models/modelscope/qwen-qwen3-5-35b-a3b/" target="_blank" rel="noopener">Qwen/Qwen3.5-35B-A3B</a> | `qwen-qwen3-5-35b-a3b` | 256K | 2,000 RPD total; &lt;=500.. |
 |  | <a href="https://freellm.net/models/modelscope/qwen-qwen3-5-27b/" target="_blank" rel="noopener">Qwen/Qwen3.5-27B</a> | `qwen-qwen3-5-27b` | 256K | 2,000 RPD total; &lt;=500.. |
@@ -230,10 +230,10 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 |  | <a href="https://freellm.net/models/llm7-io/mistral-nemo-instruct-2407/" target="_blank" rel="noopener">mistral-Nemo-Instruct-2407</a> | `mistral-Nemo-Instruct-2407` | 128K | 60 RPM, 250 req/hr |
 |  | <a href="https://freellm.net/models/llm7-io/minimax-m2-7/" target="_blank" rel="noopener">minimax-m2.7</a> | `minimax-m2.7` | 180K | 60 RPM, 250 req/hr |
 | Google Gemini | <a href="https://freellm.net/models/google-gemini/gemini-3-8-flash/" target="_blank" rel="noopener">Gemini 3.8 Flash</a> | `gemini-3.8-flash` | 1M | - |
-|  | <a href="https://freellm.net/models/google-gemini/gemini-3-7-flash/" target="_blank" rel="noopener">Gemini 3.7 Flash</a> | `gemini-3.7-flash` | 1M | - |
-|  | <a href="https://freellm.net/models/google-gemini/gemini-3-6-flash/" target="_blank" rel="noopener">Gemini 3.6 Flash</a> | `gemini-3.6-flash` | 1M | 15 RPM, 1,500 RPD |
+|  | <a href="https://freellm.net/models/google-gemini/gemini-3-6-flash/" target="_blank" rel="noopener">Gemini 3.6 Flash</a> | `gemini-3.6-flash` | 1M | - |
+|  | <a href="https://freellm.net/models/google-gemini/gemini-3-5-flash-lite/" target="_blank" rel="noopener">Gemini 3.5 Flash-Lite</a> | `gemini-3.5-flash-lite` | 1M | - |
 | Ollama Cloud | <a href="https://freellm.net/models/ollama-cloud/gpt-oss-120b/" target="_blank" rel="noopener">gpt-oss:120b</a> | `gpt-oss:120b` | 128K | 1 concurrent request, m.. |
-|  | <a href="https://freellm.net/models/ollama-cloud/nemotron-3-ultra/" target="_blank" rel="noopener">nemotron-3-ultra</a> | `nemotron-3-ultra` | 262K | 1 concurrent request, m.. |
+|  | <a href="https://freellm.net/models/ollama-cloud/nemotron-3-ultra/" target="_blank" rel="noopener">nemotron-3-ultra</a> | `nemotron-3-ultra` | 256K | 1 concurrent request, m.. |
 |  | <a href="https://freellm.net/models/ollama-cloud/deepseek-v4-pro/" target="_blank" rel="noopener">deepseek-v4-pro</a> | `deepseek-v4-pro` | 1M | Session/weekly limits |
 | Mistral AI | <a href="https://freellm.net/models/mistral-ai/open-mistral-7b/" target="_blank" rel="noopener">Mistral 7B</a> | `open-mistral-7b` | 32K | See provider |
 |  | <a href="https://freellm.net/models/mistral-ai/open-mixtral-8x7b/" target="_blank" rel="noopener">Mixtral 8x7B</a> | `open-mixtral-8x7b` | 32K | See provider |
@@ -271,7 +271,7 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 | Cline | <a href="https://freellm.net/models/cline/cline-free-solar-mini4/" target="_blank" rel="noopener">Solar Mini 4</a> | `cline-free/solar-mini4` | 0 | See provider |
 |  | <a href="https://freellm.net/models/cline/cline-free-nemotron-3-5-super-vl/" target="_blank" rel="noopener">cline-free/nemotron-3.5-super-vl</a> | `cline-free/nemotron-3.5-super-vl` | 0 | See provider |
 |  | <a href="https://freellm.net/models/cline/reflection-beam-free/" target="_blank" rel="noopener">Beam</a> | `reflection/beam-free` | 0 | See provider |
-| Gonka Broker | <a href="https://freellm.net/models/gonka-broker/minimaxai-minimax-m2-7/" target="_blank" rel="noopener">MiniMaxAI/MiniMax-M2.7</a> | `minimaxai-minimax-m2-7` | 204K | ~1M tokens/mo |
+| Gonka Broker | <a href="https://freellm.net/models/gonka-broker/minimaxai-minimax-m2-7/" target="_blank" rel="noopener">MiniMaxAI/MiniMax-M2.7</a> | `minimaxai-minimax-m2-7` | 200K | ~1M tokens/mo |
 |  | <a href="https://freellm.net/models/gonka-broker/deepseek-ai-deepseek-v4-flash-0731/" target="_blank" rel="noopener">deepseek-ai/DeepSeek-V4-Flash-0731</a> | `deepseek-ai-deepseek-v4-flash-0731` | 400K | ~1M tokens/mo |
 |  | <a href="https://freellm.net/models/gonka-broker/zai-org-glm-5-3-flash/" target="_blank" rel="noopener">zai-org/GLM-5.3-Flash</a> | `zai-org-glm-5-3-flash` | 400K | ~1M tokens/mo |
 | SambaNova | <a href="https://freellm.net/models/sambanova/deepseek-v3-1/" target="_blank" rel="noopener">DeepSeek-V3.1</a> | `deepseek-v3-1` | 128K | 20 RPM, 20 RPD, 200K TPD |
@@ -302,16 +302,16 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 <!-- BEGIN_TOP_MODELS -->
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 5852B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 5487B tokens |
 | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-2/" target="_blank" rel="noopener">z-ai/glm-5.2</a> | NVIDIA NIM | 1M | 2998B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-super-vl/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Super VL (free)</a> | OpenRouter | 1M | 1339B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | OpenRouter | 1M | 949B tokens |
-| <a href="https://freellm.net/models/openrouter/poolside-laguna-s-2.1/" target="_blank" rel="noopener">Poolside: Laguna S 2.1 (free)</a> | OpenRouter | 262K | 894B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-super-vl/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Super VL (free)</a> | OpenRouter | 1M | 1344B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | OpenRouter | 1M | 960B tokens |
+| <a href="https://freellm.net/models/openrouter/poolside-laguna-s-2.1/" target="_blank" rel="noopener">Poolside: Laguna S 2.1 (free)</a> | OpenRouter | 262K | 881B tokens |
 | <a href="https://freellm.net/models/openrouter/poolside-laguna-m-1/" target="_blank" rel="noopener">Poolside: Laguna M.1 (free)</a> | OpenRouter | 262K | 768B tokens |
-| <a href="https://freellm.net/models/openrouter/dots-studio-dots-3-note-preview/" target="_blank" rel="noopener">Dots Studio: Dots3-Note Preview (free)</a> | OpenRouter | 512K | 600B tokens |
+| <a href="https://freellm.net/models/openrouter/dots-studio-dots-3-note-preview/" target="_blank" rel="noopener">Dots Studio: Dots3-Note Preview (free)</a> | OpenRouter | 512K | 611B tokens |
 | <a href="https://freellm.net/models/openrouter/apodex-apodex-1.1-mini/" target="_blank" rel="noopener">Apodex: Apodex 1.1 Mini (free)</a> | OpenRouter | 262K | 284B tokens |
-| <a href="https://freellm.net/models/openrouter/thinkingmachines-inkling-small/" target="_blank" rel="noopener">Thinking Machines: Inkling Small (free)</a> | OpenRouter | 1M | 172B tokens |
-| <a href="https://freellm.net/models/openrouter/thinkingmachines-inkling/" target="_blank" rel="noopener">Thinking Machines: Inkling (free)</a> | OpenRouter | 1M | 172B tokens |
+| <a href="https://freellm.net/models/openrouter/thinkingmachines-inkling-small/" target="_blank" rel="noopener">Thinking Machines: Inkling Small (free)</a> | OpenRouter | 1M | 181B tokens |
+| <a href="https://freellm.net/models/openrouter/thinkingmachines-inkling/" target="_blank" rel="noopener">Thinking Machines: Inkling (free)</a> | OpenRouter | 1M | 181B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -350,6 +350,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>数据每日自动更新 · 最后更新: <!-- AUTO_LAST_UPDATED -->
-2026-10-26
+2026-10-27
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
