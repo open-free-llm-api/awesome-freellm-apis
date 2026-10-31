@@ -4,7 +4,7 @@ Use OpenAI's Codex CLI with any free LLM backend — no paid OpenAI tier needed.
 
 ## How It Works
 
-Codex CLI reads `OPENAI_BASE_URL` and `OPENAI_API_KEY` from environment variables. Point them at a free OpenAI-compatible backend, and Codex works identically — without the paid API bill.
+Codex CLI reads `OPENAI_BASE_URL` and `OPENAI_API_KEY` from environment variables. For a custom backend, Codex requires a compatible Responses API, including streaming, tool calls, and conversation continuation. Chat Completions compatibility alone is not enough. See the [Codex gateway compatibility guide](https://learn.chatgpt.com/docs/enterprise/gateway-compatibility).
 
 ## Quick Config
 
@@ -15,7 +15,7 @@ export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
 export OPENAI_API_KEY="gsk_your_groq_api_key"
 ```
 
-Get key: [console.groq.com/keys](https://console.groq.com/keys). Model: `llama-3.3-70b-versatile`.
+Get key: [console.groq.com/keys](https://console.groq.com/keys). Model to check: `openai/gpt-oss-120b`. Groq provides a [beta Responses API](https://console.groq.com/docs/responses-api); verify the complete Codex workflow with your account and CLI version.
 
 ### NVIDIA NIM (no daily token cap)
 
@@ -58,15 +58,15 @@ Codex CLI works best with models that support:
 
 | Capability | Recommended Free Models |
 |---|---|
-| Fast completions | Groq Llama 3.3 70B, Cerebras Llama 3.1 70B |
+| Fast completions | Check your provider’s current model catalog and limits |
 | Complex reasoning | DeepSeek R1 (OpenRouter, NVIDIA NIM) |
 | Long context | Gemini 2.5 Flash (Google AI Studio, 1M ctx) |
-| Tool calling | Llama 3.3 70B, Qwen3 Coder 480B |
+| Tool calling | Check model and endpoint support with your client |
 | Code generation | Qwen3 Coder, DeepSeek R1, GPT-OSS 120B |
 
 ## Caveats
 
-- Codex CLI expects OpenAI-compatible tool calling. Not all free models support this — Llama 3.3 70B+ and DeepSeek R1 handle it best.
+- Check Responses API streaming, tool calls, and continuation with the chosen provider and model; compatibility and limits differ.
 - Set a model name in your Codex config that matches the provider's model ID exactly.
 - Rate limits apply to all free tiers.
 

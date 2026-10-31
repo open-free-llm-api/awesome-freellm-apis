@@ -69,11 +69,11 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="llama-3.3-70b-versatile",            # 모델 목록은 아래 Best Models 표 참조
+    model="openai/gpt-oss-120b",               # 모델 목록은 아래 Best Models 표 참조
     messages=[{"role": "user", "content": "안녕하세요!"}],
 )
 print(response.choices[0].message.content)
-# Groq 무료 한도: 30 RPM, 14,400 RPD — 개인 사용에 충분
+# 이 모델의 Groq 무료 요금제 한도: https://console.groq.com/docs/rate-limits
 ```
 
 ### Codex CLI
@@ -81,14 +81,16 @@ print(response.choices[0].message.content)
 ```bash
 export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
 export OPENAI_API_KEY="your-groq-key"          # 발급: console.groq.com/keys
-codex --model "llama-3.3-70b-versatile"
+codex --model "openai/gpt-oss-120b"
 ```
+
+Codex에는 스트리밍과 도구 호출을 포함한 Responses API 호환성이 필요합니다. 제공업체와 CLI 버전에서 전체 흐름을 확인하세요. [Codex 게이트웨이 요구 사항](https://learn.chatgpt.com/docs/enterprise/gateway-compatibility)을 참조하세요.
 
 ### Cursor
 
 ```
 Settings → Models → Add Model
-  Model name: llama-3.3-70b-versatile
+  Model name: openai/gpt-oss-120b
   Base URL: https://api.groq.com/openai/v1
   API key: your-groq-key                       # 발급: console.groq.com/keys
 ```

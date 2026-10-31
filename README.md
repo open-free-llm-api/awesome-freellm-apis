@@ -69,11 +69,11 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="llama-3.3-70b-versatile",            # see Best Models table below
+    model="openai/gpt-oss-120b",               # see Best Models table below
     messages=[{"role": "user", "content": "Hello!"}],
 )
 print(response.choices[0].message.content)
-# Groq free tier: 30 RPM, 14,400 RPD — generous for personal use
+# Groq free-plan limits for this model: see https://console.groq.com/docs/rate-limits
 ```
 
 ### Codex CLI
@@ -81,14 +81,16 @@ print(response.choices[0].message.content)
 ```bash
 export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
 export OPENAI_API_KEY="your-groq-key"          # get at console.groq.com/keys
-codex --model "llama-3.3-70b-versatile"
+codex --model "openai/gpt-oss-120b"
 ```
+
+Codex requires a compatible Responses API, including streaming and tool calls; verify the complete workflow with your provider and CLI version. See the [Codex gateway requirements](https://learn.chatgpt.com/docs/enterprise/gateway-compatibility).
 
 ### Cursor
 
 ```
 Settings → Models → Add Model
-  Model name: llama-3.3-70b-versatile
+  Model name: openai/gpt-oss-120b
   Base URL: https://api.groq.com/openai/v1
   API key: your-groq-key                       # get at console.groq.com/keys
 ```
