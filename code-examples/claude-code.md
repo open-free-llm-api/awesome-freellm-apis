@@ -15,7 +15,7 @@ export ANTHROPIC_BASE_URL="https://api.groq.com/openai/v1"
 export ANTHROPIC_AUTH_TOKEN="gsk_your_groq_api_key"
 ```
 
-Get your key at [console.groq.com/keys](https://console.groq.com/keys). Recommended model: `llama-3.3-70b-versatile`, `qwen-3-32b`.
+Get your key at [console.groq.com/keys](https://console.groq.com/keys). Model to check: `openai/gpt-oss-120b`. The Claude Code route requires separate compatibility verification.
 
 ### NVIDIA NIM (no daily token cap)
 
@@ -63,9 +63,9 @@ export ANTHROPIC_AUTH_TOKEN="gsk_your_key_here"
 
 ## Caveats
 
-- Claude Code expects tools/capabilities that not all free backends support. If you hit errors, try a more capable model (Llama 3.3 70B+ or DeepSeek R1).
+- Claude Code expects tools/capabilities that not all free backends support. Check the provider endpoint and model capabilities for your client.
 - The "Claude" model name shown in cc is cosmetic — you're actually using whichever model you configure.
-- Free tiers have rate limits. Groq: 14,400 RPD. NVIDIA NIM: 40 RPM. OpenRouter: 50 RPD (free tier).
+- Free tiers have rate limits. Check the current per-model limits on each provider’s site.
 
 ## More Configs
 

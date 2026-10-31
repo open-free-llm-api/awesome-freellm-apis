@@ -69,11 +69,11 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="llama-3.3-70b-versatile",            # 模型列表見下方 Best Models 表
+    model="openai/gpt-oss-120b",               # 模型列表見下方 Best Models 表
     messages=[{"role": "user", "content": "你好！"}],
 )
 print(response.choices[0].message.content)
-# Groq 免費額度: 30 RPM, 14,400 RPD — 個人使用綽綽有餘
+# 此模型的 Groq 免費方案限額：https://console.groq.com/docs/rate-limits
 ```
 
 ### Codex CLI
@@ -81,14 +81,16 @@ print(response.choices[0].message.content)
 ```bash
 export OPENAI_BASE_URL="https://api.groq.com/openai/v1"
 export OPENAI_API_KEY="your-groq-key"          # 獲取: console.groq.com/keys
-codex --model "llama-3.3-70b-versatile"
+codex --model "openai/gpt-oss-120b"
 ```
+
+Codex 需要相容的 Responses API，包括串流與工具呼叫；請依服務商和 CLI 版本驗證完整流程。參見 [Codex 閘道要求](https://learn.chatgpt.com/docs/enterprise/gateway-compatibility)。
 
 ### Cursor
 
 ```
 Settings → Models → Add Model
-  Model name: llama-3.3-70b-versatile
+  Model name: openai/gpt-oss-120b
   Base URL: https://api.groq.com/openai/v1
   API key: your-groq-key                       # 獲取: console.groq.com/keys
 ```

@@ -21,7 +21,7 @@ Cursor supports custom API providers via Settings → Models → Add Model. You 
 ```
 Base URL:  https://api.groq.com/openai/v1
 API Key:   gsk_your_groq_api_key
-Models:    llama-3.3-70b-versatile, qwen-3-32b, deepseek-r1-distill-llama-70b
+Model:     openai/gpt-oss-120b  # check current availability and limits with Groq
 ```
 
 Get key: [console.groq.com/keys](https://console.groq.com/keys) — no credit card, instant.
@@ -58,7 +58,7 @@ Get key: [dash.cloudflare.com](https://dash.cloudflare.com/profile/api-tokens) �
 
 ## Caveats
 
-- Cursor's agent mode (multi-step tool use) works best with models that support tool calling. Stick to Llama 3.3 70B+ or DeepSeek R1 for agent features.
+- Cursor's agent mode (multi-step tool use) works best with models that support tool calling. Check tool-calling support for the specific provider and model.
 - Some providers throttle free-tier requests — if you see "rate limit" errors, try a different provider.
 - The model name in Cursor must match the provider's model ID exactly.
 
