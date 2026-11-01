@@ -1,0 +1,31 @@
+Provider,Base URL,Get API Key,Credit Card?
+NVIDIA NIM,https://integrate.api.nvidia.com/v1,https://build.nvidia.com/settings/api-keys,Phone verification
+ModelScope,https://api-inference.modelscope.cn/v1,https://modelscope.cn/my/myaccesstoken,Registration
+Cloudflare Workers AI,https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run,https://dash.cloudflare.com/profile/api-tokens,No
+OpenCode Zen,https://opencode.ai/zen/v1,https://opencode.ai/auth,Registration
+OpenRouter,https://openrouter.ai/api/v1,https://openrouter.ai/workspaces/default/keys,Registration
+LLM7.io,https://api.llm7.io/v1,https://token.llm7.io,No
+Kilo Code,https://api.kilo.ai/api/gateway,https://app.kilo.ai/profile,No
+Google Gemini,https://generativelanguage.googleapis.com/v1beta,https://aistudio.google.com/app/apikey,No
+Ollama Cloud,https://ollama.com/api,https://ollama.com/settings/keys,Registration
+Mistral AI,https://api.mistral.ai/v1,https://console.mistral.ai/api-keys,No
+OVHcloud AI Endpoints,https://oai.endpoints.kepler.ai.cloud.ovh.net/v1,https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/,Registration
+Groq,https://api.groq.com/openai/v1,https://console.groq.com/keys,No
+Cohere,https://api.cohere.com/v2,https://dashboard.cohere.com/api-keys,No
+Aion Labs,https://api.aionlabs.ai/v1,https://www.aionlabs.ai/app/api-keys/,Registration
+Hugging Face,https://router.huggingface.co/v1,https://huggingface.co/settings/tokens,No
+Z AI (Zhipu AI),https://open.bigmodel.cn/api/paas/v4,https://open.bigmodel.cn/usercenter/apikeys,No
+Cerebras,https://api.cerebras.ai/v1,https://cloud.cerebras.ai/,No
+Agnes AI,https://apihub.agnes-ai.com/v1,https://platform.agnes-ai.com/settings/apiKeys,Registration
+Alibaba Cloud Model Studio,https://dashscope-intl.aliyuncs.com/compatible-mode/v1,https://bailian.console.alibabacloud.com/?apiKey=1,Registration
+Cline,-,-,Registration
+SiliconFlow,https://api.siliconflow.cn/v1,https://cloud.siliconflow.cn/account/ak,Registration
+SambaNova,https://api.sambanova.ai/v1,https://cloud.sambanova.ai/apis,Registration
+xAI,https://api.x.ai/v1,https://console.x.ai,Registration
+Chutes.ai,https://api.chutes.ai/v1,https://chutes.ai/,Registration
+Glhf.chat,https://glhf.chat/api/openai/v1,https://glhf.chat/,Registration
+Grok (xAI),https://api.x.ai/v1,https://console.x.ai/,Registration
+AI21 Labs,https://api.ai21.com/studio/v1,https://studio.ai21.com/account/api-key,Registration
+DeepSeek,https://api.deepseek.com/v1,https://platform.deepseek.com/api_keys,Registration
+Nscale,https://inference.api.nscale.com/v1,https://console.nscale.com/,Registration
+Nebius,https://api.studio.nebius.com/v1,https://studio.nebius.com/settings/api-keys,Registration

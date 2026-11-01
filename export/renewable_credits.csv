@@ -1,0 +1,2 @@
+Provider,Free Models,Credit Model,Max Context,Modalities,Get API Key
+OpenRouter,33,Free tier + $10 topup → 1K RPD,1M,"audio, code, decisions, embeddings, image, reasoning, rerank, speech, text, video",https://openrouter.ai/workspaces/default/keys

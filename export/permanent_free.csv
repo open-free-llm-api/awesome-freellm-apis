@@ -1,0 +1,30 @@
+Provider,Free Models,Credit Card?,Max Context,Modalities,Get API Key
+NVIDIA NIM,134,Phone verification,1M,"audio, embedding, image, pdf, reasoning, rerank, text, video, vision",https://build.nvidia.com/settings/api-keys
+ModelScope,61,Registration,1M,"audio, image, reasoning, text, video, vision",https://modelscope.cn/my/myaccesstoken
+Cloudflare Workers AI,41,No,262K,"code, image, reasoning, text, video",https://dash.cloudflare.com/profile/api-tokens
+OpenCode Zen,34,Registration,1M,"audio, reasoning, vision",https://opencode.ai/auth
+LLM7.io,24,No,1M,"audio, code, image, pdf, reasoning, text, video, vision",https://token.llm7.io
+Kilo Code,23,No,1M,"audio, code, image, reasoning, text, video",https://app.kilo.ai/profile
+Google Gemini,19,No,1M,"audio, image, pdf, reasoning, text, video, vision",https://aistudio.google.com/app/apikey
+Ollama Cloud,17,Registration,1M,"code, image, reasoning, text, video, vision",https://ollama.com/settings/keys
+Mistral AI,15,No,256K,"code, image, pdf, reasoning, text",https://console.mistral.ai/api-keys
+OVHcloud AI Endpoints,15,Registration,262K,"audio, code, image, reasoning, text, video",https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+Groq,12,No,262K,"image, reasoning, text, video",https://console.groq.com/keys
+Cohere,12,No,256K,"image, text",https://dashboard.cohere.com/api-keys
+Aion Labs,11,Registration,131K,"reasoning, text",https://www.aionlabs.ai/app/api-keys/
+Hugging Face,9,No,131K,"code, image, text",https://huggingface.co/settings/tokens
+Z AI (Zhipu AI),8,No,200K,"image, reasoning, text, video",https://open.bigmodel.cn/usercenter/apikeys
+Cerebras,6,No,131K,"reasoning, text",https://cloud.cerebras.ai/
+Agnes AI,5,Registration,256K,"image, reasoning, text, video, vision",https://platform.agnes-ai.com/settings/apiKeys
+Alibaba Cloud Model Studio,5,Registration,1M,"code, image, text",https://bailian.console.alibabacloud.com/?apiKey=1
+Cline,5,Registration,0,"text, vision",-
+SiliconFlow,4,Registration,131K,"reasoning, text",https://cloud.siliconflow.cn/account/ak
+SambaNova,4,Registration,128K,"image, reasoning, text",https://cloud.sambanova.ai/apis
+xAI,3,Registration,2M,text,https://console.x.ai
+Chutes.ai,2,Registration,131K,"reasoning, text",https://chutes.ai/
+Glhf.chat,2,Registration,131K,text,https://glhf.chat/
+Grok (xAI),2,Registration,131K,text,https://console.x.ai/
+AI21 Labs,2,Registration,256K,text,https://studio.ai21.com/account/api-key
+DeepSeek,2,Registration,128K,text,https://platform.deepseek.com/api_keys
+Nscale,2,Registration,128K,text,https://console.nscale.com/
+Nebius,1,Registration,128K,text,https://studio.nebius.com/settings/api-keys
