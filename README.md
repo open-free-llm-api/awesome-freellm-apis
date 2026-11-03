@@ -160,7 +160,6 @@ These providers offer a **permanently free tier** — no credit card required fo
 | DeepSeek | 2 | Registration | 128K | text | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">→</a> |
 | Nscale | 2 | Registration | 128K | text | <a href="https://console.nscale.com/" target="_blank" rel="noopener">→</a> |
 | Nebius | 1 | Registration | 128K | text | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
-| [IteraCompute](https://iteracompute.com/free/) | 1 | No | 128K | code, reasoning, text | <a href="https://platform.iteracompute.com/api-keys" target="_blank" rel="noopener">→</a> |
 <!-- END_PERMANENT_FREE -->
 
 ### 💰 Renewable Credits
@@ -172,6 +171,14 @@ Providers that periodically renew free credits.
 |---|---|---|---|---|---|
 | OpenRouter | 32 | Free tier + $10 topup → 1K RPD | 1M | audio, code, decisions, embeddings, image, reasoning, rerank, speech, text, video | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
 <!-- END_RENEWABLE -->
+
+### ⏳ Time-Limited Promotions
+
+These offers have a published end date and are separate from permanent free tiers and renewable credits.
+
+| Provider | Free Model | Allowance | Ends | Get API Key |
+|---|---|---|---|---|
+| [IteraCompute](https://iteracompute.com/free/) | `qwen/qwen3.8-27b` | 30M tokens/month; 128K context; 160K TPM | November 24, 2026, 00:00 Pacific Time (08:00 UTC) | <a href="https://platform.iteracompute.com/api-keys" target="_blank" rel="noopener">→</a> |
 
 ## Quick Reference — Base URLs & API Keys
 
@@ -298,12 +305,12 @@ Providers that periodically renew free credits.
 | Nscale | <a href="https://freellm.net/models/nscale/llama-3-3-70b-instruct/" target="_blank" rel="noopener">Llama-3.3-70B-Instruct</a> | `llama-3-3-70b-instruct` | 128K | Fair-use |
 |  | <a href="https://freellm.net/models/nscale/deepseek-r1-distill-llama-70b/" target="_blank" rel="noopener">DeepSeek-R1-Distill-Llama-70B</a> | `deepseek-r1-distill-llama-70b` | 128K | Fair-use |
 | Nebius | <a href="https://freellm.net/models/nebius/qwen3-235b-a22b/" target="_blank" rel="noopener">Qwen3-235B-A22B</a> | `qwen3-235b-a22b` | 128K | Tier-based |
-| IteraCompute | Qwen3.8-27B | `qwen/qwen3.8-27b` | 128K | 160,000 TPM; 30M tokens/month per account |
+| IteraCompute (time-limited promotion) | Qwen3.8-27B | `qwen/qwen3.8-27b` | 128K | 160,000 TPM; 30M tokens/month; ends November 24, 2026, 00:00 Pacific Time |
 <!-- END_BEST_MODELS -->
 
 
 
-IteraCompute: [free-tier details](https://iteracompute.com/free/) verified 2026-10-17. No card or top-up required; email verification or Google sign-in is required. Only `qwen/qwen3.8-27b` is free. Input and output, including reasoning, share the 30M monthly account quota, reset at 00:00 UTC on the first of each month; no daily quota, rollover or automatic paid overage. Output is capped at 8,192 tokens; shared free capacity may queue and has no SLA.
+IteraCompute: [promotion details](https://iteracompute.com/free/) checked 2026-11-03. This time-limited promotion ends November 24, 2026 at 00:00 Pacific Time (08:00 UTC); it is not a permanent free tier. No card or top-up required; email verification or Google sign-in is required. Only `qwen/qwen3.8-27b` is free. Input and output, including reasoning, share the 30M monthly account quota, reset at 00:00 UTC on the first of each month; no daily quota, rollover or automatic paid overage. Output is capped at 8,192 tokens; shared free capacity may queue and has no SLA.
 
 ### 🖥️ Local / Self-Hosted (Unlimited, Private, Free Forever)
 
@@ -391,3 +398,4 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 2026-10-17
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
+
