@@ -160,6 +160,7 @@ These providers offer a **permanently free tier** — no credit card required fo
 | DeepSeek | 2 | Registration | 128K | text | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">→</a> |
 | Nscale | 2 | Registration | 128K | text | <a href="https://console.nscale.com/" target="_blank" rel="noopener">→</a> |
 | Nebius | 1 | Registration | 128K | text | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
+| <a href="https://www.merkium.nl">Merkium</a> | 7 | Registration | unknown | text | <a href="https://chat.merkium.nl" target="_blank" rel="noopener">→</a> |
 <!-- END_PERMANENT_FREE -->
 
 ### 💰 Renewable Credits
