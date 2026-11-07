@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>30プロバイダー、513+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
+  <p align="center"><strong>30プロバイダー、540+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> から毎日自動更新</strong> — 最終更新: 2026-10-20</p>
+  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> から毎日自動更新</strong> — 最終更新: 2026-11-07</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -345,6 +345,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>毎日自動更新 · 最終更新: <!-- AUTO_LAST_UPDATED -->
-2026-10-20
+2026-11-07
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>

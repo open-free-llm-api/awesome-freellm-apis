@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>513+ free LLM APIs from 30 providers</strong> — find, compare & configure free models in seconds.</p>
+  <p align="center"><strong>540+ free LLM APIs from 30 providers</strong> — find, compare & configure free models in seconds.</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
 <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a></strong> — Last updated: 2026-10-20</p>
+  <p align="center"><strong>🔄 Data refreshed daily from <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a></strong> — Last updated: 2026-11-07</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -384,6 +384,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>Last updated: <!-- AUTO_LAST_UPDATED -->
-2026-10-20
+2026-11-07
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>

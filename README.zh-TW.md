@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>513+ 免費大模型 API，來自 30 個提供商</strong> — 一站式發現、對比、配置免費模型。</p>
+  <p align="center"><strong>540+ 免費大模型 API，來自 30 個提供商</strong> — 一站式發現、對比、配置免費模型。</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 資料每日從 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> 自動更新</strong> — 最後更新: 2026-10-20</p>
+  <p align="center"><strong>🔄 資料每日從 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> 自動更新</strong> — 最後更新: 2026-11-07</p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -345,6 +345,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>資料每日自動更新 · 最後更新: <!-- AUTO_LAST_UPDATED -->
-2026-10-20
+2026-11-07
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>
