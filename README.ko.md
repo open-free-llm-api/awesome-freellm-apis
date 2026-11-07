@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>31개 제공업체, 542+개의 무료 LLM API</strong> — 무료 모델을 검색, 비교, 설정하세요.</p>
+  <p align="center"><strong>31개 제공업체, 539+개의 무료 LLM API</strong> — 무료 모델을 검색, 비교, 설정하세요.</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -162,7 +162,7 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 <!-- BEGIN_RENEWABLE -->
 | Provider | Free Models | Credit Model | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
-| OpenRouter | 39 | Free tier + $10 topup → 1K RPD | 1M | Multimodal | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
+| OpenRouter | 36 | Free tier + $10 topup → 1K RPD | 1M | Multimodal | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
 <!-- END_RENEWABLE -->
 
 ## 빠른 참조 — Base URL 및 API 키
@@ -310,8 +310,8 @@ export ANTHROPIC_API_KEY=""                       # 빈 값 필수
 | <a href="https://freellm.net/models/openrouter/poolside-laguna-m-1/" target="_blank" rel="noopener">Poolside: Laguna M.1 (free)</a> | OpenRouter | 262K | 768B tokens |
 | <a href="https://freellm.net/models/openrouter/dots-studio-dots-3-note-preview/" target="_blank" rel="noopener">Dots Studio: Dots3-Note Preview (free)</a> | OpenRouter | 512K | 611B tokens |
 | <a href="https://freellm.net/models/openrouter/apodex-apodex-1.1-mini/" target="_blank" rel="noopener">Apodex: Apodex 1.1 Mini (free)</a> | OpenRouter | 262K | 284B tokens |
-| <a href="https://freellm.net/models/openrouter/thinkingmachines-inkling-small/" target="_blank" rel="noopener">Thinking Machines: Inkling Small (free)</a> | OpenRouter | 1M | 181B tokens |
-| <a href="https://freellm.net/models/openrouter/thinkingmachines-inkling/" target="_blank" rel="noopener">Thinking Machines: Inkling (free)</a> | OpenRouter | 1M | 181B tokens |
+| <a href="https://freellm.net/models/openrouter/recursive-flint-v1.0/" target="_blank" rel="noopener">Recursive: Flint (free)</a> | OpenRouter | 262K | 171B tokens |
+| <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-1/" target="_blank" rel="noopener">z-ai/glm-5.1</a> | NVIDIA NIM | 202K | 158B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
