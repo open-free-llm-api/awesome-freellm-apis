@@ -150,7 +150,6 @@ These providers offer a **permanently free tier** — no credit card required fo
 | SiliconFlow | 6 | Registration | 131K | reasoning, text | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener">→</a> |
 | Agnes AI | 5 | Registration | 256K | image, reasoning, text, video, vision | <a href="https://platform.agnes-ai.com/settings/apiKeys" target="_blank" rel="noopener">→</a> |
 | Alibaba Cloud Model Studio | 5 | Registration | 1M | code, image, text | <a href="https://bailian.console.alibabacloud.com/?apiKey=1" target="_blank" rel="noopener">→</a> |
-| Cline | 5 | Registration | 0 | text, vision | - |
 | Gonka Broker | 4 | Registration | 400K | image, pdf, reasoning, text, video | - |
 | SambaNova | 4 | Registration | 128K | image, reasoning, text | <a href="https://cloud.sambanova.ai/apis" target="_blank" rel="noopener">→</a> |
 | xAI | 3 | Registration | 2M | text | <a href="https://console.x.ai" target="_blank" rel="noopener">→</a> |
