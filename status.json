@@ -1,0 +1,423 @@
+{
+  "generated_at": "2026-11-07",
+  "dashboard_url": "https://freellm.net/free-llm-api-status",
+  "summary": {
+    "total_providers": 31,
+    "operational": 31,
+    "degraded": 0,
+    "offline": 0,
+    "total_free_models": 539
+  },
+  "providers": [
+    {
+      "provider": "NVIDIA NIM",
+      "slug": "nvidia-nim",
+      "status": "Operational",
+      "free_models_count": 139,
+      "max_context": 1310720,
+      "verified_protocols": [
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "100+ open models from NVIDIA \u2014 no credit card, 40 RPM.",
+      "base_url": "https://integrate.api.nvidia.com/v1",
+      "api_key_url": "https://build.nvidia.com/settings/api-keys"
+    },
+    {
+      "provider": "ModelScope",
+      "slug": "modelscope",
+      "status": "Operational",
+      "free_models_count": 61,
+      "max_context": 1000000,
+      "verified_protocols": [
+        "OpenAI Chat Completions",
+        "OpenAI Responses"
+      ],
+      "tagline": "Alibaba ModelScope \u2014 Qwen3.5, DeepSeek at 2,000 RPD free.",
+      "base_url": "https://api-inference.modelscope.cn/v1",
+      "api_key_url": "https://modelscope.cn/my/myaccesstoken"
+    },
+    {
+      "provider": "Cloudflare Workers AI",
+      "slug": "cloudflare-workers-ai",
+      "status": "Operational",
+      "free_models_count": 46,
+      "max_context": 262000,
+      "verified_protocols": [
+        "Cloudflare Workers AI native run",
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "Edge AI inference \u2014 10,000 neurons/day, 50+ models.",
+      "base_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run",
+      "api_key_url": "https://dash.cloudflare.com/profile/api-tokens"
+    },
+    {
+      "provider": "OpenRouter",
+      "slug": "openrouter",
+      "status": "Operational",
+      "free_models_count": 36,
+      "max_context": 1048576,
+      "verified_protocols": [
+        "OpenAI Chat Completions",
+        "OpenAI Responses"
+      ],
+      "tagline": "Single API key for 300+ models from every major lab.",
+      "base_url": "https://openrouter.ai/api/v1",
+      "api_key_url": "https://openrouter.ai/workspaces/default/keys"
+    },
+    {
+      "provider": "OpenCode Zen",
+      "slug": "opencode",
+      "status": "Operational",
+      "free_models_count": 34,
+      "max_context": 1048576,
+      "verified_protocols": [
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "OpenCode Zen provides no-card API access to coding and reasoning models for terminal-first AI workflows.",
+      "base_url": "https://opencode.ai/zen/v1",
+      "api_key_url": "https://opencode.ai/auth"
+    },
+    {
+      "provider": "Kilo Code",
+      "slug": "kilo-code",
+      "status": "Operational",
+      "free_models_count": 29,
+      "max_context": 1000000,
+      "verified_protocols": [
+        "OpenAI SDK-compatible (Chat Completions)"
+      ],
+      "tagline": "Coding-optimized API gateway \u2014 routes to the best coding model.",
+      "base_url": "https://api.kilo.ai/api/gateway",
+      "api_key_url": "https://app.kilo.ai/profile"
+    },
+    {
+      "provider": "LLM7.io",
+      "slug": "llm7-io",
+      "status": "Operational",
+      "free_models_count": 26,
+      "max_context": 1048576,
+      "verified_protocols": [
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "Free GPT-4o-mini access \u2014 rare OpenAI model on a free tier.",
+      "base_url": "https://api.llm7.io/v1",
+      "api_key_url": "https://token.llm7.io"
+    },
+    {
+      "provider": "Google Gemini",
+      "slug": "google-gemini",
+      "status": "Operational",
+      "free_models_count": 19,
+      "max_context": 1048576,
+      "verified_protocols": [
+        "Google Gemini native generateContent",
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "Google's generous free tier \u2014 1M context, multimodal, 500 RPD.",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "api_key_url": "https://aistudio.google.com/app/apikey"
+    },
+    {
+      "provider": "Ollama Cloud",
+      "slug": "ollama-cloud",
+      "status": "Operational",
+      "free_models_count": 17,
+      "max_context": 1000000,
+      "verified_protocols": [
+        "Ollama API + OpenAI-compatible wrapper"
+      ],
+      "tagline": "Ollama Cloud \u2014 run Llama, Qwen, Gemma via Ollama API in the cloud.",
+      "base_url": "https://ollama.com/api",
+      "api_key_url": "https://ollama.com/settings/keys"
+    },
+    {
+      "provider": "Mistral AI",
+      "slug": "mistral-ai",
+      "status": "Operational",
+      "free_models_count": 15,
+      "max_context": 256000,
+      "verified_protocols": [
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "Mistral's Experiment plan \u2014 ~1B tokens/month, no card needed.",
+      "base_url": "https://api.mistral.ai/v1",
+      "api_key_url": "https://console.mistral.ai/api-keys"
+    },
+    {
+      "provider": "OVHcloud AI Endpoints",
+      "slug": "ovhcloud-ai-endpoints",
+      "status": "Operational",
+      "free_models_count": 15,
+      "max_context": 262000,
+      "verified_protocols": [
+        "OpenAI SDK-compatible (Chat Completions)"
+      ],
+      "tagline": "EU-hosted free LLM APIs \u2014 GDPR compliant, no registration for anonymous tier.",
+      "base_url": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1",
+      "api_key_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
+    },
+    {
+      "provider": "Groq",
+      "slug": "groq",
+      "status": "Operational",
+      "free_models_count": 12,
+      "max_context": 262000,
+      "verified_protocols": [
+        "OpenAI Chat Completions",
+        "OpenAI Responses"
+      ],
+      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
+      "base_url": "https://api.groq.com/openai/v1",
+      "api_key_url": "https://console.groq.com/keys"
+    },
+    {
+      "provider": "Cohere",
+      "slug": "cohere",
+      "status": "Operational",
+      "free_models_count": 12,
+      "max_context": 256000,
+      "verified_protocols": [
+        "OpenAI SDK-compatible (Chat Completions v2)"
+      ],
+      "tagline": "Command A, Aya, and embed models \u2014 1,000 API calls/month.",
+      "base_url": "https://api.cohere.com/v2",
+      "api_key_url": "https://dashboard.cohere.com/api-keys"
+    },
+    {
+      "provider": "Aion Labs",
+      "slug": "aion-labs",
+      "status": "Operational",
+      "free_models_count": 11,
+      "max_context": 131000,
+      "verified_protocols": [
+        "Aion REST API (not OpenAI-compatible)"
+      ],
+      "tagline": "Aion 2.0 \u2014 daily token allowance, 131K context, no credit card.",
+      "base_url": "https://api.aionlabs.ai/v1",
+      "api_key_url": "https://www.aionlabs.ai/app/api-keys/"
+    },
+    {
+      "provider": "Hugging Face",
+      "slug": "hugging-face",
+      "status": "Operational",
+      "free_models_count": 9,
+      "max_context": 131000,
+      "verified_protocols": [
+        "OpenAI Chat Completions",
+        "OpenAI Responses"
+      ],
+      "tagline": "Hugging Face Inference API \u2014 Qwen, Llama, Gemma at ~1,000 RPD.",
+      "base_url": "https://router.huggingface.co/v1",
+      "api_key_url": "https://huggingface.co/settings/tokens"
+    },
+    {
+      "provider": "Z AI (Zhipu AI)",
+      "slug": "z-ai-zhipu-ai",
+      "status": "Operational",
+      "free_models_count": 8,
+      "max_context": 200000,
+      "verified_protocols": [
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "Zhipu GLM-4.7-Flash \u2014 200K context, no credit card, 1 concurrent request.",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "api_key_url": "https://open.bigmodel.cn/usercenter/apikeys"
+    },
+    {
+      "provider": "Cerebras",
+      "slug": "cerebras",
+      "status": "Operational",
+      "free_models_count": 6,
+      "max_context": 131072,
+      "verified_protocols": [
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "$5 in trial credits, valid for 30 days. No ongoing free tier.",
+      "base_url": "https://api.cerebras.ai/v1",
+      "api_key_url": "https://cloud.cerebras.ai/"
+    },
+    {
+      "provider": "SiliconFlow",
+      "slug": "siliconflow",
+      "status": "Operational",
+      "free_models_count": 6,
+      "max_context": 131072,
+      "verified_protocols": [
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "China-based free LLM API \u2014 DeepSeek, Qwen, BGE at 1,000 RPM.",
+      "base_url": "https://api.siliconflow.cn/v1",
+      "api_key_url": "https://cloud.siliconflow.cn/account/ak"
+    },
+    {
+      "provider": "Agnes AI",
+      "slug": "agnes-ai",
+      "status": "Operational",
+      "free_models_count": 5,
+      "max_context": 256000,
+      "verified_protocols": [
+        "OpenAI Chat Completions",
+        "OpenAI Responses"
+      ],
+      "tagline": "Advanced multimodal models by Sapiens AI for agentic, visual, and creative applications.",
+      "base_url": "https://apihub.agnes-ai.com/v1",
+      "api_key_url": "https://platform.agnes-ai.com/settings/apiKeys"
+    },
+    {
+      "provider": "Alibaba Cloud Model Studio",
+      "slug": "alibaba-cloud-model-studio",
+      "status": "Operational",
+      "free_models_count": 5,
+      "max_context": 1000000,
+      "verified_protocols": [
+        "OpenAI SDK-compatible (Chat Completions) via compatible-mode endpoint"
+      ],
+      "tagline": "Alibaba's official Qwen3 API \u2014 1M context, tiered by region.",
+      "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+      "api_key_url": "https://bailian.console.alibabacloud.com/?apiKey=1"
+    },
+    {
+      "provider": "Gonka Broker",
+      "slug": "gonka-broker",
+      "status": "Operational",
+      "free_models_count": 4,
+      "max_context": 400000,
+      "verified_protocols": [
+        "OpenAI Compatible"
+      ],
+      "tagline": "",
+      "base_url": "https://proxy.gonkabroker.com/v1",
+      "api_key_url": "https://app.gonkabroker.com/signup"
+    },
+    {
+      "provider": "SambaNova",
+      "slug": "sambanova",
+      "status": "Operational",
+      "free_models_count": 4,
+      "max_context": 128000,
+      "verified_protocols": [
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "SambaNova Cloud offers no-card free access to fast hosted open models, including DeepSeek and MiniMax.",
+      "base_url": "https://api.sambanova.ai/v1",
+      "api_key_url": "https://cloud.sambanova.ai/apis"
+    },
+    {
+      "provider": "Cline",
+      "slug": "cline",
+      "status": "Operational",
+      "free_models_count": 4,
+      "max_context": 0,
+      "verified_protocols": [
+        "Cline has a separate OpenAI-compatible API; the promotional FREE models listed here are CLI/IDE only"
+      ],
+      "tagline": "Rotating free model promotions for Cline CLI and IDE users.",
+      "base_url": "",
+      "api_key_url": ""
+    },
+    {
+      "provider": "xAI",
+      "slug": "xai",
+      "status": "Operational",
+      "free_models_count": 3,
+      "max_context": 2000000,
+      "verified_protocols": [
+        "OpenAI SDK-compatible (Chat Completions)"
+      ],
+      "tagline": "xAI's Grok-4.3, Grok-4.1 Fast, Grok-3 Mini \u2014 1M-2M context, OpenAI-compatible.",
+      "base_url": "https://api.x.ai/v1",
+      "api_key_url": "https://console.x.ai"
+    },
+    {
+      "provider": "Chutes.ai",
+      "slug": "chutes-ai",
+      "status": "Operational",
+      "free_models_count": 2,
+      "max_context": 131072,
+      "verified_protocols": [
+        "OpenAI SDK-compatible (Chat Completions)"
+      ],
+      "tagline": "Community-powered AI \u2014 DeepSeek-R1 and Llama 3.1 70B, no card.",
+      "base_url": "https://api.chutes.ai/v1",
+      "api_key_url": "https://chutes.ai/"
+    },
+    {
+      "provider": "Glhf.chat",
+      "slug": "glhf-chat",
+      "status": "Operational",
+      "free_models_count": 2,
+      "max_context": 131072,
+      "verified_protocols": [
+        "OpenAI SDK-compatible (Chat Completions)"
+      ],
+      "tagline": "Unlimited free inference \u2014 Llama 3.1 70B and Mixtral 8x7B.",
+      "base_url": "https://glhf.chat/api/openai/v1",
+      "api_key_url": "https://glhf.chat/"
+    },
+    {
+      "provider": "Grok (xAI)",
+      "slug": "grok-(xai)",
+      "status": "Operational",
+      "free_models_count": 2,
+      "max_context": 131072,
+      "verified_protocols": [
+        "OpenAI SDK-compatible (Chat Completions)"
+      ],
+      "tagline": "Grok-2 and Grok-2 Mini from xAI \u2014 $25/month free credits.",
+      "base_url": "https://api.x.ai/v1",
+      "api_key_url": "https://console.x.ai/"
+    },
+    {
+      "provider": "AI21 Labs",
+      "slug": "ai21-labs",
+      "status": "Operational",
+      "free_models_count": 2,
+      "max_context": 256000,
+      "verified_protocols": [
+        "AI21 REST API (not OpenAI-compatible by default)"
+      ],
+      "tagline": "Jamba models with 256K context \u2014 200 RPM, 10 RPS free tier.",
+      "base_url": "https://api.ai21.com/studio/v1",
+      "api_key_url": "https://studio.ai21.com/account/api-key"
+    },
+    {
+      "provider": "DeepSeek",
+      "slug": "deepseek",
+      "status": "Operational",
+      "free_models_count": 2,
+      "max_context": 128000,
+      "verified_protocols": [
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "DeepSeek's official API \u2014 V3.2 + R1 with 128K context, OpenAI-compatible.",
+      "base_url": "https://api.deepseek.com/v1",
+      "api_key_url": "https://platform.deepseek.com/api_keys"
+    },
+    {
+      "provider": "Nscale",
+      "slug": "nscale",
+      "status": "Operational",
+      "free_models_count": 2,
+      "max_context": 128000,
+      "verified_protocols": [
+        "OpenAI SDK-compatible (Chat Completions)"
+      ],
+      "tagline": "EU-hosted Llama 3.3 70B + Qwen3-Coder + DeepSeek-R1 \u2014 fair-use limits.",
+      "base_url": "https://inference.api.nscale.com/v1",
+      "api_key_url": "https://console.nscale.com/"
+    },
+    {
+      "provider": "Nebius",
+      "slug": "nebius",
+      "status": "Operational",
+      "free_models_count": 1,
+      "max_context": 128000,
+      "verified_protocols": [
+        "OpenAI SDK-compatible (Chat Completions)"
+      ],
+      "tagline": "EU-hosted Llama 3.3 70B + Qwen3 235B \u2014 tier-based rate limits.",
+      "base_url": "https://api.studio.nebius.com/v1",
+      "api_key_url": "https://studio.nebius.com/settings/api-keys"
+    }
+  ]
+}
