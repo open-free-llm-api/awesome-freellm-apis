@@ -129,37 +129,38 @@ More ready-to-copy configs at <a href="https://freellm.net/config/" target="_bla
 These providers offer a **permanently free tier** — no credit card required for most.
 
 <!-- BEGIN_PERMANENT_FREE -->
-| Provider | Free Models | Credit Card? | Max Context | Modalities | Get API Key |
-|---|---|---|---|---|---|
-| NVIDIA NIM | 138 | Phone verification | 1M | audio, embedding, image, pdf, reasoning, rerank, text, video, vision | <a href="https://build.nvidia.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
-| ModelScope | 61 | Registration | 1M | image, reasoning, text, video, vision | <a href="https://modelscope.cn/my/myaccesstoken" target="_blank" rel="noopener">→</a> |
-| Cloudflare Workers AI | 46 | No | 262K | code, image, reasoning, text, video | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">→</a> |
-| OpenCode Zen | 34 | Registration | 1M | audio, reasoning, vision | <a href="https://opencode.ai/auth" target="_blank" rel="noopener">→</a> |
-| Kilo Code | 29 | No | 1M | audio, code, image, reasoning, text, video | <a href="https://app.kilo.ai/profile" target="_blank" rel="noopener">→</a> |
-| LLM7.io | 24 | No | 1M | audio, code, image, pdf, reasoning, text, video, vision | <a href="https://token.llm7.io" target="_blank" rel="noopener">→</a> |
-| Google Gemini | 19 | No | 1M | audio, image, pdf, reasoning, text, video, vision | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">→</a> |
-| Ollama Cloud | 17 | Registration | 1M | code, image, reasoning, text, video, vision | <a href="https://ollama.com/settings/keys" target="_blank" rel="noopener">→</a> |
-| Mistral AI | 15 | No | 256K | code, image, pdf, reasoning, text | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">→</a> |
-| OVHcloud AI Endpoints | 15 | Registration | 262K | code, image, reasoning, text, video | <a href="https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/" target="_blank" rel="noopener">→</a> |
-| Groq | 12 | No | 262K | image, reasoning, text, video | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">→</a> |
-| Cohere | 12 | No | 256K | image, text | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">→</a> |
-| Aion Labs | 11 | Registration | 131K | reasoning, text | <a href="https://www.aionlabs.ai/app/api-keys/" target="_blank" rel="noopener">→</a> |
-| Hugging Face | 9 | No | 131K | code, image, text | <a href="https://huggingface.co/settings/tokens" target="_blank" rel="noopener">→</a> |
-| Z AI (Zhipu AI) | 8 | No | 200K | image, reasoning, text, video | <a href="https://open.bigmodel.cn/usercenter/apikeys" target="_blank" rel="noopener">→</a> |
-| Cerebras | 6 | No | 131K | reasoning, text | <a href="https://cloud.cerebras.ai/" target="_blank" rel="noopener">→</a> |
-| SiliconFlow | 6 | Registration | 131K | reasoning, text | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener">→</a> |
-| Agnes AI | 5 | Registration | 256K | image, reasoning, text, video, vision | <a href="https://platform.agnes-ai.com/settings/apiKeys" target="_blank" rel="noopener">→</a> |
-| Alibaba Cloud Model Studio | 5 | Registration | 1M | code, image, text | <a href="https://bailian.console.alibabacloud.com/?apiKey=1" target="_blank" rel="noopener">→</a> |
-| Gonka Broker | 4 | Registration | 400K | image, pdf, reasoning, text, video | - |
-| SambaNova | 4 | Registration | 128K | image, reasoning, text | <a href="https://cloud.sambanova.ai/apis" target="_blank" rel="noopener">→</a> |
-| xAI | 3 | Registration | 2M | text | <a href="https://console.x.ai" target="_blank" rel="noopener">→</a> |
-| Chutes.ai | 2 | Registration | 131K | reasoning, text | <a href="https://chutes.ai/" target="_blank" rel="noopener">→</a> |
-| Glhf.chat | 2 | Registration | 131K | text | <a href="https://glhf.chat/" target="_blank" rel="noopener">→</a> |
-| Grok (xAI) | 2 | Registration | 131K | text | <a href="https://console.x.ai/" target="_blank" rel="noopener">→</a> |
-| AI21 Labs | 2 | Registration | 256K | text | <a href="https://studio.ai21.com/account/api-key" target="_blank" rel="noopener">→</a> |
-| DeepSeek | 2 | Registration | 128K | text | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">→</a> |
-| Nscale | 2 | Registration | 128K | text | <a href="https://console.nscale.com/" target="_blank" rel="noopener">→</a> |
-| Nebius | 1 | Registration | 128K | text | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
+| Provider | Free Models | Credit Card? | Max Context | Get API Key |
+|---|---|---|---|---|
+| NVIDIA NIM | 138 | Phone verification | 1M | <a href="https://build.nvidia.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
+| ModelScope | 61 | Registration | 1M | <a href="https://modelscope.cn/my/myaccesstoken" target="_blank" rel="noopener">→</a> |
+| Cloudflare Workers AI | 46 | No | 262K | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">→</a> |
+| OpenCode Zen | 34 | Registration | 1M | <a href="https://opencode.ai/auth" target="_blank" rel="noopener">→</a> |
+| Kilo Code | 29 | No | 1M | <a href="https://app.kilo.ai/profile" target="_blank" rel="noopener">→</a> |
+| LLM7.io | 24 | No | 1M | <a href="https://token.llm7.io" target="_blank" rel="noopener">→</a> |
+| Google Gemini | 19 | No | 1M | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">→</a> |
+| Ollama Cloud | 17 | Registration | 1M | <a href="https://ollama.com/settings/keys" target="_blank" rel="noopener">→</a> |
+| Mistral AI | 15 | No | 256K | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">→</a> |
+| OVHcloud AI Endpoints | 15 | Registration | 262K | <a href="https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/" target="_blank" rel="noopener">→</a> |
+| Groq | 12 | No | 262K | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">→</a> |
+| Cohere | 12 | No | 256K | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">→</a> |
+| Aion Labs | 11 | Registration | 131K | <a href="https://www.aionlabs.ai/app/api-keys/" target="_blank" rel="noopener">→</a> |
+| Hugging Face | 9 | No | 131K | <a href="https://huggingface.co/settings/tokens" target="_blank" rel="noopener">→</a> |
+| Z AI (Zhipu AI) | 8 | No | 200K | <a href="https://open.bigmodel.cn/usercenter/apikeys" target="_blank" rel="noopener">→</a> |
+| Cerebras | 6 | No | 131K | <a href="https://cloud.cerebras.ai/" target="_blank" rel="noopener">→</a> |
+| SiliconFlow | 6 | Registration | 131K | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener">→</a> |
+| Agnes AI | 5 | Registration | 256K | <a href="https://platform.agnes-ai.com/settings/apiKeys" target="_blank" rel="noopener">→</a> |
+| Alibaba Cloud Model Studio | 5 | Registration | 1M | <a href="https://bailian.console.alibabacloud.com/?apiKey=1" target="_blank" rel="noopener">→</a> |
+| Cline | 5 | Registration | 0 | - |
+| Gonka Broker | 4 | Registration | 400K | - |
+| SambaNova | 4 | Registration | 128K | <a href="https://cloud.sambanova.ai/apis" target="_blank" rel="noopener">→</a> |
+| xAI | 3 | Registration | 2M | <a href="https://console.x.ai" target="_blank" rel="noopener">→</a> |
+| Chutes.ai | 2 | Registration | 131K | <a href="https://chutes.ai/" target="_blank" rel="noopener">→</a> |
+| Glhf.chat | 2 | Registration | 131K | <a href="https://glhf.chat/" target="_blank" rel="noopener">→</a> |
+| Grok (xAI) | 2 | Registration | 131K | <a href="https://console.x.ai/" target="_blank" rel="noopener">→</a> |
+| AI21 Labs | 2 | Registration | 256K | <a href="https://studio.ai21.com/account/api-key" target="_blank" rel="noopener">→</a> |
+| DeepSeek | 2 | Registration | 128K | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">→</a> |
+| Nscale | 2 | Registration | 128K | <a href="https://console.nscale.com/" target="_blank" rel="noopener">→</a> |
+| Nebius | 1 | Registration | 128K | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
 <!-- END_PERMANENT_FREE -->
 
 ### 💰 Renewable Credits
