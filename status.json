@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-07",
+  "generated_at": "2026-11-08",
   "dashboard_url": "https://freellm.net/free-llm-api-status",
   "summary": {
     "total_providers": 31,
     "operational": 31,
     "degraded": 0,
     "offline": 0,
-    "total_free_models": 539
+    "total_free_models": 537
   },
   "providers": [
     {
@@ -94,7 +94,7 @@
       "provider": "LLM7.io",
       "slug": "llm7-io",
       "status": "Operational",
-      "free_models_count": 26,
+      "free_models_count": 24,
       "max_context": 1048576,
       "verified_protocols": [
         "OpenAI Chat Completions"
@@ -114,7 +114,7 @@
         "OpenAI Chat Completions"
       ],
       "tagline": "Google's generous free tier \u2014 1M context, multimodal, 500 RPD.",
-      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "base_url": "https://api.aionlabs.ai/v1",
       "api_key_url": "https://aistudio.google.com/app/apikey"
     },
     {
@@ -131,6 +131,19 @@
       "api_key_url": "https://ollama.com/settings/keys"
     },
     {
+      "provider": "OVHcloud AI Endpoints",
+      "slug": "ovhcloud-ai-endpoints",
+      "status": "Operational",
+      "free_models_count": 16,
+      "max_context": 262000,
+      "verified_protocols": [
+        "OpenAI SDK-compatible (Chat Completions)"
+      ],
+      "tagline": "EU-hosted free LLM APIs \u2014 GDPR compliant, no registration for anonymous tier.",
+      "base_url": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1",
+      "api_key_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
+    },
+    {
       "provider": "Mistral AI",
       "slug": "mistral-ai",
       "status": "Operational",
@@ -139,22 +152,9 @@
       "verified_protocols": [
         "OpenAI Chat Completions"
       ],
-      "tagline": "Mistral's Experiment plan \u2014 ~1B tokens/month, no card needed.",
+      "tagline": "Monthly API credits \u2014 $10 observed on a Free account; metered pricing applies.",
       "base_url": "https://api.mistral.ai/v1",
       "api_key_url": "https://console.mistral.ai/api-keys"
-    },
-    {
-      "provider": "OVHcloud AI Endpoints",
-      "slug": "ovhcloud-ai-endpoints",
-      "status": "Operational",
-      "free_models_count": 15,
-      "max_context": 262000,
-      "verified_protocols": [
-        "OpenAI SDK-compatible (Chat Completions)"
-      ],
-      "tagline": "EU-hosted free LLM APIs \u2014 GDPR compliant, no registration for anonymous tier.",
-      "base_url": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1",
-      "api_key_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
     },
     {
       "provider": "Groq",
@@ -180,7 +180,7 @@
         "OpenAI SDK-compatible (Chat Completions v2)"
       ],
       "tagline": "Command A, Aya, and embed models \u2014 1,000 API calls/month.",
-      "base_url": "https://api.cohere.com/v2",
+      "base_url": "https://api.aionlabs.ai/v1",
       "api_key_url": "https://dashboard.cohere.com/api-keys"
     },
     {
@@ -303,19 +303,6 @@
       "api_key_url": "https://cloud.sambanova.ai/apis"
     },
     {
-      "provider": "Cline",
-      "slug": "cline",
-      "status": "Operational",
-      "free_models_count": 4,
-      "max_context": 0,
-      "verified_protocols": [
-        "Cline has a separate OpenAI-compatible API; the promotional FREE models listed here are CLI/IDE only"
-      ],
-      "tagline": "Rotating free model promotions for Cline CLI and IDE users.",
-      "base_url": "",
-      "api_key_url": ""
-    },
-    {
       "provider": "xAI",
       "slug": "xai",
       "status": "Operational",
@@ -327,6 +314,19 @@
       "tagline": "xAI's Grok-4.3, Grok-4.1 Fast, Grok-3 Mini \u2014 1M-2M context, OpenAI-compatible.",
       "base_url": "https://api.x.ai/v1",
       "api_key_url": "https://console.x.ai"
+    },
+    {
+      "provider": "Cline",
+      "slug": "cline",
+      "status": "Operational",
+      "free_models_count": 3,
+      "max_context": 0,
+      "verified_protocols": [
+        "Cline has a separate OpenAI-compatible API; the promotional FREE models listed here are CLI/IDE only"
+      ],
+      "tagline": "Rotating free model promotions for Cline CLI and IDE users.",
+      "base_url": "",
+      "api_key_url": ""
     },
     {
       "provider": "Chutes.ai",

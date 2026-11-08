@@ -1,6 +1,6 @@
 # 🟢 Free LLM API Live Health & Status Report
 
-> **Last Updated:** 2026-11-07 · Automatically refreshed daily via [freellm.net](https://freellm.net) verification suite  
+> **Last Updated:** 2026-11-08 · Automatically refreshed daily via [freellm.net](https://freellm.net) verification suite  
 > **Interactive Web Dashboard:** [https://freellm.net/free-llm-api-status](https://freellm.net/free-llm-api-status)  
 > **Machine-Readable Snapshot:** [status.json](./status.json)
 
@@ -14,7 +14,7 @@
 | 🟢 **Operational** | **31** (100.0%) |
 | 🟡 **Degraded / Partial** | **0** |
 | 🔴 **Offline** | **0** |
-| **Total Free Models** | **539** |
+| **Total Free Models** | **537** |
 
 ---
 
@@ -28,11 +28,11 @@
 | **OpenRouter** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 36 | 1M | Single API key for 300+ models from every major lab. |
 | **OpenCode Zen** | 🟢 Operational | OpenAI Chat Completions | 34 | 1M | OpenCode Zen provides no-card API access to coding and reasoning models for termin... |
 | **Kilo Code** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 29 | 1M | Coding-optimized API gateway — routes to the best coding model. |
-| **LLM7.io** | 🟢 Operational | OpenAI Chat Completions | 26 | 1M | Free GPT-4o-mini access — rare OpenAI model on a free tier. |
+| **LLM7.io** | 🟢 Operational | OpenAI Chat Completions | 24 | 1M | Free GPT-4o-mini access — rare OpenAI model on a free tier. |
 | **Google Gemini** | 🟢 Operational | Google Gemini native generateContent, OpenAI Chat Completions | 19 | 1M | Google's generous free tier — 1M context, multimodal, 500 RPD. |
 | **Ollama Cloud** | 🟢 Operational | Ollama API + OpenAI-compatible wrapper | 17 | 1M | Ollama Cloud — run Llama, Qwen, Gemma via Ollama API in the cloud. |
-| **Mistral AI** | 🟢 Operational | OpenAI Chat Completions | 15 | 256K | Mistral's Experiment plan — ~1B tokens/month, no card needed. |
-| **OVHcloud AI Endpoints** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 15 | 262K | EU-hosted free LLM APIs — GDPR compliant, no registration for anonymous tier. |
+| **OVHcloud AI Endpoints** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 16 | 262K | EU-hosted free LLM APIs — GDPR compliant, no registration for anonymous tier. |
+| **Mistral AI** | 🟢 Operational | OpenAI Chat Completions | 15 | 256K | Monthly API credits — $10 observed on a Free account; metered pricing applies. |
 | **Groq** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 12 | 262K | World's fastest LLM inference — ultra-low latency, free tier. |
 | **Cohere** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions v2) | 12 | 256K | Command A, Aya, and embed models — 1,000 API calls/month. |
 | **Aion Labs** | 🟢 Operational | Aion REST API (not OpenAI-compatible) | 11 | 131K | Aion 2.0 — daily token allowance, 131K context, no credit card. |
@@ -44,8 +44,8 @@
 | **Alibaba Cloud Model Studio** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) via compatible-mode endpoint | 5 | 1M | Alibaba's official Qwen3 API — 1M context, tiered by region. |
 | **Gonka Broker** | 🟢 Operational | OpenAI Compatible | 4 | 400K | - |
 | **SambaNova** | 🟢 Operational | OpenAI Chat Completions | 4 | 128K | SambaNova Cloud offers no-card free access to fast hosted open models, including D... |
-| **Cline** | 🟢 Operational | Cline has a separate OpenAI-compatible API; the promotional FREE models listed here are CLI/IDE only | 4 | 0 | Rotating free model promotions for Cline CLI and IDE users. |
 | **xAI** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 3 | 2M | xAI's Grok-4.3, Grok-4.1 Fast, Grok-3 Mini — 1M-2M context, OpenAI-compatible. |
+| **Cline** | 🟢 Operational | Cline has a separate OpenAI-compatible API; the promotional FREE models listed here are CLI/IDE only | 3 | 0 | Rotating free model promotions for Cline CLI and IDE users. |
 | **Chutes.ai** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 2 | 131K | Community-powered AI — DeepSeek-R1 and Llama 3.1 70B, no card. |
 | **Glhf.chat** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 2 | 131K | Unlimited free inference — Llama 3.1 70B and Mixtral 8x7B. |
 | **Grok (xAI)** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 2 | 131K | Grok-2 and Grok-2 Mini from xAI — $25/month free credits. |
