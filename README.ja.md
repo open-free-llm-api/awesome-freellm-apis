@@ -157,7 +157,6 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | DeepSeek | 2 | Registration | 128K | Text | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">→</a> |
 | Nscale | 2 | Registration | 128K | Text | <a href="https://console.nscale.com/" target="_blank" rel="noopener">→</a> |
 | Nebius | 1 | Registration | 128K | Text | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">→</a> |
-| cheapllm.shop | 1 | Registration | - | Text, Vision, Reasoning | <a href="https://cheapllm.shop/signup" target="_blank" rel="noopener">→</a> |
 <!-- END_PERMANENT_FREE -->
 
 <!-- BEGIN_RENEWABLE -->
@@ -202,7 +201,6 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | DeepSeek | `https://api.deepseek.com/v1` | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Nscale | `https://inference.api.nscale.com/v1` | <a href="https://console.nscale.com/" target="_blank" rel="noopener">Get Key →</a> | Registration |
 | Nebius | `https://api.studio.nebius.com/v1` | <a href="https://studio.nebius.com/settings/api-keys" target="_blank" rel="noopener">Get Key →</a> | Registration |
-| cheapllm.shop | `https://cheapllm.shop/v1` | <a href="https://cheapllm.shop/signup" target="_blank" rel="noopener">Get Key →</a> | Registration |
 <!-- END_QUICK_REF -->
 
 ## プロバイダー別ベスト無料モデル
