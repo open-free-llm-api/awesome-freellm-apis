@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>537+ 免费大模型 API，来自 31 个提供商</strong> — 一站式发现、对比、配置免费模型。</p>
+  <p align="center"><strong>538+ 免费大模型 API，来自 31 个提供商</strong> — 一站式发现、对比、配置免费模型。</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 数据每日从 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> 自动更新</strong> — 最近更新: 2026-11-09 · <a href="./STATUS.md">🟢 存活状态 (STATUS.md)</a> · <a href="https://freellm.net/free-llm-api-status" target="_blank" rel="noopener">实时状态看板 →</a></p>
+  <p align="center"><strong>🔄 数据每日从 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> 自动更新</strong> — 最近更新: 2026-11-10 · <a href="./STATUS.md">🟢 存活状态 (STATUS.md)</a> · <a href="https://freellm.net/free-llm-api-status" target="_blank" rel="noopener">实时状态看板 →</a></p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -162,7 +162,7 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 <!-- BEGIN_RENEWABLE -->
 | Provider | Free Models | Credit Model | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
-| OpenRouter | 36 | Free tier + $10 topup → 1K RPD | 1M | Multimodal | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
+| OpenRouter | 37 | Free tier + $10 topup → 1K RPD | 1M | Multimodal | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
 <!-- END_RENEWABLE -->
 
 ## 快速参考 — Base URL 与 API Key
@@ -303,15 +303,15 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
 | <a href="https://freellm.net/models/openrouter/stealth-crouton-alpha/" target="_blank" rel="noopener">Crouton Alpha</a> | OpenRouter | 1M | 4265B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 3160B tokens |
 | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-2/" target="_blank" rel="noopener">z-ai/glm-5.2</a> | NVIDIA NIM | 1M | 2998B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 2996B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-super-vl/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Super VL (free)</a> | OpenRouter | 1M | 2888B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | OpenRouter | 1M | 1156B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-super-vl/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Super VL (free)</a> | OpenRouter | 1M | 2859B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | OpenRouter | 1M | 1149B tokens |
 | <a href="https://freellm.net/models/openrouter/poolside-laguna-s-2.1/" target="_blank" rel="noopener">Poolside: Laguna S 2.1 (free)</a> | OpenRouter | 262K | 881B tokens |
 | <a href="https://freellm.net/models/openrouter/poolside-laguna-m-1/" target="_blank" rel="noopener">Poolside: Laguna M.1 (free)</a> | OpenRouter | 262K | 768B tokens |
-| <a href="https://freellm.net/models/openrouter/dots-studio-dots-3-note-preview/" target="_blank" rel="noopener">Dots Studio: Dots3-Note Preview (free)</a> | OpenRouter | 512K | 729B tokens |
+| <a href="https://freellm.net/models/openrouter/dots-studio-dots-3-note-preview/" target="_blank" rel="noopener">Dots Studio: Dots3-Note Preview (free)</a> | OpenRouter | 512K | 718B tokens |
 | <a href="https://freellm.net/models/openrouter/apodex-apodex-1.1-mini/" target="_blank" rel="noopener">Apodex: Apodex 1.1 Mini (free)</a> | OpenRouter | 262K | 284B tokens |
-| <a href="https://freellm.net/models/openrouter/cohere-north-mini-code/" target="_blank" rel="noopener">Cohere: North Mini Code (free)</a> | OpenRouter | 256K | 200B tokens |
+| <a href="https://freellm.net/models/openrouter/cohere-north-mini-code/" target="_blank" rel="noopener">Cohere: North Mini Code (free)</a> | OpenRouter | 256K | 194B tokens |
 <!-- END_TOP_MODELS -->
 
 ---
@@ -350,6 +350,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>数据每日自动更新 · 最后更新: <!-- AUTO_LAST_UPDATED -->
-2026-11-09
+2026-11-10
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>

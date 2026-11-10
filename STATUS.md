@@ -1,6 +1,6 @@
 # 🟢 Free LLM API Live Health & Status Report
 
-> **Last Updated:** 2026-11-09 · Automatically refreshed daily via [freellm.net](https://freellm.net) verification suite  
+> **Last Updated:** 2026-11-10 · Automatically refreshed daily via [freellm.net](https://freellm.net) verification suite  
 > **Interactive Web Dashboard:** [https://freellm.net/free-llm-api-status](https://freellm.net/free-llm-api-status)  
 > **Machine-Readable Snapshot:** [status.json](./status.json)
 
@@ -14,7 +14,7 @@
 | 🟢 **Operational** | **31** (100.0%) |
 | 🟡 **Degraded / Partial** | **0** |
 | 🔴 **Offline** | **0** |
-| **Total Free Models** | **537** |
+| **Total Free Models** | **538** |
 
 ---
 
@@ -25,7 +25,7 @@
 | **NVIDIA NIM** | 🟢 Operational | OpenAI Chat Completions | 139 | 1M | 100+ open models from NVIDIA — no credit card, 40 RPM. |
 | **ModelScope** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 61 | 1M | Alibaba ModelScope — Qwen3.5, DeepSeek at 2,000 RPD free. |
 | **Cloudflare Workers AI** | 🟢 Operational | Cloudflare Workers AI native run, OpenAI Chat Completions | 46 | 262K | Edge AI inference — 10,000 neurons/day, 50+ models. |
-| **OpenRouter** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 36 | 1M | Single API key for 300+ models from every major lab. |
+| **OpenRouter** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 37 | 1M | Single API key for 300+ models from every major lab. |
 | **OpenCode Zen** | 🟢 Operational | OpenAI Chat Completions | 34 | 1M | OpenCode Zen provides no-card API access to coding and reasoning models for termin... |
 | **Kilo Code** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 29 | 1M | Coding-optimized API gateway — routes to the best coding model. |
 | **LLM7.io** | 🟢 Operational | OpenAI Chat Completions | 24 | 1M | Free GPT-4o-mini access — rare OpenAI model on a free tier. |
