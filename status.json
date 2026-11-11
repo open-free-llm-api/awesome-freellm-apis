@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-10",
+  "generated_at": "2026-11-11",
   "dashboard_url": "https://freellm.net/free-llm-api-status",
   "summary": {
     "total_providers": 31,
     "operational": 31,
     "degraded": 0,
     "offline": 0,
-    "total_free_models": 538
+    "total_free_models": 541
   },
   "providers": [
     {
@@ -144,6 +144,20 @@
       "api_key_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
     },
     {
+      "provider": "Groq",
+      "slug": "groq",
+      "status": "Operational",
+      "free_models_count": 15,
+      "max_context": 262000,
+      "verified_protocols": [
+        "OpenAI Chat Completions",
+        "OpenAI Responses"
+      ],
+      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
+      "base_url": "https://api.groq.com/openai/v1",
+      "api_key_url": "https://console.groq.com/keys"
+    },
+    {
       "provider": "Mistral AI",
       "slug": "mistral-ai",
       "status": "Operational",
@@ -155,20 +169,6 @@
       "tagline": "Monthly API credits \u2014 $10 observed on a Free account; metered pricing applies.",
       "base_url": "https://api.mistral.ai/v1",
       "api_key_url": "https://console.mistral.ai/api-keys"
-    },
-    {
-      "provider": "Groq",
-      "slug": "groq",
-      "status": "Operational",
-      "free_models_count": 12,
-      "max_context": 262000,
-      "verified_protocols": [
-        "OpenAI Chat Completions",
-        "OpenAI Responses"
-      ],
-      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
-      "base_url": "https://api.groq.com/openai/v1",
-      "api_key_url": "https://console.groq.com/keys"
     },
     {
       "provider": "Cohere",

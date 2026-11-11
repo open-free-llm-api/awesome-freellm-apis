@@ -1,6 +1,6 @@
 # 🟢 Free LLM API Live Health & Status Report
 
-> **Last Updated:** 2026-11-10 · Automatically refreshed daily via [freellm.net](https://freellm.net) verification suite  
+> **Last Updated:** 2026-11-11 · Automatically refreshed daily via [freellm.net](https://freellm.net) verification suite  
 > **Interactive Web Dashboard:** [https://freellm.net/free-llm-api-status](https://freellm.net/free-llm-api-status)  
 > **Machine-Readable Snapshot:** [status.json](./status.json)
 
@@ -14,7 +14,7 @@
 | 🟢 **Operational** | **31** (100.0%) |
 | 🟡 **Degraded / Partial** | **0** |
 | 🔴 **Offline** | **0** |
-| **Total Free Models** | **538** |
+| **Total Free Models** | **541** |
 
 ---
 
@@ -32,8 +32,8 @@
 | **Google Gemini** | 🟢 Operational | Google Gemini native generateContent, OpenAI Chat Completions | 19 | 1M | Google's generous free tier — 1M context, multimodal, 500 RPD. |
 | **Ollama Cloud** | 🟢 Operational | Ollama API + OpenAI-compatible wrapper | 17 | 1M | Ollama Cloud — run Llama, Qwen, Gemma via Ollama API in the cloud. |
 | **OVHcloud AI Endpoints** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 16 | 262K | EU-hosted free LLM APIs — GDPR compliant, no registration for anonymous tier. |
+| **Groq** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 15 | 262K | World's fastest LLM inference — ultra-low latency, free tier. |
 | **Mistral AI** | 🟢 Operational | OpenAI Chat Completions | 15 | 256K | Monthly API credits — $10 observed on a Free account; metered pricing applies. |
-| **Groq** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 12 | 262K | World's fastest LLM inference — ultra-low latency, free tier. |
 | **Cohere** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions v2) | 12 | 256K | Command A, Aya, and embed models — 1,000 API calls/month. |
 | **Aion Labs** | 🟢 Operational | Aion REST API (not OpenAI-compatible) | 11 | 131K | Aion 2.0 — daily token allowance, 131K context, no credit card. |
 | **Hugging Face** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 9 | 131K | Hugging Face Inference API — Qwen, Llama, Gemma at ~1,000 RPD. |
