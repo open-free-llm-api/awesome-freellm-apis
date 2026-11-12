@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-11",
+  "generated_at": "2026-11-12",
   "dashboard_url": "https://freellm.net/free-llm-api-status",
   "summary": {
     "total_providers": 31,
     "operational": 31,
     "degraded": 0,
     "offline": 0,
-    "total_free_models": 541
+    "total_free_models": 542
   },
   "providers": [
     {
@@ -54,7 +54,7 @@
       "provider": "OpenRouter",
       "slug": "openrouter",
       "status": "Operational",
-      "free_models_count": 37,
+      "free_models_count": 38,
       "max_context": 1048576,
       "verified_protocols": [
         "OpenAI Chat Completions",
