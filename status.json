@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-12",
+  "generated_at": "2026-11-13",
   "dashboard_url": "https://freellm.net/free-llm-api-status",
   "summary": {
     "total_providers": 31,
     "operational": 31,
     "degraded": 0,
     "offline": 0,
-    "total_free_models": 542
+    "total_free_models": 548
   },
   "providers": [
     {
@@ -40,7 +40,7 @@
       "provider": "Cloudflare Workers AI",
       "slug": "cloudflare-workers-ai",
       "status": "Operational",
-      "free_models_count": 46,
+      "free_models_count": 47,
       "max_context": 262000,
       "verified_protocols": [
         "Cloudflare Workers AI native run",
@@ -54,7 +54,7 @@
       "provider": "OpenRouter",
       "slug": "openrouter",
       "status": "Operational",
-      "free_models_count": 38,
+      "free_models_count": 39,
       "max_context": 1048576,
       "verified_protocols": [
         "OpenAI Chat Completions",
@@ -107,15 +107,29 @@
       "provider": "Google Gemini",
       "slug": "google-gemini",
       "status": "Operational",
-      "free_models_count": 19,
+      "free_models_count": 20,
       "max_context": 1048576,
       "verified_protocols": [
         "Google Gemini native generateContent",
         "OpenAI Chat Completions"
       ],
       "tagline": "Google's generous free tier \u2014 1M context, multimodal, 500 RPD.",
-      "base_url": "https://api.aionlabs.ai/v1",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
       "api_key_url": "https://aistudio.google.com/app/apikey"
+    },
+    {
+      "provider": "Groq",
+      "slug": "groq",
+      "status": "Operational",
+      "free_models_count": 18,
+      "max_context": 262000,
+      "verified_protocols": [
+        "OpenAI Chat Completions",
+        "OpenAI Responses"
+      ],
+      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
+      "base_url": "https://api.groq.com/openai/v1",
+      "api_key_url": "https://console.groq.com/keys"
     },
     {
       "provider": "Ollama Cloud",
@@ -127,7 +141,7 @@
         "Ollama API + OpenAI-compatible wrapper"
       ],
       "tagline": "Ollama Cloud \u2014 run Llama, Qwen, Gemma via Ollama API in the cloud.",
-      "base_url": "https://ollama.com/api",
+      "base_url": "https://ollama.com/v1",
       "api_key_url": "https://ollama.com/settings/keys"
     },
     {
@@ -142,20 +156,6 @@
       "tagline": "EU-hosted free LLM APIs \u2014 GDPR compliant, no registration for anonymous tier.",
       "base_url": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1",
       "api_key_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
-    },
-    {
-      "provider": "Groq",
-      "slug": "groq",
-      "status": "Operational",
-      "free_models_count": 15,
-      "max_context": 262000,
-      "verified_protocols": [
-        "OpenAI Chat Completions",
-        "OpenAI Responses"
-      ],
-      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
-      "base_url": "https://api.groq.com/openai/v1",
-      "api_key_url": "https://console.groq.com/keys"
     },
     {
       "provider": "Mistral AI",
@@ -180,7 +180,7 @@
         "OpenAI SDK-compatible (Chat Completions v2)"
       ],
       "tagline": "Command A, Aya, and embed models \u2014 1,000 API calls/month.",
-      "base_url": "https://api.aionlabs.ai/v1",
+      "base_url": "https://api.cohere.com/v2",
       "api_key_url": "https://dashboard.cohere.com/api-keys"
     },
     {
