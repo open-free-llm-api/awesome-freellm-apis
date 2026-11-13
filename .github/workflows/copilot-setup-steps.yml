@@ -1,0 +1,34 @@
+
+ name: Copilot Setup Steps
+ 
+ on:
+   workflow_dispatch:
+ 
+ jobs:
+   copilot-setup-steps:
+     runs-on: ubuntu-latest
+     permissions:
+       contents: read
+     steps:
+       - uses: actions/checkout@v5
+ 
+       - name: Set up Node.js
+         if: ${{ hashFiles('**/package.json') != '' }}
+         uses: actions/setup-node@v4
+         with:
+           node-version: '20'
+ 
+       - name: Install Node.js dependencies
+         if: ${{ hashFiles('**/package.json') != '' }}
+         run: |
+           if [ -f package-lock.json ]; then npm ci; else npm install; fi
+ 
+       - name: Set up Python
+         if: ${{ hashFiles('**/requirements.txt', '**/pyproject.toml') != '' }}
+         uses: actions/setup-python@v5
+         with:
+           python-version: '3.12'
+ 
+       - name: Install Python dependencies
+         if: ${{ hashFiles('requirements.txt') != '' }}
+         run: pip install -r requirements.txt
