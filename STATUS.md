@@ -10,11 +10,11 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Tracked Providers** | **31** |
-| 🟢 **Operational** | **31** (100.0%) |
+| **Total Tracked Providers** | **22** |
+| 🟢 **Operational** | **22** (100.0%) |
 | 🟡 **Degraded / Partial** | **0** |
 | 🔴 **Offline** | **0** |
-| **Total Free Models** | **546** |
+| **Total Free Models** | **300** |
 
 ---
 
@@ -22,37 +22,28 @@
 
 | Provider | Status | Verified Protocols | Free Models | Max Context | Highlights |
 | :--- | :---: | :--- | :---: | :---: | :--- |
-| **NVIDIA NIM** | 🟢 Operational | OpenAI Chat Completions | 139 | 1M | 100+ open models from NVIDIA — no credit card, 40 RPM. |
-| **ModelScope** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 61 | 1M | Alibaba ModelScope — Qwen3.5, DeepSeek at 2,000 RPD free. |
-| **Cloudflare Workers AI** | 🟢 Operational | Cloudflare Workers AI native run, OpenAI Chat Completions | 47 | 262K | Edge AI inference — 10,000 neurons/day, 50+ models. |
-| **OpenRouter** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 40 | 1M | Single API key for 300+ models from every major lab. |
-| **OpenCode Zen** | 🟢 Operational | OpenAI Chat Completions | 34 | 1M | OpenCode Zen provides no-card API access to coding and reasoning models for termin... |
-| **Kilo Code** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 29 | 1M | Coding-optimized API gateway — routes to the best coding model. |
-| **LLM7.io** | 🟢 Operational | OpenAI Chat Completions | 24 | 1M | Free GPT-4o-mini access — rare OpenAI model on a free tier. |
-| **Google Gemini** | 🟢 Operational | Google Gemini native generateContent, OpenAI Chat Completions | 20 | 1M | Google's generous free tier — 1M context, multimodal, 500 RPD. |
-| **Ollama Cloud** | 🟢 Operational | Ollama API + OpenAI-compatible wrapper | 17 | 1M | Ollama Cloud — run Llama, Qwen, Gemma via Ollama API in the cloud. |
-| **OVHcloud AI Endpoints** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 16 | 262K | EU-hosted free LLM APIs — GDPR compliant, no registration for anonymous tier. |
-| **Groq** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 15 | 262K | World's fastest LLM inference — ultra-low latency, free tier. |
-| **Mistral AI** | 🟢 Operational | OpenAI Chat Completions | 15 | 256K | Monthly API credits — $10 observed on a Free account; metered pricing applies. |
-| **Cohere** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions v2) | 12 | 256K | Command A, Aya, and embed models — 1,000 API calls/month. |
-| **Aion Labs** | 🟢 Operational | Aion REST API (not OpenAI-compatible) | 11 | 131K | Aion 2.0 — daily token allowance, 131K context, no credit card. |
-| **Hugging Face** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 9 | 131K | Hugging Face Inference API — Qwen, Llama, Gemma at ~1,000 RPD. |
-| **Z AI (Zhipu AI)** | 🟢 Operational | OpenAI Chat Completions | 8 | 200K | Zhipu GLM-4.7-Flash — 200K context, no credit card, 1 concurrent request. |
-| **Cerebras** | 🟢 Operational | OpenAI Chat Completions | 6 | 131K | $5 in trial credits, valid for 30 days. No ongoing free tier. |
-| **SiliconFlow** | 🟢 Operational | OpenAI Chat Completions | 6 | 131K | China-based free LLM API — DeepSeek, Qwen, BGE at 1,000 RPM. |
+| **NVIDIA NIM** | 🟢 Operational | OpenAI Chat Completions | 81 | 1M | 100+ open models from NVIDIA — no credit card, 40 RPM. |
+| **Cloudflare Workers AI** | 🟢 Operational | Cloudflare Workers AI native run, OpenAI Chat Completions | 41 | 262K | Edge AI inference — 10,000 neurons/day, 50+ models. |
+| **ModelScope** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 33 | 1M | Alibaba ModelScope — Qwen3.5, DeepSeek at 2,000 RPD free. |
+| **OpenCode Zen** | 🟢 Operational | OpenAI Chat Completions | 22 | 1M | OpenCode Zen provides no-card API access to coding and reasoning models for termin... |
+| **OpenRouter** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 21 | 1M | Single API key for 300+ models from every major lab. |
+| **Kilo Code** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 16 | 1M | Coding-optimized API gateway — routes to the best coding model. |
+| **Google Gemini** | 🟢 Operational | Google Gemini native generateContent, OpenAI Chat Completions | 12 | 1M | Google's generous free tier — 1M context, multimodal, 500 RPD. |
+| **Mistral AI** | 🟢 Operational | OpenAI Chat Completions | 10 | 256K | Monthly API credits — $10 observed on a Free account; metered pricing applies. |
+| **Cohere** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions v2) | 10 | 256K | Command A, Aya, and embed models — 1,000 API calls/month. |
+| **OVHcloud AI Endpoints** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 8 | 262K | EU-hosted free LLM APIs — GDPR compliant, no registration for anonymous tier. |
+| **Ollama Cloud** | 🟢 Operational | Ollama API + OpenAI-compatible wrapper | 8 | 1M | Ollama Cloud — run Llama, Qwen, Gemma via Ollama API in the cloud. |
+| **Groq** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 6 | 131K | World's fastest LLM inference — ultra-low latency, free tier. |
 | **Agnes AI** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 5 | 256K | Advanced multimodal models by Sapiens AI for agentic, visual, and creative applica... |
-| **Alibaba Cloud Model Studio** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) via compatible-mode endpoint | 5 | 1M | Alibaba's official Qwen3 API — 1M context, tiered by region. |
+| **Aion Labs** | 🟢 Operational | Aion REST API (not OpenAI-compatible) | 4 | 128K | Aion 2.0 — daily token allowance, 131K context, no credit card. |
 | **Gonka Broker** | 🟢 Operational | OpenAI Compatible | 4 | 400K | - |
-| **SambaNova** | 🟢 Operational | OpenAI Chat Completions | 4 | 128K | SambaNova Cloud offers no-card free access to fast hosted open models, including D... |
-| **xAI** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 3 | 2M | xAI's Grok-4.3, Grok-4.1 Fast, Grok-3 Mini — 1M-2M context, OpenAI-compatible. |
+| **LLM7.io** | 🟢 Operational | OpenAI Chat Completions | 4 | 1M | Free GPT-4o-mini access — rare OpenAI model on a free tier. |
+| **Z AI (Zhipu AI)** | 🟢 Operational | OpenAI Chat Completions | 4 | 200K | Zhipu GLM-4.7-Flash — 200K context, no credit card, 1 concurrent request. |
 | **Cline** | 🟢 Operational | Cline has a separate OpenAI-compatible API; the promotional FREE models listed here are CLI/IDE only | 3 | 0 | Rotating free model promotions for Cline CLI and IDE users. |
 | **Chutes.ai** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 2 | 131K | Community-powered AI — DeepSeek-R1 and Llama 3.1 70B, no card. |
 | **Glhf.chat** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 2 | 131K | Unlimited free inference — Llama 3.1 70B and Mixtral 8x7B. |
 | **Grok (xAI)** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 2 | 131K | Grok-2 and Grok-2 Mini from xAI — $25/month free credits. |
-| **AI21 Labs** | 🟢 Operational | AI21 REST API (not OpenAI-compatible by default) | 2 | 256K | Jamba models with 256K context — 200 RPM, 10 RPS free tier. |
-| **DeepSeek** | 🟢 Operational | OpenAI Chat Completions | 2 | 128K | DeepSeek's official API — V3.2 + R1 with 128K context, OpenAI-compatible. |
-| **Nscale** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 2 | 128K | EU-hosted Llama 3.3 70B + Qwen3-Coder + DeepSeek-R1 — fair-use limits. |
-| **Nebius** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 1 | 128K | EU-hosted Llama 3.3 70B + Qwen3 235B — tier-based rate limits. |
+| **SiliconFlow** | 🟢 Operational | OpenAI Chat Completions | 2 | 0 | China-based free LLM API — DeepSeek, Qwen, BGE at 1,000 RPM. |
 
 ---
 
