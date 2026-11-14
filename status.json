@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-13",
+  "generated_at": "2026-11-14",
   "dashboard_url": "https://freellm.net/free-llm-api-status",
   "summary": {
     "total_providers": 31,
     "operational": 31,
     "degraded": 0,
     "offline": 0,
-    "total_free_models": 548
+    "total_free_models": 546
   },
   "providers": [
     {
@@ -54,7 +54,7 @@
       "provider": "OpenRouter",
       "slug": "openrouter",
       "status": "Operational",
-      "free_models_count": 39,
+      "free_models_count": 40,
       "max_context": 1048576,
       "verified_protocols": [
         "OpenAI Chat Completions",
@@ -118,20 +118,6 @@
       "api_key_url": "https://aistudio.google.com/app/apikey"
     },
     {
-      "provider": "Groq",
-      "slug": "groq",
-      "status": "Operational",
-      "free_models_count": 18,
-      "max_context": 262000,
-      "verified_protocols": [
-        "OpenAI Chat Completions",
-        "OpenAI Responses"
-      ],
-      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
-      "base_url": "https://api.groq.com/openai/v1",
-      "api_key_url": "https://console.groq.com/keys"
-    },
-    {
       "provider": "Ollama Cloud",
       "slug": "ollama-cloud",
       "status": "Operational",
@@ -156,6 +142,20 @@
       "tagline": "EU-hosted free LLM APIs \u2014 GDPR compliant, no registration for anonymous tier.",
       "base_url": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1",
       "api_key_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
+    },
+    {
+      "provider": "Groq",
+      "slug": "groq",
+      "status": "Operational",
+      "free_models_count": 15,
+      "max_context": 262000,
+      "verified_protocols": [
+        "OpenAI Chat Completions",
+        "OpenAI Responses"
+      ],
+      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
+      "base_url": "https://api.groq.com/openai/v1",
+      "api_key_url": "https://console.groq.com/keys"
     },
     {
       "provider": "Mistral AI",
