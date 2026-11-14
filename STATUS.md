@@ -14,7 +14,7 @@
 | 🟢 **Operational** | **22** (100.0%) |
 | 🟡 **Degraded / Partial** | **0** |
 | 🔴 **Offline** | **0** |
-| **Total Free Models** | **300** |
+| **Total Free Models** | **301** |
 
 ---
 
@@ -33,8 +33,8 @@
 | **Cohere** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions v2) | 10 | 256K | Command A, Aya, and embed models — 1,000 API calls/month. |
 | **OVHcloud AI Endpoints** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 8 | 262K | EU-hosted free LLM APIs — GDPR compliant, no registration for anonymous tier. |
 | **Ollama Cloud** | 🟢 Operational | Ollama API + OpenAI-compatible wrapper | 8 | 1M | Ollama Cloud — run Llama, Qwen, Gemma via Ollama API in the cloud. |
+| **Agnes AI** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 6 | 256K | Advanced multimodal models by Sapiens AI for agentic, visual, and creative applica... |
 | **Groq** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 6 | 131K | World's fastest LLM inference — ultra-low latency, free tier. |
-| **Agnes AI** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 5 | 256K | Advanced multimodal models by Sapiens AI for agentic, visual, and creative applica... |
 | **Aion Labs** | 🟢 Operational | Aion REST API (not OpenAI-compatible) | 4 | 128K | Aion 2.0 — daily token allowance, 131K context, no credit card. |
 | **Gonka Broker** | 🟢 Operational | OpenAI Compatible | 4 | 400K | - |
 | **LLM7.io** | 🟢 Operational | OpenAI Chat Completions | 4 | 1M | Free GPT-4o-mini access — rare OpenAI model on a free tier. |

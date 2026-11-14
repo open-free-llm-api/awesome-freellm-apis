@@ -6,7 +6,7 @@
     "operational": 22,
     "degraded": 0,
     "offline": 0,
-    "total_free_models": 300
+    "total_free_models": 301
   },
   "providers": [
     {
@@ -157,6 +157,20 @@
       "api_key_url": "https://ollama.com/settings/keys"
     },
     {
+      "provider": "Agnes AI",
+      "slug": "agnes-ai",
+      "status": "Operational",
+      "free_models_count": 6,
+      "max_context": 256000,
+      "verified_protocols": [
+        "OpenAI Chat Completions",
+        "OpenAI Responses"
+      ],
+      "tagline": "Advanced multimodal models by Sapiens AI for agentic, visual, and creative applications.",
+      "base_url": "https://apihub.agnes-ai.com/v1",
+      "api_key_url": "https://platform.agnes-ai.com/settings/apiKeys"
+    },
+    {
       "provider": "Groq",
       "slug": "groq",
       "status": "Operational",
@@ -169,20 +183,6 @@
       "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
       "base_url": "https://api.groq.com/openai/v1",
       "api_key_url": "https://console.groq.com/keys"
-    },
-    {
-      "provider": "Agnes AI",
-      "slug": "agnes-ai",
-      "status": "Operational",
-      "free_models_count": 5,
-      "max_context": 256000,
-      "verified_protocols": [
-        "OpenAI Chat Completions",
-        "OpenAI Responses"
-      ],
-      "tagline": "Advanced multimodal models by Sapiens AI for agentic, visual, and creative applications.",
-      "base_url": "https://apihub.agnes-ai.com/v1",
-      "api_key_url": "https://platform.agnes-ai.com/settings/apiKeys"
     },
     {
       "provider": "Aion Labs",
