@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>301+ 免费大模型 API，来自 22 个提供商</strong> — 一站式发现、对比、配置免费模型。</p>
+  <p align="center"><strong>311+ 免费大模型 API，来自 22 个提供商</strong> — 一站式发现、对比、配置免费模型。</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 数据每日从 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> 自动更新</strong> — 最近更新: 2026-11-14 · <a href="./STATUS.md">🟢 存活状态 (STATUS.md)</a> · <a href="https://freellm.net/free-llm-api-status" target="_blank" rel="noopener">实时状态看板 →</a></p>
+  <p align="center"><strong>🔄 数据每日从 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> 自动更新</strong> — 最近更新: 2026-11-15 · <a href="./STATUS.md">🟢 存活状态 (STATUS.md)</a> · <a href="https://freellm.net/free-llm-api-status" target="_blank" rel="noopener">实时状态看板 →</a></p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -133,15 +133,15 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 | OpenCode Zen | 22 | Registration | 1M | Vision, Reasoning | <a href="https://opencode.ai/auth" target="_blank" rel="noopener">→</a> |
 | Kilo Code | 16 | No | 1M | Multimodal | <a href="https://app.kilo.ai/profile" target="_blank" rel="noopener">→</a> |
 | Google Gemini | 12 | No | 1M | Multimodal | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">→</a> |
+| LLM7.io | 11 | No | 1M | Multimodal | <a href="https://token.llm7.io" target="_blank" rel="noopener">→</a> |
 | Mistral AI | 10 | No | 256K | Multimodal | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">→</a> |
 | Cohere | 10 | No | 256K | Text, Vision | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">→</a> |
+| Groq | 9 | No | 131K | Multimodal | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">→</a> |
 | OVHcloud AI Endpoints | 8 | No | 262K | Multimodal | <a href="https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/" target="_blank" rel="noopener">→</a> |
 | Ollama Cloud | 8 | No | 1M | Multimodal | <a href="https://ollama.com/settings/keys" target="_blank" rel="noopener">→</a> |
 | Agnes AI | 6 | No | 256K | Multimodal | <a href="https://platform.agnes-ai.com/settings/apiKeys" target="_blank" rel="noopener">→</a> |
-| Groq | 6 | No | 131K | Multimodal | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">→</a> |
 | Aion Labs | 4 | No | 128K | Text, Reasoning | <a href="https://www.aionlabs.ai/app/api-keys/" target="_blank" rel="noopener">→</a> |
 | Gonka Broker | 4 | No | 400K | Multimodal | <a href="https://app.gonkabroker.com/signup" target="_blank" rel="noopener">→</a> |
-| LLM7.io | 4 | No | 1M | Text, Code, Reasoning | <a href="https://token.llm7.io" target="_blank" rel="noopener">→</a> |
 | Z AI (Zhipu AI) | 4 | No | 200K | Multimodal | <a href="https://open.bigmodel.cn/usercenter/apikeys" target="_blank" rel="noopener">→</a> |
 | Cline | 3 | Registration | 0 | Text, Vision | - |
 | Chutes.ai | 2 | No | 131K | Text, Reasoning | <a href="https://chutes.ai/" target="_blank" rel="noopener">→</a> |
@@ -168,15 +168,15 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 | OpenRouter | `https://openrouter.ai/api/v1` | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | Kilo Code | `https://api.kilo.ai/api/gateway` | <a href="https://app.kilo.ai/profile" target="_blank" rel="noopener">Get Key →</a> | No |
 | Google Gemini | `https://generativelanguage.googleapis.com/v1beta` | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">Get Key →</a> | No |
+| LLM7.io | `https://api.llm7.io/v1` | <a href="https://token.llm7.io" target="_blank" rel="noopener">Get Key →</a> | No |
 | Mistral AI | `https://api.mistral.ai/v1` | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | Cohere | `https://api.cohere.com/v2` | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">Get Key →</a> | No |
+| Groq | `https://api.groq.com/openai/v1` | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | OVHcloud AI Endpoints | `https://oai.endpoints.kepler.ai.cloud.ovh.net/v1` | <a href="https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/" target="_blank" rel="noopener">Get Key →</a> | No |
 | Ollama Cloud | `https://ollama.com/v1` | <a href="https://ollama.com/settings/keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | Agnes AI | `https://apihub.agnes-ai.com/v1` | <a href="https://platform.agnes-ai.com/settings/apiKeys" target="_blank" rel="noopener">Get Key →</a> | No |
-| Groq | `https://api.groq.com/openai/v1` | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | Aion Labs | `https://api.aionlabs.ai/v1` | <a href="https://www.aionlabs.ai/app/api-keys/" target="_blank" rel="noopener">Get Key →</a> | No |
 | Gonka Broker | `https://proxy.gonkabroker.com/v1` | <a href="https://app.gonkabroker.com/signup" target="_blank" rel="noopener">Get Key →</a> | No |
-| LLM7.io | `https://api.llm7.io/v1` | <a href="https://token.llm7.io" target="_blank" rel="noopener">Get Key →</a> | No |
 | Z AI (Zhipu AI) | `https://open.bigmodel.cn/api/paas/v4` | <a href="https://open.bigmodel.cn/usercenter/apikeys" target="_blank" rel="noopener">Get Key →</a> | No |
 | Cline | - | - | Registration |
 | Chutes.ai | `https://api.chutes.ai/v1` | <a href="https://chutes.ai/" target="_blank" rel="noopener">Get Key →</a> | No |
@@ -211,12 +211,18 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 | Google Gemini | <a href="https://freellm.net/models/google-gemini/gemini-3-8-flash/" target="_blank" rel="noopener">Gemini 3.8 Flash</a> | `gemini-3.8-flash` | 1M | - |
 |  | <a href="https://freellm.net/models/google-gemini/gemini-3-6-flash/" target="_blank" rel="noopener">Gemini 3.6 Flash</a> | `gemini-3.6-flash` | 1M | - |
 |  | <a href="https://freellm.net/models/google-gemini/gemini-3-5-flash-lite/" target="_blank" rel="noopener">Gemini 3.5 Flash-Lite</a> | `gemini-3.5-flash-lite` | 1M | - |
+| LLM7.io | <a href="https://freellm.net/models/llm7-io/gpt-oss-20b/" target="_blank" rel="noopener">gpt-oss:20b</a> | `gpt-oss-20b` | 128K | 60 RPM, 250 req/hr |
+|  | <a href="https://freellm.net/models/llm7-io/mistral-nemo-instruct-2407/" target="_blank" rel="noopener">mistral-Nemo-Instruct-2407</a> | `mistral-Nemo-Instruct-2407` | 128K | 60 RPM, 250 req/hr |
+|  | <a href="https://freellm.net/models/llm7-io/codestral-latest/" target="_blank" rel="noopener">codestral-latest</a> | `codestral-latest` | 32K | 60 RPM, 250 req/hr |
 | Mistral AI | <a href="https://freellm.net/models/mistral-ai/open-mistral-7b/" target="_blank" rel="noopener">Mistral 7B</a> | `open-mistral-7b` | 32K | See provider |
 |  | <a href="https://freellm.net/models/mistral-ai/open-mixtral-8x7b/" target="_blank" rel="noopener">Mixtral 8x7B</a> | `open-mixtral-8x7b` | 32K | See provider |
 |  | <a href="https://freellm.net/models/mistral-ai/mistral-medium-3-5-128b/" target="_blank" rel="noopener">Mistral Medium 3.5 (128B)</a> | `mistral-medium-3-5-128b` | 256K | ~1 RPS, 500K TPM |
 | Cohere | <a href="https://freellm.net/models/cohere/command-a-218b/" target="_blank" rel="noopener">Command A+ (218B)</a> | `command-a-218b` | 128K | 20 RPM |
 |  | <a href="https://freellm.net/models/cohere/command-a-111b/" target="_blank" rel="noopener">Command A (111B)</a> | `command-a-111b` | 256K | 20 RPM |
 |  | <a href="https://freellm.net/models/cohere/command-r/" target="_blank" rel="noopener">Command R+</a> | `command-r` | 128K | 20 RPM |
+| Groq | <a href="https://freellm.net/models/groq/qwen-qwen3-8-27b/" target="_blank" rel="noopener">qwen/qwen3.8-27b</a> | `qwen/qwen3.8-27b` | 131K | 30 RPM, 1,000 RPD, 8,00.. |
+|  | <a href="https://freellm.net/models/groq/whisper-large-v3/" target="_blank" rel="noopener">whisper-large-v3</a> | `whisper-large-v3` | 131K | 20 RPM, 2,000 RPD |
+|  | <a href="https://freellm.net/models/groq/whisper-large-v3-turbo/" target="_blank" rel="noopener">whisper-large-v3-turbo</a> | `whisper-large-v3-turbo` | 131K | 20 RPM, 2,000 RPD |
 | OVHcloud AI Endpoints | <a href="https://freellm.net/models/ovhcloud-ai-endpoints/qwen3-5-397b-a17b/" target="_blank" rel="noopener">Qwen3.5-397B-A17B</a> | `qwen3.5-397b-a17b` | 262K | 2 RPM (anonymous) |
 |  | <a href="https://freellm.net/models/ovhcloud-ai-endpoints/gpt-oss-120b/" target="_blank" rel="noopener">gpt-oss-120b</a> | `gpt-oss-120b` | 131K | 2 RPM (anonymous) |
 |  | <a href="https://freellm.net/models/ovhcloud-ai-endpoints/meta-llama-3-3-70b-instruct/" target="_blank" rel="noopener">Meta-Llama-3_3-70B-Instruct</a> | `meta-llama-3_3-70b-instruct` | 131K | 2 RPM (anonymous) |
@@ -226,18 +232,12 @@ export ANTHROPIC_API_KEY=""                       # 必须为空
 | Agnes AI | <a href="https://freellm.net/models/agnes-ai/agnes-image-2.0-flash/" target="_blank" rel="noopener">agnes-image-2.0-flash</a> | `agnes-image-2.0-flash` | 4K | 30 RPM (1K) |
 |  | <a href="https://freellm.net/models/agnes-ai/agnes-image-2.1-flash/" target="_blank" rel="noopener">agnes-image-2.1-flash</a> | `agnes-image-2.1-flash` | 4K | 30 RPM (1K) |
 |  | <a href="https://freellm.net/models/agnes-ai/agnes-2.5-flash/" target="_blank" rel="noopener">agnes-2.5-flash</a> | `agnes-2.5-flash` | 256K | Dynamic (30 RPM) |
-| Groq | <a href="https://freellm.net/models/groq/qwen-qwen3-8-27b/" target="_blank" rel="noopener">qwen/qwen3.8-27b</a> | `qwen/qwen3.8-27b` | 131K | 30 RPM, 1,000 RPD, 8,00.. |
-|  | <a href="https://freellm.net/models/groq/whisper-large-v3/" target="_blank" rel="noopener">whisper-large-v3</a> | `whisper-large-v3` | 131K | 20 RPM, 2,000 RPD |
-|  | <a href="https://freellm.net/models/groq/whisper-large-v3-turbo/" target="_blank" rel="noopener">whisper-large-v3-turbo</a> | `whisper-large-v3-turbo` | 131K | 20 RPM, 2,000 RPD |
 | Aion Labs | <a href="https://freellm.net/models/aion-labs/aion-labs-aion-2-0/" target="_blank" rel="noopener">aion-labs/aion-2.0</a> | `aion-labs-aion-2-0` | 128K | 15 RPM, 20K TPD |
 |  | <a href="https://freellm.net/models/aion-labs/aion-labs-aion-rp-llama-3-1-8b/" target="_blank" rel="noopener">aion-labs/aion-rp-llama-3.1-8b</a> | `aion-labs-aion-rp-llama-3-1-8b` | 32K | 15 RPM, 20K TPD |
 |  | <a href="https://freellm.net/models/aion-labs/aion-labs-aion-3-0/" target="_blank" rel="noopener">aion-labs/aion-3.0</a> | `aion-labs-aion-3-0` | 128K | 15 RPM, 20K TPD |
 | Gonka Broker | <a href="https://freellm.net/models/gonka-broker/minimaxai-minimax-m2-7/" target="_blank" rel="noopener">MiniMaxAI/MiniMax-M2.7</a> | `minimaxai-minimax-m2-7` | 200K | ~1M tokens/mo |
 |  | <a href="https://freellm.net/models/gonka-broker/deepseek-ai-deepseek-v4-flash-0731/" target="_blank" rel="noopener">deepseek-ai/DeepSeek-V4-Flash-0731</a> | `deepseek-ai-deepseek-v4-flash-0731` | 400K | ~1M tokens/mo |
 |  | <a href="https://freellm.net/models/gonka-broker/zai-org-glm-5-3-flash/" target="_blank" rel="noopener">zai-org/GLM-5.3-Flash</a> | `zai-org-glm-5-3-flash` | 400K | ~1M tokens/mo |
-| LLM7.io | <a href="https://freellm.net/models/llm7-io/gpt-oss-20b/" target="_blank" rel="noopener">gpt-oss:20b</a> | `gpt-oss-20b` | 128K | 60 RPM, 250 req/hr |
-|  | <a href="https://freellm.net/models/llm7-io/mistral-nemo-instruct-2407/" target="_blank" rel="noopener">mistral-Nemo-Instruct-2407</a> | `mistral-Nemo-Instruct-2407` | 128K | 60 RPM, 250 req/hr |
-|  | <a href="https://freellm.net/models/llm7-io/codestral-latest/" target="_blank" rel="noopener">codestral-latest</a> | `codestral-latest` | 32K | 60 RPM, 250 req/hr |
 | Z AI (Zhipu AI) | <a href="https://freellm.net/models/z-ai-zhipu-ai/glm-4-5-air/" target="_blank" rel="noopener">GLM-4.5-Air</a> | `glm-4.5-air` | 131K | - |
 |  | <a href="https://freellm.net/models/z-ai-zhipu-ai/glm-4-7-flash/" target="_blank" rel="noopener">GLM-4.7-Flash</a> | `glm-4.7` | 200K | 1 concurrent request |
 |  | <a href="https://freellm.net/models/z-ai-zhipu-ai/glm-4-5-flash/" target="_blank" rel="noopener">GLM-4.5-Flash</a> | `glm-4.5` | 128K | 1 concurrent request |
@@ -309,6 +309,6 @@ MIT © <a href="https://github.com/open-free-llm-api" target="_blank" rel="noope
 
 <p align="center">
   <sub>数据每日自动更新 · 最后更新: <!-- AUTO_LAST_UPDATED -->
-2026-11-14
+2026-11-15
 <!-- END_AUTO_LAST_UPDATED --></sub>
 </p>

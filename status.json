@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-14",
+  "generated_at": "2026-11-15",
   "dashboard_url": "https://freellm.net/free-llm-api-status",
   "summary": {
     "total_providers": 22,
     "operational": 22,
     "degraded": 0,
     "offline": 0,
-    "total_free_models": 301
+    "total_free_models": 311
   },
   "providers": [
     {
@@ -105,6 +105,19 @@
       "api_key_url": "https://aistudio.google.com/app/apikey"
     },
     {
+      "provider": "LLM7.io",
+      "slug": "llm7-io",
+      "status": "Operational",
+      "free_models_count": 11,
+      "max_context": 1048576,
+      "verified_protocols": [
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "Free GPT-4o-mini access \u2014 rare OpenAI model on a free tier.",
+      "base_url": "https://api.llm7.io/v1",
+      "api_key_url": "https://token.llm7.io"
+    },
+    {
       "provider": "Mistral AI",
       "slug": "mistral-ai",
       "status": "Operational",
@@ -129,6 +142,20 @@
       "tagline": "Command A, Aya, and embed models \u2014 1,000 API calls/month.",
       "base_url": "https://api.cohere.com/v2",
       "api_key_url": "https://dashboard.cohere.com/api-keys"
+    },
+    {
+      "provider": "Groq",
+      "slug": "groq",
+      "status": "Operational",
+      "free_models_count": 9,
+      "max_context": 131072,
+      "verified_protocols": [
+        "OpenAI Chat Completions",
+        "OpenAI Responses"
+      ],
+      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
+      "base_url": "https://api.groq.com/openai/v1",
+      "api_key_url": "https://console.groq.com/keys"
     },
     {
       "provider": "OVHcloud AI Endpoints",
@@ -171,20 +198,6 @@
       "api_key_url": "https://platform.agnes-ai.com/settings/apiKeys"
     },
     {
-      "provider": "Groq",
-      "slug": "groq",
-      "status": "Operational",
-      "free_models_count": 6,
-      "max_context": 131072,
-      "verified_protocols": [
-        "OpenAI Chat Completions",
-        "OpenAI Responses"
-      ],
-      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
-      "base_url": "https://api.groq.com/openai/v1",
-      "api_key_url": "https://console.groq.com/keys"
-    },
-    {
       "provider": "Aion Labs",
       "slug": "aion-labs",
       "status": "Operational",
@@ -209,19 +222,6 @@
       "tagline": "",
       "base_url": "https://proxy.gonkabroker.com/v1",
       "api_key_url": "https://app.gonkabroker.com/signup"
-    },
-    {
-      "provider": "LLM7.io",
-      "slug": "llm7-io",
-      "status": "Operational",
-      "free_models_count": 4,
-      "max_context": 1000000,
-      "verified_protocols": [
-        "OpenAI Chat Completions"
-      ],
-      "tagline": "Free GPT-4o-mini access \u2014 rare OpenAI model on a free tier.",
-      "base_url": "https://api.llm7.io/v1",
-      "api_key_url": "https://token.llm7.io"
     },
     {
       "provider": "Z AI (Zhipu AI)",
