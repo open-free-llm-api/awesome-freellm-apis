@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-18",
+  "generated_at": "2026-11-19",
   "dashboard_url": "https://freellm.net/free-llm-api-status",
   "summary": {
     "total_providers": 22,
     "operational": 22,
     "degraded": 0,
     "offline": 0,
-    "total_free_models": 311
+    "total_free_models": 312
   },
   "providers": [
     {
       "provider": "NVIDIA NIM",
       "slug": "nvidia-nim",
       "status": "Operational",
-      "free_models_count": 81,
+      "free_models_count": 82,
       "max_context": 1048576,
       "verified_protocols": [
         "OpenAI Chat Completions"

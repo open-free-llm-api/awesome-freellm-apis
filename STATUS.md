@@ -1,6 +1,6 @@
 # 🟢 Free LLM API Live Health & Status Report
 
-> **Last Updated:** 2026-11-18 · Automatically refreshed daily via [freellm.net](https://freellm.net) verification suite  
+> **Last Updated:** 2026-11-19 · Automatically refreshed daily via [freellm.net](https://freellm.net) verification suite  
 > **Interactive Web Dashboard:** [https://freellm.net/free-llm-api-status](https://freellm.net/free-llm-api-status)  
 > **Machine-Readable Snapshot:** [status.json](./status.json)
 
@@ -14,7 +14,7 @@
 | 🟢 **Operational** | **22** (100.0%) |
 | 🟡 **Degraded / Partial** | **0** |
 | 🔴 **Offline** | **0** |
-| **Total Free Models** | **311** |
+| **Total Free Models** | **312** |
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Provider | Status | Verified Protocols | Free Models | Max Context | Highlights |
 | :--- | :---: | :--- | :---: | :---: | :--- |
-| **NVIDIA NIM** | 🟢 Operational | OpenAI Chat Completions | 81 | 1M | 100+ open models from NVIDIA — no credit card, 40 RPM. |
+| **NVIDIA NIM** | 🟢 Operational | OpenAI Chat Completions | 82 | 1M | 100+ open models from NVIDIA — no credit card, 40 RPM. |
 | **Cloudflare Workers AI** | 🟢 Operational | Cloudflare Workers AI native run, OpenAI Chat Completions | 41 | 262K | Edge AI inference — 10,000 neurons/day, 50+ models. |
 | **ModelScope** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 33 | 1M | Alibaba ModelScope — Qwen3.5, DeepSeek at 2,000 RPD free. |
 | **OpenCode Zen** | 🟢 Operational | OpenAI Chat Completions | 22 | 1M | OpenCode Zen provides no-card API access to coding and reasoning models for termin... |
