@@ -8,6 +8,8 @@ body:
       value: |
         Thank you for suggesting a new Free LLM API! 
         Before submitting, please make sure the API offers a **genuine free tier** and is not purely a promotional post.
+        Submit a programmatic API or developer platform, not only a consumer chat website.
+        If the service cannot provide an API key or endpoint, it does not belong in this directory.
   
   - type: input
     id: api_name
@@ -22,7 +24,7 @@ body:
     id: website
     attributes:
       label: Official Website / Documentation URL
-      description: Where can users learn more and get an API key?
+      description: Link to the API documentation or the developer/API key portal, not only the consumer chat page.
       placeholder: https://...
     validations:
       required: true
@@ -58,6 +60,8 @@ body:
       description: Please verify the following before submitting.
       options:
         - label: I confirm that this API has a genuine free tier that does not require immediate payment.
+          required: true
+        - label: I confirm this submission is for a programmatic API with an endpoint and API key or token, rather than only a consumer chat service.
           required: true
         - label: I confirm this is not a purely promotional ad for a paid-only service.
           required: true
