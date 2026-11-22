@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
   <!-- AUTO_STATS -->
-  <p align="center"><strong>22プロバイダー、311+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
+  <p align="center"><strong>22プロバイダー、309+の無料LLM API</strong> — 無料モデルを検索・比較・設定。</p>
 <!-- END_AUTO_STATS -->
 </p>
 
@@ -18,7 +18,7 @@
 </p>
 
   <!-- AUTO_UPDATE_BADGE -->
-  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> から毎日自動更新</strong> — 最終更新: 2026-11-22 · <a href="./STATUS.md">🟢 稼働状況 (STATUS.md)</a> · <a href="https://freellm.net/free-llm-api-status" target="_blank" rel="noopener">ステータスダッシュボード →</a></p>
+  <p align="center"><strong>🔄 <a href="https://freellm.net" target="_blank" rel="noopener">freellm.net</a> から自動同期</strong> — カタログデータ更新: 2026-11-22 · README 生成: 2026-11-22 · <a href="./STATUS.md">🟢 稼働状況 (STATUS.md)</a> · <a href="https://freellm.net/free-llm-api-status" target="_blank" rel="noopener">ステータスダッシュボード →</a></p>
 <!-- END_AUTO_UPDATE_BADGE -->
 
 <p align="center">
@@ -131,15 +131,15 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | Cloudflare Workers AI | 41 | No | 262K | Multimodal | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">→</a> |
 | ModelScope | 33 | Registration | 1M | Vision, Reasoning | <a href="https://modelscope.cn/my/myaccesstoken" target="_blank" rel="noopener">→</a> |
 | OpenCode Zen | 22 | Registration | 1M | Vision, Reasoning | <a href="https://opencode.ai/auth" target="_blank" rel="noopener">→</a> |
-| Kilo Code | 16 | No | 1M | Multimodal | <a href="https://app.kilo.ai/profile" target="_blank" rel="noopener">→</a> |
+| Kilo Code | 18 | No | 1M | Multimodal | <a href="https://app.kilo.ai/profile" target="_blank" rel="noopener">→</a> |
 | Google Gemini | 12 | No | 1M | Multimodal | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">→</a> |
 | LLM7.io | 11 | No | 1M | Multimodal | <a href="https://token.llm7.io" target="_blank" rel="noopener">→</a> |
 | Mistral AI | 10 | No | 256K | Multimodal | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">→</a> |
 | Cohere | 10 | No | 256K | Text, Vision | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">→</a> |
-| Groq | 9 | No | 131K | Multimodal | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">→</a> |
 | OVHcloud AI Endpoints | 8 | No | 262K | Multimodal | <a href="https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/" target="_blank" rel="noopener">→</a> |
 | Ollama Cloud | 8 | No | 1M | Multimodal | <a href="https://ollama.com/settings/keys" target="_blank" rel="noopener">→</a> |
 | Agnes AI | 6 | No | 256K | Multimodal | <a href="https://platform.agnes-ai.com/settings/apiKeys" target="_blank" rel="noopener">→</a> |
+| Groq | 6 | No | 131K | Multimodal | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">→</a> |
 | Aion Labs | 4 | No | 128K | Text, Reasoning | <a href="https://www.aionlabs.ai/app/api-keys/" target="_blank" rel="noopener">→</a> |
 | Gonka Broker | 4 | No | 400K | Multimodal | <a href="https://app.gonkabroker.com/signup" target="_blank" rel="noopener">→</a> |
 | Z AI (Zhipu AI) | 4 | No | 200K | Multimodal | <a href="https://open.bigmodel.cn/usercenter/apikeys" target="_blank" rel="noopener">→</a> |
@@ -153,7 +153,7 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 <!-- BEGIN_RENEWABLE -->
 | Provider | Free Models | Credit Model | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
-| OpenRouter | 21 | Free tier + $10 topup → 1K RPD | 1M | Multimodal | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
+| OpenRouter | 20 | Free tier + $10 topup → 1K RPD | 1M | Multimodal | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">→</a> |
 <!-- END_RENEWABLE -->
 
 ## クイックリファレンス — Base URL と APIキー
@@ -171,10 +171,10 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | LLM7.io | `https://api.llm7.io/v1` | <a href="https://token.llm7.io" target="_blank" rel="noopener">Get Key →</a> | No |
 | Mistral AI | `https://api.mistral.ai/v1` | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | Cohere | `https://api.cohere.com/v2` | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">Get Key →</a> | No |
-| Groq | `https://api.groq.com/openai/v1` | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | OVHcloud AI Endpoints | `https://oai.endpoints.kepler.ai.cloud.ovh.net/v1` | <a href="https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/" target="_blank" rel="noopener">Get Key →</a> | No |
 | Ollama Cloud | `https://ollama.com/v1` | <a href="https://ollama.com/settings/keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | Agnes AI | `https://apihub.agnes-ai.com/v1` | <a href="https://platform.agnes-ai.com/settings/apiKeys" target="_blank" rel="noopener">Get Key →</a> | No |
+| Groq | `https://api.groq.com/openai/v1` | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">Get Key →</a> | No |
 | Aion Labs | `https://api.aionlabs.ai/v1` | <a href="https://www.aionlabs.ai/app/api-keys/" target="_blank" rel="noopener">Get Key →</a> | No |
 | Gonka Broker | `https://proxy.gonkabroker.com/v1` | <a href="https://app.gonkabroker.com/signup" target="_blank" rel="noopener">Get Key →</a> | No |
 | Z AI (Zhipu AI) | `https://open.bigmodel.cn/api/paas/v4` | <a href="https://open.bigmodel.cn/usercenter/apikeys" target="_blank" rel="noopener">Get Key →</a> | No |
@@ -190,67 +190,67 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 <!-- BEGIN_BEST_MODELS -->
 | Provider | Best Free Model | Model ID | Max Context | Rate Limit |
 |---|---|---|---|---|
-| NVIDIA NIM | <a href="https://freellm.net/models/nvidia-nim/poolside-laguna-xs-2-1/" target="_blank" rel="noopener">poolside/laguna-xs-2.1</a> | `poolside/laguna-xs-2.1` | 262K | Up to 40 RPM |
-|  | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-3-flash/" target="_blank" rel="noopener">z-ai/glm-5.3-flash</a> | `z-ai/glm-5.3-flash` | 1M | Up to 40 RPM |
+| NVIDIA NIM | <a href="https://freellm.net/models/nvidia-nim/z-ai-glm-5-3-flash/" target="_blank" rel="noopener">z-ai/glm-5.3-flash</a> | `z-ai/glm-5.3-flash` | 1M | Up to 40 RPM |
+|  | <a href="https://freellm.net/models/nvidia-nim/poolside-laguna-xs-2-1/" target="_blank" rel="noopener">poolside/laguna-xs-2.1</a> | `poolside/laguna-xs-2.1` | 262K | Up to 40 RPM |
 |  | <a href="https://freellm.net/models/nvidia-nim/moonshotai-kimi-k2-6/" target="_blank" rel="noopener">moonshotai/kimi-k2.6</a> | `moonshotai/kimi-k2.6` | 262K | Up to 40 RPM |
-| Cloudflare Workers AI | <a href="https://freellm.net/models/cloudflare-workers-ai/cf-meta-llama-3-3-70b-instruct-fp8-fast/" target="_blank" rel="noopener">@cf/meta/llama-3.3-70b-instruct-fp8-fast</a> | `@cf/meta/llama-3.3-70b-instruct-fp8-fast` | 24K | 10K neurons/day (shared) |
-|  | <a href="https://freellm.net/models/cloudflare-workers-ai/cf-meta-llama-4-scout-17b-16e-instruct/" target="_blank" rel="noopener">@cf/meta/llama-4-scout-17b-16e-instruct</a> | `@cf/meta/llama-4-scout-17b-16e-instruct` | 131K | 10K neurons/day (shared) |
-|  | <a href="https://freellm.net/models/cloudflare-workers-ai/cf-openai-gpt-oss-120b/" target="_blank" rel="noopener">@cf/openai/gpt-oss-120b</a> | `@cf/openai/gpt-oss-120b` | 128K | 10K neurons/day (shared) |
-| ModelScope | <a href="https://freellm.net/models/modelscope/medaibase-antangelmed/" target="_blank" rel="noopener">MedAIBase/AntAngelMed</a> | `MedAIBase/AntAngelMed` | 8K | - |
-|  | <a href="https://freellm.net/models/modelscope/meituan-longcat-longcat-flash-lite/" target="_blank" rel="noopener">meituan-longcat/LongCat-Flash-Lite</a> | `meituan-longcat/LongCat-Flash-Lite` | 8K | - |
-|  | <a href="https://freellm.net/models/modelscope/minimax-minimax-m1-80k/" target="_blank" rel="noopener">MiniMax/MiniMax-M1-80k</a> | `MiniMax/MiniMax-M1-80k` | 8K | - |
-| OpenCode Zen | <a href="https://freellm.net/models/opencode/big-pickle/" target="_blank" rel="noopener">big-pickle</a> | `big-pickle` | 0 | - |
-|  | <a href="https://freellm.net/models/opencode/nemotron-3.5-lightning-free/" target="_blank" rel="noopener">Nemotron 3.5 Lightning 30B A3B</a> | `nemotron-3.5-lightning-free` | 262K | - |
-|  | <a href="https://freellm.net/models/opencode/deepseek-v4-flash/" target="_blank" rel="noopener">DeepSeek V4 Flash</a> | `deepseek-v4-flash` | 1M | - |
+| Cloudflare Workers AI | <a href="https://freellm.net/models/cloudflare-workers-ai/%40cf%2Fthinkingmachines%2Finkling-2-small/" target="_blank" rel="noopener">@cf/thinkingmachines/inkling-2-small</a> | `@cf/thinkingmachines/inkling-2-small` | 8K | - |
+|  | <a href="https://freellm.net/models/cloudflare-workers-ai/%40cf%2Fzai-org%2Fglm-5.3/" target="_blank" rel="noopener">@cf/zai-org/glm-5.3</a> | `@cf/zai-org/glm-5.3` | 8K | - |
+|  | <a href="https://freellm.net/models/cloudflare-workers-ai/%40cf%2Fzai-org%2Fglm-5.3-flash/" target="_blank" rel="noopener">@cf/zai-org/glm-5.3-flash</a> | `@cf/zai-org/glm-5.3-flash` | 8K | - |
+| ModelScope | <a href="https://freellm.net/models/modelscope/deepseek-ai%2FDeepSeek-V4.1-Flash/" target="_blank" rel="noopener">deepseek-ai/DeepSeek-V4.1-Flash</a> | `deepseek-ai/DeepSeek-V4.1-Flash` | 8K | - |
+|  | <a href="https://freellm.net/models/modelscope/nex-agi%2FNex-N2.5-mini/" target="_blank" rel="noopener">nex-agi/Nex-N2.5-mini</a> | `nex-agi/Nex-N2.5-mini` | 8K | - |
+|  | <a href="https://freellm.net/models/modelscope/nex-agi%2FNex-N2.5-Pro/" target="_blank" rel="noopener">nex-agi/Nex-N2.5-Pro</a> | `nex-agi/Nex-N2.5-Pro` | 8K | - |
+| OpenCode Zen | <a href="https://freellm.net/models/opencode/mistral-large-4/" target="_blank" rel="noopener">Mistral Large 4</a> | `mistral-large-4` | 1M | - |
+|  | <a href="https://freellm.net/models/opencode/deepseek-v4.1-flash/" target="_blank" rel="noopener">DeepSeek V4.1 Flash</a> | `deepseek-v4.1-flash` | 1M | - |
+|  | <a href="https://freellm.net/models/opencode/space-bunny-free/" target="_blank" rel="noopener">space-bunny-free</a> | `space-bunny-free` | 8K | - |
 | OpenRouter | <a href="https://freellm.net/models/openrouter/stealth-crouton-alpha/" target="_blank" rel="noopener">Crouton Alpha</a> | `stealth/crouton-alpha` | 1M | See provider |
 |  | <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | `nvidia/nemotron-3-ultra-550b-a55b:free` | 1M | See provider |
-|  | <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-super-vl/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Super VL (free)</a> | `nvidia/nemotron-3.5-super-vl:free` | 1M | See provider |
-| Kilo Code | <a href="https://freellm.net/models/kilo-code/nvidia-nemotron-3-ultra-550b-a55b-free/" target="_blank" rel="noopener">nvidia/nemotron-3-ultra-550b-a55b:free</a> | `nvidia/nemotron-3-ultra-550b-a55b:free` | 1M | 200 req/hr |
-|  | <a href="https://freellm.net/models/kilo-code/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-free/" target="_blank" rel="noopener">nvidia/nemotron-3-nano-omni-30b-a3b-reasoni..</a> | `nvidia/nemotron-3-nano-omni-30b-a3b-re..` | 256K | 200 req/hr |
-|  | <a href="https://freellm.net/models/kilo-code/cohere-north-mini-code-free/" target="_blank" rel="noopener">cohere/north-mini-code:free</a> | `cohere/north-mini-code:free` | 256K | 200 req/hr |
-| Google Gemini | <a href="https://freellm.net/models/google-gemini/gemini-3-8-flash/" target="_blank" rel="noopener">Gemini 3.8 Flash</a> | `gemini-3.8-flash` | 1M | - |
-|  | <a href="https://freellm.net/models/google-gemini/gemini-3-6-flash/" target="_blank" rel="noopener">Gemini 3.6 Flash</a> | `gemini-3.6-flash` | 1M | - |
-|  | <a href="https://freellm.net/models/google-gemini/gemini-3-5-flash-lite/" target="_blank" rel="noopener">Gemini 3.5 Flash-Lite</a> | `gemini-3.5-flash-lite` | 1M | - |
-| LLM7.io | <a href="https://freellm.net/models/llm7-io/gpt-oss-20b/" target="_blank" rel="noopener">gpt-oss:20b</a> | `gpt-oss-20b` | 128K | 60 RPM, 250 req/hr |
-|  | <a href="https://freellm.net/models/llm7-io/mistral-nemo-instruct-2407/" target="_blank" rel="noopener">mistral-Nemo-Instruct-2407</a> | `mistral-Nemo-Instruct-2407` | 128K | 60 RPM, 250 req/hr |
-|  | <a href="https://freellm.net/models/llm7-io/codestral-latest/" target="_blank" rel="noopener">codestral-latest</a> | `codestral-latest` | 32K | 60 RPM, 250 req/hr |
-| Mistral AI | <a href="https://freellm.net/models/mistral-ai/open-mistral-7b/" target="_blank" rel="noopener">Mistral 7B</a> | `open-mistral-7b` | 32K | See provider |
-|  | <a href="https://freellm.net/models/mistral-ai/open-mixtral-8x7b/" target="_blank" rel="noopener">Mixtral 8x7B</a> | `open-mixtral-8x7b` | 32K | See provider |
+|  | <a href="https://freellm.net/models/openrouter/baidu-ernie-5.5-flash-preview/" target="_blank" rel="noopener">Baidu: ERNIE-5.5-Flash-Preview (free)</a> | `baidu/ernie-5.5-flash-preview:free` | 1M | See provider |
+| Kilo Code | <a href="https://freellm.net/models/kilo-code/cohere-north-mini-code-free/" target="_blank" rel="noopener">cohere/north-mini-code:free</a> | `cohere-north-mini-code-free` | 256K | 200 req/hr |
+|  | <a href="https://freellm.net/models/kilo-code/dots-studio-dots-3-note-preview-free/" target="_blank" rel="noopener">dots-studio/dots-3-note-preview:free</a> | `dots-studio-dots-3-note-preview-free` | 512K | 200 req/hr |
+|  | <a href="https://freellm.net/models/kilo-code/recursive-flint-v1-0-free/" target="_blank" rel="noopener">recursive/flint-v1.0:free</a> | `recursive/flint-v1.0:free` | 262K | 200 req/hr |
+| Google Gemini | <a href="https://freellm.net/models/google-gemini/gemini-4-hydrogen/" target="_blank" rel="noopener">Gemini 4 Hydrogen</a> | `gemini-4-hydrogen` | 1M | Varies by model and acc.. |
+|  | <a href="https://freellm.net/models/google-gemini/gemini-3-8-flash/" target="_blank" rel="noopener">Gemini 3.8 Flash</a> | `gemini-3.8-flash` | 1M | - |
+|  | <a href="https://freellm.net/models/google-gemini/gemini-3-7-flash/" target="_blank" rel="noopener">Gemini 3.7 Flash</a> | `gemini-3.7-flash` | 1M | - |
+| LLM7.io | <a href="https://freellm.net/models/llm7-io/GLM-5.3-Flash/" target="_blank" rel="noopener">GLM-5.3-Flash</a> | `glm-5.3-flash` | 1M | - |
+|  | <a href="https://freellm.net/models/llm7-io/deepseek-v4-pro/" target="_blank" rel="noopener">DeepSeek V4 Pro</a> | `deepseek-v4-pro` | 1M | - |
+|  | <a href="https://freellm.net/models/llm7-io/deepseek-v4-flash-0731/" target="_blank" rel="noopener">DeepSeek-V4-Flash-0731</a> | `DeepSeek-V4-Flash-0731` | 400K | 60 RPM, 250 req/hr |
+| Mistral AI | <a href="https://freellm.net/models/mistral-ai/codestral/" target="_blank" rel="noopener">Codestral</a> | `codestral` | 128K | ~1 RPS, 500K TPM |
 |  | <a href="https://freellm.net/models/mistral-ai/mistral-medium-3-5-128b/" target="_blank" rel="noopener">Mistral Medium 3.5 (128B)</a> | `mistral-medium-3-5-128b` | 256K | ~1 RPS, 500K TPM |
-| Cohere | <a href="https://freellm.net/models/cohere/command-a-218b/" target="_blank" rel="noopener">Command A+ (218B)</a> | `command-a-218b` | 128K | 20 RPM |
-|  | <a href="https://freellm.net/models/cohere/command-a-111b/" target="_blank" rel="noopener">Command A (111B)</a> | `command-a-111b` | 256K | 20 RPM |
+|  | <a href="https://freellm.net/models/mistral-ai/mistral-small-4/" target="_blank" rel="noopener">Mistral Small 4</a> | `mistral-small-4` | 256K | ~1 RPS, 500K TPM |
+| Cohere | <a href="https://freellm.net/models/cohere/command-r7b-arabic/" target="_blank" rel="noopener">Command R7B Arabic</a> | `command-r7b-arabic` | 128K | 20 RPM |
 |  | <a href="https://freellm.net/models/cohere/command-r/" target="_blank" rel="noopener">Command R+</a> | `command-r` | 128K | 20 RPM |
-| Groq | <a href="https://freellm.net/models/groq/qwen-qwen3-8-27b/" target="_blank" rel="noopener">qwen/qwen3.8-27b</a> | `qwen/qwen3.8-27b` | 131K | 30 RPM, 1,000 RPD, 8,00.. |
-|  | <a href="https://freellm.net/models/groq/whisper-large-v3/" target="_blank" rel="noopener">whisper-large-v3</a> | `whisper-large-v3` | 131K | 20 RPM, 2,000 RPD |
-|  | <a href="https://freellm.net/models/groq/whisper-large-v3-turbo/" target="_blank" rel="noopener">whisper-large-v3-turbo</a> | `whisper-large-v3-turbo` | 131K | 20 RPM, 2,000 RPD |
-| OVHcloud AI Endpoints | <a href="https://freellm.net/models/ovhcloud-ai-endpoints/qwen3-5-397b-a17b/" target="_blank" rel="noopener">Qwen3.5-397B-A17B</a> | `qwen3.5-397b-a17b` | 262K | 2 RPM (anonymous) |
-|  | <a href="https://freellm.net/models/ovhcloud-ai-endpoints/gpt-oss-120b/" target="_blank" rel="noopener">gpt-oss-120b</a> | `gpt-oss-120b` | 131K | 2 RPM (anonymous) |
-|  | <a href="https://freellm.net/models/ovhcloud-ai-endpoints/meta-llama-3-3-70b-instruct/" target="_blank" rel="noopener">Meta-Llama-3_3-70B-Instruct</a> | `meta-llama-3_3-70b-instruct` | 131K | 2 RPM (anonymous) |
-| Ollama Cloud | <a href="https://freellm.net/models/ollama-cloud/gpt-oss-120b/" target="_blank" rel="noopener">gpt-oss:120b</a> | `gpt-oss:120b` | 128K | 1 concurrent request, m.. |
+|  | <a href="https://freellm.net/models/cohere/command-r7b/" target="_blank" rel="noopener">Command R7B</a> | `command-r7b` | 128K | 20 RPM |
+| OVHcloud AI Endpoints | <a href="https://freellm.net/models/ovhcloud-ai-endpoints/qwen3-8-27b/" target="_blank" rel="noopener">Qwen3.8-27B</a> | `qwen3.8-27b` | 262K | 2 RPM (anonymous) |
+|  | <a href="https://freellm.net/models/ovhcloud-ai-endpoints/qwen3-6-27b/" target="_blank" rel="noopener">Qwen3.6-27B</a> | `qwen3.6-27b` | 262K | 2 RPM (anonymous) |
+|  | <a href="https://freellm.net/models/ovhcloud-ai-endpoints/qwen3-5-9b/" target="_blank" rel="noopener">Qwen3.5-9B</a> | `qwen3.5-9b` | 262K | 2 RPM (anonymous) |
+| Ollama Cloud | <a href="https://freellm.net/models/ollama-cloud/deepseek-v4-pro/" target="_blank" rel="noopener">deepseek-v4-pro</a> | `deepseek-v4-pro:0813` | 1M | Session/weekly limits |
 |  | <a href="https://freellm.net/models/ollama-cloud/nemotron-3-ultra/" target="_blank" rel="noopener">nemotron-3-ultra</a> | `nemotron-3-ultra` | 256K | 1 concurrent request, m.. |
 |  | <a href="https://freellm.net/models/ollama-cloud/minimax-m3/" target="_blank" rel="noopener">minimax-m3</a> | `minimax-m3` | 512K | Session/weekly limits |
-| Agnes AI | <a href="https://freellm.net/models/agnes-ai/agnes-image-2.0-flash/" target="_blank" rel="noopener">agnes-image-2.0-flash</a> | `agnes-image-2.0-flash` | 4K | 30 RPM (1K) |
-|  | <a href="https://freellm.net/models/agnes-ai/agnes-image-2.1-flash/" target="_blank" rel="noopener">agnes-image-2.1-flash</a> | `agnes-image-2.1-flash` | 4K | 30 RPM (1K) |
+| Agnes AI | <a href="https://freellm.net/models/agnes-ai/agnes-video-2.5-flash/" target="_blank" rel="noopener">agnes-video-2.5-flash</a> | `agnes-video-2.5-flash` | 4K | 2 RPM |
+|  | <a href="https://freellm.net/models/agnes-ai/agnes-3.0-flash/" target="_blank" rel="noopener">agnes-3.0-flash</a> | `agnes-3.0-flash` | 256K | Dynamic (30 RPM) |
 |  | <a href="https://freellm.net/models/agnes-ai/agnes-2.5-flash/" target="_blank" rel="noopener">agnes-2.5-flash</a> | `agnes-2.5-flash` | 256K | Dynamic (30 RPM) |
-| Aion Labs | <a href="https://freellm.net/models/aion-labs/aion-labs-aion-2-0/" target="_blank" rel="noopener">aion-labs/aion-2.0</a> | `aion-labs-aion-2-0` | 128K | 15 RPM, 20K TPD |
-|  | <a href="https://freellm.net/models/aion-labs/aion-labs-aion-rp-llama-3-1-8b/" target="_blank" rel="noopener">aion-labs/aion-rp-llama-3.1-8b</a> | `aion-labs-aion-rp-llama-3-1-8b` | 32K | 15 RPM, 20K TPD |
+| Groq | <a href="https://freellm.net/models/groq/meta-llama%2Fllama-prompt-guard-2-22m/" target="_blank" rel="noopener">meta-llama/llama-prompt-guard-2-22m</a> | `meta-llama/llama-prompt-guard-2-22m` | 8K | - |
+|  | <a href="https://freellm.net/models/groq/meta-llama%2Fllama-prompt-guard-2-86m/" target="_blank" rel="noopener">meta-llama/llama-prompt-guard-2-86m</a> | `meta-llama/llama-prompt-guard-2-86m` | 8K | - |
+|  | <a href="https://freellm.net/models/groq/qwen-qwen3-8-27b/" target="_blank" rel="noopener">qwen/qwen3.8-27b</a> | `qwen/qwen3.8-27b` | 131K | 30 RPM, 1,000 RPD, 8,00.. |
+| Aion Labs | <a href="https://freellm.net/models/aion-labs/aion-labs-aion-3-0-mini/" target="_blank" rel="noopener">aion-labs/aion-3.0-mini</a> | `aion-labs-aion-3-0-mini` | 128K | 15 RPM, 20K TPD |
 |  | <a href="https://freellm.net/models/aion-labs/aion-labs-aion-3-0/" target="_blank" rel="noopener">aion-labs/aion-3.0</a> | `aion-labs-aion-3-0` | 128K | 15 RPM, 20K TPD |
-| Gonka Broker | <a href="https://freellm.net/models/gonka-broker/minimaxai-minimax-m2-7/" target="_blank" rel="noopener">MiniMaxAI/MiniMax-M2.7</a> | `minimaxai-minimax-m2-7` | 200K | ~1M tokens/mo |
+|  | <a href="https://freellm.net/models/aion-labs/aion-labs-aion-2-0/" target="_blank" rel="noopener">aion-labs/aion-2.0</a> | `aion-labs-aion-2-0` | 128K | 15 RPM, 20K TPD |
+| Gonka Broker | <a href="https://freellm.net/models/gonka-broker/zai-org-glm-5-3-flash/" target="_blank" rel="noopener">zai-org/GLM-5.3-Flash</a> | `zai-org-glm-5-3-flash` | 400K | ~1M tokens/mo |
 |  | <a href="https://freellm.net/models/gonka-broker/deepseek-ai-deepseek-v4-flash-0731/" target="_blank" rel="noopener">deepseek-ai/DeepSeek-V4-Flash-0731</a> | `deepseek-ai-deepseek-v4-flash-0731` | 400K | ~1M tokens/mo |
-|  | <a href="https://freellm.net/models/gonka-broker/zai-org-glm-5-3-flash/" target="_blank" rel="noopener">zai-org/GLM-5.3-Flash</a> | `zai-org-glm-5-3-flash` | 400K | ~1M tokens/mo |
-| Z AI (Zhipu AI) | <a href="https://freellm.net/models/z-ai-zhipu-ai/glm-4-5-air/" target="_blank" rel="noopener">GLM-4.5-Air</a> | `glm-4.5-air` | 131K | - |
-|  | <a href="https://freellm.net/models/z-ai-zhipu-ai/glm-4-7-flash/" target="_blank" rel="noopener">GLM-4.7-Flash</a> | `glm-4.7` | 200K | 1 concurrent request |
-|  | <a href="https://freellm.net/models/z-ai-zhipu-ai/glm-4-5-flash/" target="_blank" rel="noopener">GLM-4.5-Flash</a> | `glm-4.5` | 128K | 1 concurrent request |
+|  | <a href="https://freellm.net/models/gonka-broker/minimaxai-minimax-m2-7/" target="_blank" rel="noopener">MiniMaxAI/MiniMax-M2.7</a> | `minimaxai-minimax-m2-7` | 200K | ~1M tokens/mo |
+| Z AI (Zhipu AI) | <a href="https://freellm.net/models/z-ai-zhipu-ai/glm-4-7-flash/" target="_blank" rel="noopener">GLM-4.7-Flash</a> | `glm-4.7` | 200K | 1 concurrent request |
+|  | <a href="https://freellm.net/models/z-ai-zhipu-ai/glm-4-6v-flash/" target="_blank" rel="noopener">GLM-4.6V-Flash</a> | `glm-4.6` | 128K | 1 concurrent request |
+|  | <a href="https://freellm.net/models/z-ai-zhipu-ai/glm-4-5-air/" target="_blank" rel="noopener">GLM-4.5-Air</a> | `glm-4.5-air` | 131K | - |
 | Chutes.ai | <a href="https://freellm.net/models/chutes-ai/deepseek-ai-deepseek-r1/" target="_blank" rel="noopener">DeepSeek-R1</a> | `deepseek-ai/DeepSeek-R1` | 131K | Community-powered, no h.. |
 |  | <a href="https://freellm.net/models/chutes-ai/meta-llama-meta-llama-3-1-70b-instruct/" target="_blank" rel="noopener">Llama 3.1 70B</a> | `meta-llama/Meta-Llama-3.1-70B-Instruct` | 131K | Community-powered, no h.. |
 | Glhf.chat | <a href="https://freellm.net/models/glhf-chat/meta-llama-meta-llama-3-1-70b-instruct-2/" target="_blank" rel="noopener">Llama 3.1 70B</a> | `meta-llama/Meta-Llama-3.1-70B-Instruct` | 131K | Unlimited for free models |
 |  | <a href="https://freellm.net/models/glhf-chat/mistralai-mixtral-8x7b-instruct-v0-1/" target="_blank" rel="noopener">Mixtral 8x7B</a> | `mistralai/Mixtral-8x7B-Instruct-v0.1` | 32K | Unlimited for free models |
-| Grok (xAI) | <a href="https://freellm.net/models/grok-(xai)/grok-2/" target="_blank" rel="noopener">Grok-2</a> | `grok-2` | 131K | $25/month free credits,.. |
-|  | <a href="https://freellm.net/models/grok-(xai)/grok-2-mini/" target="_blank" rel="noopener">Grok-2 Mini</a> | `grok-2-mini` | 131K | $25/month free credits,.. |
+| Grok (xAI) | <a href="https://freellm.net/models/grok-(xai)/grok-2-mini/" target="_blank" rel="noopener">Grok-2 Mini</a> | `grok-2-mini` | 131K | $25/month free credits,.. |
+|  | <a href="https://freellm.net/models/grok-(xai)/grok-2/" target="_blank" rel="noopener">Grok-2</a> | `grok-2` | 131K | $25/month free credits,.. |
 | SiliconFlow | <a href="https://freellm.net/models/siliconflow/tencent-hunyuan-mt-7b/" target="_blank" rel="noopener">tencent/Hunyuan-MT-7B</a> | `tencent-hunyuan-mt-7b` | 0 | - |
 |  | <a href="https://freellm.net/models/siliconflow/xingchenagi-xing4-0-29b/" target="_blank" rel="noopener">XingChenAGI/Xing4.0-29B</a> | `xingchenagi-xing4-0-29b` | 0 | - |
-| Cline | <a href="https://freellm.net/models/cline/cline-free-nemotron-3-5-super-vl/" target="_blank" rel="noopener">cline-free/nemotron-3.5-super-vl</a> | `cline-free/nemotron-3.5-super-vl` | 0 | See provider |
-|  | <a href="https://freellm.net/models/cline/nvidia-nemotron-3-5-lightning-free/" target="_blank" rel="noopener">Nemotron 3.5 Lightning</a> | `nvidia/nemotron-3.5-lightning-free` | 0 | See provider |
+| Cline | <a href="https://freellm.net/models/cline/nvidia-nemotron-3-5-lightning-free/" target="_blank" rel="noopener">Nemotron 3.5 Lightning</a> | `nvidia/nemotron-3.5-lightning-free` | 0 | See provider |
+|  | <a href="https://freellm.net/models/cline/cline-free-nemotron-3-5-super-vl/" target="_blank" rel="noopener">cline-free/nemotron-3.5-super-vl</a> | `cline-free/nemotron-3.5-super-vl` | 0 | See provider |
 <!-- END_BEST_MODELS -->
 
 
@@ -261,15 +261,15 @@ export ANTHROPIC_API_KEY=""                       # 空にする必要あり
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
 | <a href="https://freellm.net/models/openrouter/stealth-crouton-alpha/" target="_blank" rel="noopener">Crouton Alpha</a> | OpenRouter | 1M | 4265B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 3205B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-super-vl/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Super VL (free)</a> | OpenRouter | 1M | 2924B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | OpenRouter | 1M | 1114B tokens |
-| <a href="https://freellm.net/models/openrouter/baidu-ernie-5.5-flash-preview/" target="_blank" rel="noopener">Baidu: ERNIE-5.5-Flash-Preview (free)</a> | OpenRouter | 1M | 920B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-ultra-550b-a55b/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Ultra (free)</a> | OpenRouter | 1M | 3718B tokens |
+| <a href="https://freellm.net/models/openrouter/baidu-ernie-5.5-flash-preview/" target="_blank" rel="noopener">Baidu: ERNIE-5.5-Flash-Preview (free)</a> | OpenRouter | 1M | 3503B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-super-vl/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Super VL (free)</a> | OpenRouter | 1M | 2883B tokens |
+| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3.5-lightning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3.5 Lightning (free)</a> | OpenRouter | 1M | 1117B tokens |
+| <a href="https://freellm.net/models/openrouter/particle-ai-particle-1/" target="_blank" rel="noopener">Particle AI: Particle-1 (free)</a> | OpenRouter | 1M | 878B tokens |
 | <a href="https://freellm.net/models/openrouter/dots-studio-dots-3-note-preview/" target="_blank" rel="noopener">Dots Studio: Dots3-Note Preview (free)</a> | OpenRouter | 512K | 716B tokens |
-| <a href="https://freellm.net/models/openrouter/thinkingmachines-inkling-2-small/" target="_blank" rel="noopener">Thinking Machines: Inkling 2 Small (free)</a> | OpenRouter | 1M | 712B tokens |
+| <a href="https://freellm.net/models/openrouter/inclusionai-ling-3.2-flash/" target="_blank" rel="noopener">inclusionAI: Ling 3.2 Flash (free)</a> | OpenRouter | 1M | 242B tokens |
 | <a href="https://freellm.net/models/openrouter/cohere-north-mini-code/" target="_blank" rel="noopener">Cohere: North Mini Code (free)</a> | OpenRouter | 256K | 189B tokens |
-| <a href="https://freellm.net/models/openrouter/recursive-flint-v1.0/" target="_blank" rel="noopener">Recursive: Flint (free)</a> | OpenRouter | 262K | 150B tokens |
-| <a href="https://freellm.net/models/openrouter/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning/" target="_blank" rel="noopener">NVIDIA: Nemotron 3 Nano Omni (free)</a> | OpenRouter | 256K | 101B tokens |
+| <a href="https://freellm.net/models/openrouter/recursive-flint-v1.0/" target="_blank" rel="noopener">Recursive: Flint (free)</a> | OpenRouter | 262K | 147B tokens |
 <!-- END_TOP_MODELS -->
 
 ---

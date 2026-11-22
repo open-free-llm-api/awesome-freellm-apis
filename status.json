@@ -1,4 +1,5 @@
 {
+  "catalog_updated_at": "2026-11-22",
   "generated_at": "2026-11-22",
   "dashboard_url": "https://freellm.net/free-llm-api-status",
   "summary": {
@@ -6,7 +7,7 @@
     "operational": 22,
     "degraded": 0,
     "offline": 0,
-    "total_free_models": 311
+    "total_free_models": 309
   },
   "providers": [
     {
@@ -67,7 +68,7 @@
       "provider": "OpenRouter",
       "slug": "openrouter",
       "status": "Operational",
-      "free_models_count": 21,
+      "free_models_count": 20,
       "max_context": 1048576,
       "verified_protocols": [
         "OpenAI Chat Completions",
@@ -81,7 +82,7 @@
       "provider": "Kilo Code",
       "slug": "kilo-code",
       "status": "Operational",
-      "free_models_count": 16,
+      "free_models_count": 18,
       "max_context": 1000000,
       "verified_protocols": [
         "OpenAI SDK-compatible (Chat Completions)"
@@ -144,20 +145,6 @@
       "api_key_url": "https://dashboard.cohere.com/api-keys"
     },
     {
-      "provider": "Groq",
-      "slug": "groq",
-      "status": "Operational",
-      "free_models_count": 9,
-      "max_context": 131072,
-      "verified_protocols": [
-        "OpenAI Chat Completions",
-        "OpenAI Responses"
-      ],
-      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
-      "base_url": "https://api.groq.com/openai/v1",
-      "api_key_url": "https://console.groq.com/keys"
-    },
-    {
       "provider": "OVHcloud AI Endpoints",
       "slug": "ovhcloud-ai-endpoints",
       "status": "Operational",
@@ -196,6 +183,20 @@
       "tagline": "Advanced multimodal models by Sapiens AI for agentic, visual, and creative applications.",
       "base_url": "https://apihub.agnes-ai.com/v1",
       "api_key_url": "https://platform.agnes-ai.com/settings/apiKeys"
+    },
+    {
+      "provider": "Groq",
+      "slug": "groq",
+      "status": "Operational",
+      "free_models_count": 6,
+      "max_context": 131072,
+      "verified_protocols": [
+        "OpenAI Chat Completions",
+        "OpenAI Responses"
+      ],
+      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
+      "base_url": "https://api.groq.com/openai/v1",
+      "api_key_url": "https://console.groq.com/keys"
     },
     {
       "provider": "Aion Labs",
