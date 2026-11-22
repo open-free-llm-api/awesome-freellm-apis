@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-21",
+  "generated_at": "2026-11-22",
   "dashboard_url": "https://freellm.net/free-llm-api-status",
   "summary": {
     "total_providers": 22,
     "operational": 22,
     "degraded": 0,
     "offline": 0,
-    "total_free_models": 312
+    "total_free_models": 311
   },
   "providers": [
     {
@@ -237,19 +237,6 @@
       "api_key_url": "https://open.bigmodel.cn/usercenter/apikeys"
     },
     {
-      "provider": "Cline",
-      "slug": "cline",
-      "status": "Operational",
-      "free_models_count": 3,
-      "max_context": 0,
-      "verified_protocols": [
-        "Cline has a separate OpenAI-compatible API; the promotional FREE models listed here are CLI/IDE only"
-      ],
-      "tagline": "Rotating free model promotions for Cline CLI and IDE users.",
-      "base_url": "",
-      "api_key_url": ""
-    },
-    {
       "provider": "Chutes.ai",
       "slug": "chutes-ai",
       "status": "Operational",
@@ -300,6 +287,19 @@
       "tagline": "China-based free LLM API \u2014 DeepSeek, Qwen, BGE at 1,000 RPM.",
       "base_url": "https://api.siliconflow.cn/v1",
       "api_key_url": "https://cloud.siliconflow.cn/account/ak"
+    },
+    {
+      "provider": "Cline",
+      "slug": "cline",
+      "status": "Operational",
+      "free_models_count": 2,
+      "max_context": 0,
+      "verified_protocols": [
+        "Cline has a separate OpenAI-compatible API; the promotional FREE models listed here are CLI/IDE only"
+      ],
+      "tagline": "Rotating free model promotions for Cline CLI and IDE users.",
+      "base_url": "",
+      "api_key_url": ""
     }
   ]
 }

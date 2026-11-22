@@ -1,6 +1,6 @@
 # 🟢 Free LLM API Live Health & Status Report
 
-> **Last Updated:** 2026-11-21 · Automatically refreshed daily via [freellm.net](https://freellm.net) verification suite  
+> **Last Updated:** 2026-11-22 · Automatically refreshed daily via [freellm.net](https://freellm.net) verification suite  
 > **Interactive Web Dashboard:** [https://freellm.net/free-llm-api-status](https://freellm.net/free-llm-api-status)  
 > **Machine-Readable Snapshot:** [status.json](./status.json)
 
@@ -14,7 +14,7 @@
 | 🟢 **Operational** | **22** (100.0%) |
 | 🟡 **Degraded / Partial** | **0** |
 | 🔴 **Offline** | **0** |
-| **Total Free Models** | **312** |
+| **Total Free Models** | **311** |
 
 ---
 
@@ -39,11 +39,11 @@
 | **Aion Labs** | 🟢 Operational | Aion REST API (not OpenAI-compatible) | 4 | 128K | Aion 2.0 — daily token allowance, 131K context, no credit card. |
 | **Gonka Broker** | 🟢 Operational | OpenAI Compatible | 4 | 400K | - |
 | **Z AI (Zhipu AI)** | 🟢 Operational | OpenAI Chat Completions | 4 | 200K | Zhipu GLM-4.7-Flash — 200K context, no credit card, 1 concurrent request. |
-| **Cline** | 🟢 Operational | Cline has a separate OpenAI-compatible API; the promotional FREE models listed here are CLI/IDE only | 3 | 0 | Rotating free model promotions for Cline CLI and IDE users. |
 | **Chutes.ai** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 2 | 131K | Community-powered AI — DeepSeek-R1 and Llama 3.1 70B, no card. |
 | **Glhf.chat** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 2 | 131K | Unlimited free inference — Llama 3.1 70B and Mixtral 8x7B. |
 | **Grok (xAI)** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 2 | 131K | Grok-2 and Grok-2 Mini from xAI — $25/month free credits. |
 | **SiliconFlow** | 🟢 Operational | OpenAI Chat Completions | 2 | 0 | China-based free LLM API — DeepSeek, Qwen, BGE at 1,000 RPM. |
+| **Cline** | 🟢 Operational | Cline has a separate OpenAI-compatible API; the promotional FREE models listed here are CLI/IDE only | 2 | 0 | Rotating free model promotions for Cline CLI and IDE users. |
 
 ---
 
