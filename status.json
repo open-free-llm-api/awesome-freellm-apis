@@ -1,13 +1,13 @@
 {
-  "catalog_updated_at": "2026-11-22",
-  "generated_at": "2026-11-22",
+  "catalog_updated_at": "2026-11-23",
+  "generated_at": "2026-11-23",
   "dashboard_url": "https://freellm.net/free-llm-api-status",
   "summary": {
-    "total_providers": 22,
-    "operational": 22,
+    "total_providers": 23,
+    "operational": 23,
     "degraded": 0,
     "offline": 0,
-    "total_free_models": 309
+    "total_free_models": 289
   },
   "providers": [
     {
@@ -24,20 +24,6 @@
       "api_key_url": "https://build.nvidia.com/settings/api-keys"
     },
     {
-      "provider": "Cloudflare Workers AI",
-      "slug": "cloudflare-workers-ai",
-      "status": "Operational",
-      "free_models_count": 41,
-      "max_context": 262000,
-      "verified_protocols": [
-        "Cloudflare Workers AI native run",
-        "OpenAI Chat Completions"
-      ],
-      "tagline": "Edge AI inference \u2014 10,000 neurons/day, 50+ models.",
-      "base_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run",
-      "api_key_url": "https://dash.cloudflare.com/profile/api-tokens"
-    },
-    {
       "provider": "ModelScope",
       "slug": "modelscope",
       "status": "Operational",
@@ -50,6 +36,20 @@
       "tagline": "Alibaba ModelScope \u2014 Qwen3.5, DeepSeek at 2,000 RPD free.",
       "base_url": "https://api-inference.modelscope.cn/v1",
       "api_key_url": "https://modelscope.cn/my/myaccesstoken"
+    },
+    {
+      "provider": "Cloudflare Workers AI",
+      "slug": "cloudflare-workers-ai",
+      "status": "Operational",
+      "free_models_count": 24,
+      "max_context": 256000,
+      "verified_protocols": [
+        "Cloudflare Workers AI native run",
+        "OpenAI Chat Completions"
+      ],
+      "tagline": "Edge AI inference \u2014 10,000 neurons/day, 50+ models.",
+      "base_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run",
+      "api_key_url": "https://dash.cloudflare.com/profile/api-tokens"
     },
     {
       "provider": "OpenCode Zen",
@@ -158,19 +158,6 @@
       "api_key_url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
     },
     {
-      "provider": "Ollama Cloud",
-      "slug": "ollama-cloud",
-      "status": "Operational",
-      "free_models_count": 8,
-      "max_context": 1000000,
-      "verified_protocols": [
-        "Ollama API + OpenAI-compatible wrapper"
-      ],
-      "tagline": "Ollama Cloud \u2014 run Llama, Qwen, Gemma via Ollama API in the cloud.",
-      "base_url": "https://ollama.com/v1",
-      "api_key_url": "https://ollama.com/settings/keys"
-    },
-    {
       "provider": "Agnes AI",
       "slug": "agnes-ai",
       "status": "Operational",
@@ -238,6 +225,19 @@
       "api_key_url": "https://open.bigmodel.cn/usercenter/apikeys"
     },
     {
+      "provider": "Perch AI",
+      "slug": "perch-ai",
+      "status": "Operational",
+      "free_models_count": 3,
+      "max_context": 0,
+      "verified_protocols": [
+        "No public API \u2014 web, desktop and CLI chat workbench only; bring your own API key on any plan."
+      ],
+      "tagline": "Free chat workbench with a rotating pool of frontier models \u2014 no card, no API.",
+      "base_url": "",
+      "api_key_url": ""
+    },
+    {
       "provider": "Chutes.ai",
       "slug": "chutes-ai",
       "status": "Operational",
@@ -288,6 +288,19 @@
       "tagline": "China-based free LLM API \u2014 DeepSeek, Qwen, BGE at 1,000 RPM.",
       "base_url": "https://api.siliconflow.cn/v1",
       "api_key_url": "https://cloud.siliconflow.cn/account/ak"
+    },
+    {
+      "provider": "Ollama Cloud",
+      "slug": "ollama-cloud",
+      "status": "Operational",
+      "free_models_count": 2,
+      "max_context": 1000000,
+      "verified_protocols": [
+        "Ollama API + OpenAI-compatible wrapper"
+      ],
+      "tagline": "Ollama Cloud \u2014 run Llama, Qwen, Gemma via Ollama API in the cloud.",
+      "base_url": "https://ollama.com/v1",
+      "api_key_url": "https://ollama.com/settings/keys"
     },
     {
       "provider": "Cline",
