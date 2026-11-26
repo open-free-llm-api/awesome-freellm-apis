@@ -1,13 +1,13 @@
 {
-  "catalog_updated_at": "2026-11-25",
-  "generated_at": "2026-11-25",
+  "catalog_updated_at": "2026-11-26",
+  "generated_at": "2026-11-26",
   "dashboard_url": "https://freellm.net/free-llm-api-status",
   "summary": {
     "total_providers": 23,
     "operational": 23,
     "degraded": 0,
     "offline": 0,
-    "total_free_models": 294
+    "total_free_models": 291
   },
   "providers": [
     {
@@ -145,20 +145,6 @@
       "api_key_url": "https://dashboard.cohere.com/api-keys"
     },
     {
-      "provider": "Groq",
-      "slug": "groq",
-      "status": "Operational",
-      "free_models_count": 9,
-      "max_context": 131072,
-      "verified_protocols": [
-        "OpenAI Chat Completions",
-        "OpenAI Responses"
-      ],
-      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
-      "base_url": "https://api.groq.com/openai/v1",
-      "api_key_url": "https://console.groq.com/keys"
-    },
-    {
       "provider": "OVHcloud AI Endpoints",
       "slug": "ovhcloud-ai-endpoints",
       "status": "Operational",
@@ -184,6 +170,20 @@
       "tagline": "Advanced multimodal models by Sapiens AI for agentic, visual, and creative applications.",
       "base_url": "https://apihub.agnes-ai.com/v1",
       "api_key_url": "https://platform.agnes-ai.com/settings/apiKeys"
+    },
+    {
+      "provider": "Groq",
+      "slug": "groq",
+      "status": "Operational",
+      "free_models_count": 6,
+      "max_context": 131072,
+      "verified_protocols": [
+        "OpenAI Chat Completions",
+        "OpenAI Responses"
+      ],
+      "tagline": "World's fastest LLM inference \u2014 ultra-low latency, free tier.",
+      "base_url": "https://api.groq.com/openai/v1",
+      "api_key_url": "https://console.groq.com/keys"
     },
     {
       "provider": "Aion Labs",

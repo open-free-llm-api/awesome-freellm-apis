@@ -1,6 +1,6 @@
 # 🟢 Free LLM API Live Health & Status Report
 
-> **Catalog Data Updated:** 2026-11-25 · **Report Generated:** 2026-11-25 · Verified via [freellm.net](https://freellm.net)  
+> **Catalog Data Updated:** 2026-11-26 · **Report Generated:** 2026-11-26 · Verified via [freellm.net](https://freellm.net)  
 > **Interactive Web Dashboard:** [https://freellm.net/free-llm-api-status](https://freellm.net/free-llm-api-status)  
 > **Machine-Readable Snapshot:** [status.json](./status.json)
 
@@ -14,7 +14,7 @@
 | 🟢 **Operational** | **23** (100.0%) |
 | 🟡 **Degraded / Partial** | **0** |
 | 🔴 **Offline** | **0** |
-| **Total Free Models** | **294** |
+| **Total Free Models** | **291** |
 
 ---
 
@@ -32,9 +32,9 @@
 | **LLM7.io** | 🟢 Operational | OpenAI Chat Completions | 11 | 1M | Free GPT-4o-mini access — rare OpenAI model on a free tier. |
 | **Mistral AI** | 🟢 Operational | OpenAI Chat Completions | 10 | 256K | Monthly API credits — $10 observed on a Free account; metered pricing applies. |
 | **Cohere** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions v2) | 10 | 256K | Command A, Aya, and embed models — 1,000 API calls/month. |
-| **Groq** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 9 | 131K | World's fastest LLM inference — ultra-low latency, free tier. |
 | **OVHcloud AI Endpoints** | 🟢 Operational | OpenAI SDK-compatible (Chat Completions) | 8 | 262K | EU-hosted free LLM APIs — GDPR compliant, no registration for anonymous tier. |
 | **Agnes AI** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 6 | 256K | Advanced multimodal models by Sapiens AI for agentic, visual, and creative applica... |
+| **Groq** | 🟢 Operational | OpenAI Chat Completions, OpenAI Responses | 6 | 131K | World's fastest LLM inference — ultra-low latency, free tier. |
 | **Aion Labs** | 🟢 Operational | Aion REST API (not OpenAI-compatible) | 4 | 128K | Aion 2.0 — daily token allowance, 131K context, no credit card. |
 | **Gonka Broker** | 🟢 Operational | OpenAI Compatible | 4 | 400K | - |
 | **Z AI (Zhipu AI)** | 🟢 Operational | OpenAI Chat Completions | 4 | 200K | Zhipu GLM-4.7-Flash — 200K context, no credit card, 1 concurrent request. |
