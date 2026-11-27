@@ -1,6 +1,6 @@
 # 🟢 Free LLM API Live Health & Status Report
 
-> **Catalog Data Updated:** 2026-11-26 · **Report Generated:** 2026-11-26 · Verified via [freellm.net](https://freellm.net)  
+> **Catalog Data Updated:** 2026-11-27 · **Report Generated:** 2026-11-27 · Verified via [freellm.net](https://freellm.net)  
 > **Interactive Web Dashboard:** [https://freellm.net/free-llm-api-status](https://freellm.net/free-llm-api-status)  
 > **Machine-Readable Snapshot:** [status.json](./status.json)
 
